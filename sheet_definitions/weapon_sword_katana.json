@@ -18,6 +18,13 @@
         "female": "weapon/sword/katana/slash/behind/"
     },
     "variants": [
-        "katana"
+        {
+            "name": "katana",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

@@ -5,14 +5,77 @@
         "female": "torso/waist/belt_other/female/"
     },
     "variants": [
-        "black",
-        "bronze",
-        "brown",
-        "gold",
-        "iron",
-        "leather",
-        "silver",
-        "teal",
-        "white"
+        {
+            "name": "black",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "brown",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "iron",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "leather",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "teal",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "white",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

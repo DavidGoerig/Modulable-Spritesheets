@@ -3,15 +3,85 @@
     "type_name": "legs",
     "layer_1": {},
     "variants": [
-        "black",
-        "blue",
-        "darkblue",
-        "green",
-        "lavender",
-        "lightblue",
-        "maroon",
-        "pink",
-        "red",
-        "white"
+        {
+            "name": "black",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "blue",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "darkblue",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "green",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "lavender",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "lightblue",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "maroon",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "pink",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "red",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "white",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

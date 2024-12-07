@@ -28,6 +28,13 @@
         "female": "weapon/polearm/halberd/attack_slash/"
     },
     "variants": [
-        "halberd"
+        {
+            "name": "halberd",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

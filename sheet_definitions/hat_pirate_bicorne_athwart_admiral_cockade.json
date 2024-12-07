@@ -6,77 +6,581 @@
         "male": "hat/pirate/bicorne_athwart_admiral_cockade/male/"
     },
     "variants": [
-        "black_bronze",
-        "black_gold",
-        "black_silver",
-        "blue_bronze",
-        "blue_gold",
-        "blue_silver",
-        "bluegray_bronze",
-        "bluegray_gold",
-        "bluegray_silver",
-        "brown_bronze",
-        "brown_gold",
-        "brown_silver",
-        "charcoal_bronze",
-        "charcoal_gold",
-        "charcoal_silver",
-        "forest_bronze",
-        "forest_gold",
-        "forest_silver",
-        "gray_bronze",
-        "gray_gold",
-        "gray_silver",
-        "green_bronze",
-        "green_gold",
-        "green_silver",
-        "lavender_bronze",
-        "lavender_gold",
-        "lavender_silver",
-        "leather_bronze",
-        "leather_gold",
-        "leather_silver",
-        "maroon_bronze",
-        "maroon_gold",
-        "maroon_silver",
-        "navy_bronze",
-        "navy_gold",
-        "navy_silver",
-        "orange_bronze",
-        "orange_gold",
-        "orange_silver",
-        "pink_bronze",
-        "pink_gold",
-        "pink_silver",
-        "purple_bronze",
-        "purple_gold",
-        "purple_silver",
-        "red_bronze",
-        "red_gold",
-        "red_silver",
-        "rose_bronze",
-        "rose_gold",
-        "rose_silver",
-        "sky_bronze",
-        "sky_gold",
-        "sky_silver",
-        "slate_bronze",
-        "slate_gold",
-        "slate_silver",
-        "tan_bronze",
-        "tan_gold",
-        "tan_silver",
-        "teal_bronze",
-        "teal_gold",
-        "teal_silver",
-        "walnut_bronze",
-        "walnut_gold",
-        "walnut_silver",
-        "white_bronze",
-        "white_gold",
-        "white_silver",
-        "yellow_bronze",
-        "yellow_gold",
-        "yellow_silver"
+        {
+            "name": "black_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "black_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "black_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "blue_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "blue_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "blue_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "bluegray_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "bluegray_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "bluegray_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "brown_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "brown_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "brown_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "charcoal_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "charcoal_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "charcoal_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "forest_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "forest_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "forest_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "gray_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "gray_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "gray_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "green_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "green_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "green_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "lavender_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "lavender_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "lavender_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "leather_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "leather_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "leather_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "maroon_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "maroon_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "maroon_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "navy_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "navy_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "navy_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "orange_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "orange_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "orange_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "pink_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "pink_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "pink_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "purple_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "purple_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "purple_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "red_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "red_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "red_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "rose_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "rose_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "rose_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "sky_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "sky_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "sky_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "slate_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "slate_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "slate_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "tan_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "tan_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "tan_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "teal_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "teal_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "teal_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "walnut_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "walnut_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "walnut_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "white_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "white_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "white_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "yellow_bronze",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "yellow_gold",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "yellow_silver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

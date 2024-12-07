@@ -5,15 +5,85 @@
         "female": "torso/clothes/robe/female/"
     },
     "variants": [
-        "black",
-        "blue",
-        "brown",
-        "dark brown",
-        "dark gray",
-        "forest green",
-        "light gray",
-        "purple",
-        "red",
-        "white"
+        {
+            "name": "black",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "blue",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "brown",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "dark brown",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "dark gray",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "forest green",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "light gray",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "purple",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "red",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "white",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

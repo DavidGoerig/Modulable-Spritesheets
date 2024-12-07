@@ -10,7 +10,21 @@
         "female": "backpack/basket/bg/"
     },
     "variants": [
-        "round",
-        "square"
+        {
+            "name": "round",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "square",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

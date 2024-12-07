@@ -18,6 +18,13 @@
         "female": "weapon/blunt/mace/attack_slash/"
     },
     "variants": [
-        "mace"
+        {
+            "name": "mace",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

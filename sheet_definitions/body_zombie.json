@@ -6,6 +6,13 @@
         "female": "body/bodies/zombie/universal/"
     },
     "variants": [
-        "zombie"
+        {
+            "name": "zombie",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

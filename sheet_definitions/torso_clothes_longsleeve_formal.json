@@ -5,6 +5,13 @@
         "male": "torso/clothes/longsleeve/formal/male/"
     },
     "variants": [
-        "white"
+        {
+            "name": "white",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

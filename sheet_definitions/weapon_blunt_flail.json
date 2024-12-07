@@ -18,6 +18,13 @@
         "female": "weapon/blunt/flail/attack_slash/"
     },
     "variants": [
-        "flail"
+        {
+            "name": "flail",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

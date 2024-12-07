@@ -6,6 +6,13 @@
         "female": "quiver/"
     },
     "variants": [
-        "quiver"
+        {
+            "name": "quiver",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

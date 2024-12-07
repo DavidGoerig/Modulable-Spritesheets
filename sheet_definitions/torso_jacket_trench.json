@@ -5,7 +5,21 @@
         "male": "torso/jacket/trench/male/"
     },
     "variants": [
-        "dark gray",
-        "gray"
+        {
+            "name": "dark gray",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "gray",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

@@ -10,8 +10,29 @@
         "female": "tools/thrust/foreground/"
     },
     "variants": [
-        "hoe",
-        "shovel",
-        "watering"
+        {
+            "name": "hoe",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "shovel",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "watering",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

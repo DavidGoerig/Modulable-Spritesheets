@@ -6,8 +6,29 @@
         "female": "hat/magic/misc/adult/"
     },
     "variants": [
-        "starry_moon",
-        "starry",
-        "large"
+        {
+            "name": "starry_moon",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "starry",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "large",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

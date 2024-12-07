@@ -8,6 +8,13 @@
         "male": "body/prosthesis/hook/male/"
     },
     "variants": [
-        "hook"
+        {
+            "name": "hook",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

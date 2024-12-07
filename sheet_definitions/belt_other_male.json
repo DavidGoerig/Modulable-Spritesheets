@@ -5,8 +5,29 @@
         "male": "torso/waist/belt_other/male/"
     },
     "variants": [
-        "formal",
-        "leather",
-        "white"
+        {
+            "name": "formal",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "leather",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "white",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

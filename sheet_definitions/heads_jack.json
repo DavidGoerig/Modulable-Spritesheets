@@ -6,6 +6,13 @@
         "female": "head/heads/jack/adult/"
     },
     "variants": [
-        "jack"
+        {
+            "name": "jack",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

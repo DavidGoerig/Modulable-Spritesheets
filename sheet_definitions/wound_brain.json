@@ -6,6 +6,13 @@
         "female": "body/wound/"
     },
     "variants": [
-        "brain"
+        {
+            "name": "brain",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

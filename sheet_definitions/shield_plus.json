@@ -10,6 +10,13 @@
         "female": "shield/plus/fg/female/"
     },
     "variants": [
-        "plus"
+        {
+            "name": "plus",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

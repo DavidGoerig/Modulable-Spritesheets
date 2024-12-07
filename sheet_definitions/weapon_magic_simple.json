@@ -10,6 +10,13 @@
         "female": "weapon/magic/simple/background/"
     },
     "variants": [
-        "simple"
+        {
+            "name": "simple",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

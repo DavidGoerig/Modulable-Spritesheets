@@ -6,7 +6,14 @@
         "male": "hat/helmet/kettle/adult/"
     },
     "variants": [
-        "steel"
+        {
+            "name": "steel",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ],
     "animations": [
         "spellcast",

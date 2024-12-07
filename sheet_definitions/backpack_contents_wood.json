@@ -10,7 +10,21 @@
         "female": "backpack/basket_contents/wood/bg/"
     },
     "variants": [
-        "3_logs",
-        "9_logs"
+        {
+            "name": "3_logs",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "9_logs",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

@@ -10,6 +10,13 @@
         "female": "shield/crusader/fg/female/"
     },
     "variants": [
-        "crusader"
+        {
+            "name": "crusader",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

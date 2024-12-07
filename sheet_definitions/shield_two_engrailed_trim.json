@@ -10,6 +10,13 @@
         "female": "shield/two_engrailed/trim/fg/female/"
     },
     "variants": [
-        "two_engrailed_trim"
+        {
+            "name": "two_engrailed_trim",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

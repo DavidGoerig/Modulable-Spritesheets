@@ -18,7 +18,21 @@
         "female": "weapon/sword/glowsword/attack_slash/"
     },
     "variants": [
-        "blue",
-        "red"
+        {
+            "name": "blue",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "red",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

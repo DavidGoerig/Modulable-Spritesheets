@@ -6,6 +6,13 @@
         "female": "weapon/ranged/boomerang/"
     },
     "variants": [
-        "boomerang"
+        {
+            "name": "boomerang",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

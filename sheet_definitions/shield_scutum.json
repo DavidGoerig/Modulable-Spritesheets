@@ -10,6 +10,13 @@
         "female": "shield/scutum/paint/fg/female/"
     },
     "variants": [
-        "scutum"
+        {
+            "name": "scutum",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

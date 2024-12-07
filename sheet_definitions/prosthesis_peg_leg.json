@@ -8,6 +8,13 @@
         "male": "body/prosthesis/peg_leg/male/"
     },
     "variants": [
-        "peg_leg"
+        {
+            "name": "peg_leg",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

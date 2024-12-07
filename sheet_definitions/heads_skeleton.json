@@ -6,6 +6,13 @@
         "female": "head/heads/skeleton/adult/"
     },
     "variants": [
-        "skeleton"
+        {
+            "name": "skeleton",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

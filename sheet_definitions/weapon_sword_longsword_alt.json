@@ -18,6 +18,13 @@
         "female": "weapon/sword/longsword_alt/slash/behind/"
     },
     "variants": [
-        "longsword_alt"
+        {
+            "name": "longsword_alt",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

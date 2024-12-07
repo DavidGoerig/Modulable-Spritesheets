@@ -14,8 +14,29 @@
         "female": "tools/smash/foreground/"
     },
     "variants": [
-        "axe",
-        "hammer",
-        "pickaxe"
+        {
+            "name": "axe",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "hammer",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        },
+        {
+            "name": "pickaxe",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

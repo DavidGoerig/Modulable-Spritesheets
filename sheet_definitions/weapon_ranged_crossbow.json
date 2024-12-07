@@ -10,6 +10,13 @@
         "female": "weapon/ranged/crossbow/foreground/"
     },
     "variants": [
-        "crossbow"
+        {
+            "name": "crossbow",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }

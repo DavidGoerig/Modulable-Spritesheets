@@ -18,6 +18,13 @@
         "female": "weapon/blunt/waraxe/attack_slash/"
     },
     "variants": [
-        "waraxe"
+        {
+            "name": "waraxe",
+            "full_name": "",
+            "description": "",
+            "spell": 1,
+            "rare": 1,
+            "element": 1
+        }
     ]
 }
