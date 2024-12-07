@@ -1,23 +1,19 @@
 {
-  "name" : "Necklace",
-  "type_name" : "necklace",
-  "layer_1" : {
-    "zPos" : 80,
-    "male" : "neck/necklace/female/",
-    "muscular": "neck/necklace/female/",
-    "female" : "neck/necklace/female/",
-    "teen" : "neck/necklace/female/",
-    "pregnant" : "neck/necklace/female/"
-  },
-  "variants": [
-    "steel",
-    "iron",
-    "ceramic",
-    "brass",
-    "copper",
-    "bronze",
-    "silver",
-    "gold",
-    "pirate"
-  ]
+    "name": "Necklace",
+    "type_name": "necklace",
+    "layer_1": {
+        "male": "neck/necklace/female/",
+        "female": "neck/necklace/female/"
+    },
+    "variants": [
+        "steel",
+        "iron",
+        "ceramic",
+        "brass",
+        "copper",
+        "bronze",
+        "silver",
+        "gold",
+        "pirate"
+    ]
 }

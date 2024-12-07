@@ -1,29 +1,26 @@
 {
-  "name": "Pregnancy pants",
-  "type_name": "legs",
-  "layer_1": {
-    "zPos": 20,
-    "pregnant": "legs/pants/pregnant/"
-  },
-  "variants": [
-    "black",
-    "blue",
-    "forest",
-    "gray",
-    "green",
-    "lavender",
-    "leather",
-    "maroon",
-    "navy",
-    "orange",
-    "pink",
-    "purple",
-    "red",
-    "sky",
-    "tan",
-    "teal",
-    "walnut",
-    "white",
-    "yellow"
-  ]
+    "name": "Pregnancy pants",
+    "type_name": "legs",
+    "layer_1": {},
+    "variants": [
+        "black",
+        "blue",
+        "forest",
+        "gray",
+        "green",
+        "lavender",
+        "leather",
+        "maroon",
+        "navy",
+        "orange",
+        "pink",
+        "purple",
+        "red",
+        "sky",
+        "tan",
+        "teal",
+        "walnut",
+        "white",
+        "yellow"
+    ]
 }

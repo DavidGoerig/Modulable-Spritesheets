@@ -1,17 +1,16 @@
 {
-  "name": "Lace Cuffs",
-  "type_name": "wrists",
-  "layer_1": {
-    "zPos": 70,
-    "male": "wrists/lace/male/"
-  },
-  "variants": [
-    "bronze",
-    "gold",
-    "silver",
-    "red",
-    "blue",
-    "teal",
-    "yellow"
-  ]
+    "name": "Lace Cuffs",
+    "type_name": "wrists",
+    "layer_1": {
+        "male": "wrists/lace/male/"
+    },
+    "variants": [
+        "bronze",
+        "gold",
+        "silver",
+        "red",
+        "blue",
+        "teal",
+        "yellow"
+    ]
 }

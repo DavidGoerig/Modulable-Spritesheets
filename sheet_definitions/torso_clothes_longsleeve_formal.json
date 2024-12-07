@@ -1,11 +1,10 @@
 {
-  "name" : "Collared/Formal Longsleeve",
-  "type_name" : "clothes",
-  "layer_1" : {
-    "zPos" : 35,
-    "male" : "torso/clothes/longsleeve/formal/male/"
-  },
-  "variants": [
-    "white"
-  ]
+    "name": "Collared/Formal Longsleeve",
+    "type_name": "clothes",
+    "layer_1": {
+        "male": "torso/clothes/longsleeve/formal/male/"
+    },
+    "variants": [
+        "white"
+    ]
 }

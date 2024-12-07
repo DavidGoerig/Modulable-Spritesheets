@@ -1,43 +1,38 @@
 {
-  "name" : "Cyclops Eyes",
-  "type_name" : "eyes",
-  "layer_1" : {
-    "zPos" : 105,
-    "male" : "eyes/cyclops/adult/",
-    "muscular" : "eyes/cyclops/adult/",
-    "female" : "eyes/cyclops/adult/",
-    "teen" : "eyes/cyclops/adult/",
-    "pregnant" : "eyes/cyclops/adult/",
-    "child" : "eyes/cyclops/child/"
-  },
-  "variants": [
-    "cyclops",
-    "blue",
-    "brown",
-    "gray",
-    "green",
-    "orange",
-    "purple",
-    "red",
-    "yellow"
-  ],
-  "animations": [
-    "spellcast",
-    "thrust",
-    "walk",
-    "slash",
-    "shoot",
-    "hurt",
-    "watering",
-    "idle",
-    "jump",
-    "run",
-    "sit",
-    "emote",
-    "climb",
-    "combat",
-    "1h_slash",
-    "1h_backslash",
-    "1h_halfslash"
-  ]
+    "name": "Cyclops Eyes",
+    "type_name": "eyes",
+    "layer_1": {
+        "male": "eyes/cyclops/adult/",
+        "female": "eyes/cyclops/adult/"
+    },
+    "variants": [
+        "cyclops",
+        "blue",
+        "brown",
+        "gray",
+        "green",
+        "orange",
+        "purple",
+        "red",
+        "yellow"
+    ],
+    "animations": [
+        "spellcast",
+        "thrust",
+        "walk",
+        "slash",
+        "shoot",
+        "hurt",
+        "watering",
+        "idle",
+        "jump",
+        "run",
+        "sit",
+        "emote",
+        "climb",
+        "combat",
+        "1h_slash",
+        "1h_backslash",
+        "1h_halfslash"
+    ]
 }

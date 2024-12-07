@@ -1,41 +1,37 @@
 {
-  "name": "Pointed helm",
-  "type_name": "hat",
-  "layer_1": {
-    "zPos": 135,
-    "female": "hat/helmet/pointed/adult/",
-    "pregnant": "hat/helmet/pointed/adult/",
-    "male": "hat/helmet/pointed/adult/",
-    "muscular": "hat/helmet/pointed/adult/",
-    "teen": "hat/helmet/pointed/adult/"
-  },
-  "variants": [
-    "steel",
-    "iron",
-    "ceramic",
-    "brass",
-    "copper",
-    "bronze",
-    "silver",
-    "gold"
-  ],
-  "animations": [
-    "spellcast",
-    "thrust",
-    "walk",
-    "slash",
-    "shoot",
-    "hurt",
-    "watering",
-    "idle",
-    "jump",
-    "run",
-    "sit",
-    "emote",
-    "climb",
-    "combat",
-    "1h_slash",
-    "1h_backslash",
-    "1h_halfslash"
-  ]
+    "name": "Pointed helm",
+    "type_name": "hat",
+    "layer_1": {
+        "female": "hat/helmet/pointed/adult/",
+        "male": "hat/helmet/pointed/adult/"
+    },
+    "variants": [
+        "steel",
+        "iron",
+        "ceramic",
+        "brass",
+        "copper",
+        "bronze",
+        "silver",
+        "gold"
+    ],
+    "animations": [
+        "spellcast",
+        "thrust",
+        "walk",
+        "slash",
+        "shoot",
+        "hurt",
+        "watering",
+        "idle",
+        "jump",
+        "run",
+        "sit",
+        "emote",
+        "climb",
+        "combat",
+        "1h_slash",
+        "1h_backslash",
+        "1h_halfslash"
+    ]
 }

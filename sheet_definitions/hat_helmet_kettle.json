@@ -1,34 +1,30 @@
 {
-  "name": "Kettle helm",
-  "type_name": "hat",
-  "layer_1": {
-    "zPos": 135,
-    "female": "hat/helmet/kettle/adult/",
-    "pregnant": "hat/helmet/kettle/adult/",
-    "male": "hat/helmet/kettle/adult/",
-    "muscular": "hat/helmet/kettle/adult/",
-    "teen": "hat/helmet/kettle/adult/"
-  },
-  "variants": [
-    "steel"
-  ],
-  "animations": [
-    "spellcast",
-    "thrust",
-    "walk",
-    "slash",
-    "shoot",
-    "hurt",
-    "watering",
-    "idle",
-    "jump",
-    "run",
-    "sit",
-    "emote",
-    "climb",
-    "combat",
-    "1h_slash",
-    "1h_backslash",
-    "1h_halfslash"
-  ]
+    "name": "Kettle helm",
+    "type_name": "hat",
+    "layer_1": {
+        "female": "hat/helmet/kettle/adult/",
+        "male": "hat/helmet/kettle/adult/"
+    },
+    "variants": [
+        "steel"
+    ],
+    "animations": [
+        "spellcast",
+        "thrust",
+        "walk",
+        "slash",
+        "shoot",
+        "hurt",
+        "watering",
+        "idle",
+        "jump",
+        "run",
+        "sit",
+        "emote",
+        "climb",
+        "combat",
+        "1h_slash",
+        "1h_backslash",
+        "1h_halfslash"
+    ]
 }

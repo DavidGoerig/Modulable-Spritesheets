@@ -1,15 +1,11 @@
 {
-  "name": "Boomerang",
-  "type_name": "weapon",
-  "layer_1": {
-    "custom_animation": "slash_reverse_oversize",
-    "zPos": 140,
-    "male": "weapon/ranged/boomerang/",
-    "muscular": "weapon/ranged/boomerang/",
-    "female": "weapon/ranged/boomerang/",
-    "pregnant": "weapon/ranged/boomerang/"
-  },
-  "variants": [
-    "boomerang"
-  ]
+    "name": "Boomerang",
+    "type_name": "weapon",
+    "layer_1": {
+        "male": "weapon/ranged/boomerang/",
+        "female": "weapon/ranged/boomerang/"
+    },
+    "variants": [
+        "boomerang"
+    ]
 }

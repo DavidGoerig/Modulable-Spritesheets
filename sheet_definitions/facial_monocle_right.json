@@ -1,42 +1,37 @@
 {
-  "name": "Right Monocle",
-  "type_name": "facial_right",
-  "layer_1": {
-    "zPos": 115,
-    "male": "facial/monocle/right/adult/",
-    "muscular": "facial/monocle/right/adult/",
-    "female": "facial/monocle/right/adult/",
-    "pregnant": "facial/monocle/right/adult/",
-    "teen": "facial/monocle/right/adult/",
-    "child": "facial/monocle/right/child/"
-  },
-  "variants": [
-    "steel",
-    "iron",
-    "ceramic",
-    "brass",
-    "copper",
-    "bronze",
-    "silver",
-    "gold"
-  ],
-  "animations": [
-    "spellcast",
-    "thrust",
-    "walk",
-    "slash",
-    "shoot",
-    "hurt",
-    "watering",
-    "idle",
-    "jump",
-    "run",
-    "sit",
-    "emote",
-    "climb",
-    "combat",
-    "1h_slash",
-    "1h_backslash",
-    "1h_halfslash"
-  ]
+    "name": "Right Monocle",
+    "type_name": "facial_right",
+    "layer_1": {
+        "male": "facial/monocle/right/adult/",
+        "female": "facial/monocle/right/adult/"
+    },
+    "variants": [
+        "steel",
+        "iron",
+        "ceramic",
+        "brass",
+        "copper",
+        "bronze",
+        "silver",
+        "gold"
+    ],
+    "animations": [
+        "spellcast",
+        "thrust",
+        "walk",
+        "slash",
+        "shoot",
+        "hurt",
+        "watering",
+        "idle",
+        "jump",
+        "run",
+        "sit",
+        "emote",
+        "climb",
+        "combat",
+        "1h_slash",
+        "1h_backslash",
+        "1h_halfslash"
+    ]
 }

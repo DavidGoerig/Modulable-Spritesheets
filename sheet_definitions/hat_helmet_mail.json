@@ -1,42 +1,38 @@
 {
-  "name": "Mail",
-  "type_name": "bandana",
-  "layer_1": {
-    "zPos": 125,
-    "female": "hat/helmet/mail/adult/",
-    "pregnant": "hat/helmet/mail/adult/",
-    "male": "hat/helmet/mail/adult/",
-    "muscular": "hat/helmet/mail/adult/",
-    "teen": "hat/helmet/mail/adult/"
-  },
-  "variants": [
-    "detailed",
-    "steel",
-    "iron",
-    "ceramic",
-    "brass",
-    "copper",
-    "bronze",
-    "silver",
-    "gold"
-  ],
-  "animations": [
-    "spellcast",
-    "thrust",
-    "walk",
-    "slash",
-    "shoot",
-    "hurt",
-    "watering",
-    "idle",
-    "jump",
-    "run",
-    "sit",
-    "emote",
-    "climb",
-    "combat",
-    "1h_slash",
-    "1h_backslash",
-    "1h_halfslash"
-  ]
+    "name": "Mail",
+    "type_name": "bandana",
+    "layer_1": {
+        "female": "hat/helmet/mail/adult/",
+        "male": "hat/helmet/mail/adult/"
+    },
+    "variants": [
+        "detailed",
+        "steel",
+        "iron",
+        "ceramic",
+        "brass",
+        "copper",
+        "bronze",
+        "silver",
+        "gold"
+    ],
+    "animations": [
+        "spellcast",
+        "thrust",
+        "walk",
+        "slash",
+        "shoot",
+        "hurt",
+        "watering",
+        "idle",
+        "jump",
+        "run",
+        "sit",
+        "emote",
+        "climb",
+        "combat",
+        "1h_slash",
+        "1h_backslash",
+        "1h_halfslash"
+    ]
 }

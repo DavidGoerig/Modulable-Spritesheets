@@ -1,41 +1,37 @@
 {
-  "name": "Pigface bascinet",
-  "type_name": "hat",
-  "layer_1": {
-    "zPos": 130,
-    "female": "hat/helmet/bascinet_pigface/adult/",
-    "pregnant": "hat/helmet/bascinet_pigface/adult/",
-    "male": "hat/helmet/bascinet_pigface/adult/",
-    "muscular": "hat/helmet/bascinet_pigface/adult/",
-    "teen": "hat/helmet/bascinet_pigface/adult/"
-  },
-  "variants": [
-    "steel",
-    "iron",
-    "ceramic",
-    "brass",
-    "copper",
-    "bronze",
-    "silver",
-    "gold"
-  ],
-  "animations": [
-    "spellcast",
-    "thrust",
-    "walk",
-    "slash",
-    "shoot",
-    "hurt",
-    "watering",
-    "idle",
-    "jump",
-    "run",
-    "sit",
-    "emote",
-    "climb",
-    "combat",
-    "1h_slash",
-    "1h_backslash",
-    "1h_halfslash"
-  ]
+    "name": "Pigface bascinet",
+    "type_name": "hat",
+    "layer_1": {
+        "female": "hat/helmet/bascinet_pigface/adult/",
+        "male": "hat/helmet/bascinet_pigface/adult/"
+    },
+    "variants": [
+        "steel",
+        "iron",
+        "ceramic",
+        "brass",
+        "copper",
+        "bronze",
+        "silver",
+        "gold"
+    ],
+    "animations": [
+        "spellcast",
+        "thrust",
+        "walk",
+        "slash",
+        "shoot",
+        "hurt",
+        "watering",
+        "idle",
+        "jump",
+        "run",
+        "sit",
+        "emote",
+        "climb",
+        "combat",
+        "1h_slash",
+        "1h_backslash",
+        "1h_halfslash"
+    ]
 }

@@ -1,11 +1,10 @@
 {
-  "name": "Iverness cloak",
-  "type_name": "jacket",
-  "layer_1": {
-    "zPos": 55,
-    "male": "torso/jacket/iverness/male/"
-  },
-  "variants": [
-    "black"
-  ]
+    "name": "Iverness cloak",
+    "type_name": "jacket",
+    "layer_1": {
+        "male": "torso/jacket/iverness/male/"
+    },
+    "variants": [
+        "black"
+    ]
 }

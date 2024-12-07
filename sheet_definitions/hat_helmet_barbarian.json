@@ -1,41 +1,37 @@
 {
-  "name": "Barbarian",
-  "type_name": "hat",
-  "layer_1": {
-    "zPos": 130,
-    "female": "hat/helmet/barbarian/adult/",
-    "pregnant": "hat/helmet/barbarian/adult/",
-    "male": "hat/helmet/barbarian/adult/",
-    "muscular": "hat/helmet/barbarian/adult/",
-    "teen": "hat/helmet/barbarian/adult/"
-  },
-  "variants": [
-    "steel",
-    "iron",
-    "ceramic",
-    "brass",
-    "copper",
-    "bronze",
-    "silver",
-    "gold"
-  ],
-  "animations": [
-    "spellcast",
-    "thrust",
-    "walk",
-    "slash",
-    "shoot",
-    "hurt",
-    "watering",
-    "idle",
-    "jump",
-    "run",
-    "sit",
-    "emote",
-    "climb",
-    "combat",
-    "1h_slash",
-    "1h_backslash",
-    "1h_halfslash"
-  ]
+    "name": "Barbarian",
+    "type_name": "hat",
+    "layer_1": {
+        "female": "hat/helmet/barbarian/adult/",
+        "male": "hat/helmet/barbarian/adult/"
+    },
+    "variants": [
+        "steel",
+        "iron",
+        "ceramic",
+        "brass",
+        "copper",
+        "bronze",
+        "silver",
+        "gold"
+    ],
+    "animations": [
+        "spellcast",
+        "thrust",
+        "walk",
+        "slash",
+        "shoot",
+        "hurt",
+        "watering",
+        "idle",
+        "jump",
+        "run",
+        "sit",
+        "emote",
+        "climb",
+        "combat",
+        "1h_slash",
+        "1h_backslash",
+        "1h_halfslash"
+    ]
 }

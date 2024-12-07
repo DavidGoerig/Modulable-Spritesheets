@@ -1,34 +1,31 @@
 {
-  "name": "Backpack",
-  "type_name": "backpack",
-  "preview_row": 7,
-  "layer_1": {
-    "zPos": 110,
-    "male":     "backpack/backpack/male/",
-    "muscular": "backpack/backpack/male/",
-    "female":   "backpack/backpack/female/",
-    "pregnant": "backpack/backpack/female/"
-  },
-  "variants": [
-    "black",
-    "blue",
-    "bluegray",
-    "forest",
-    "gray",
-    "green",
-    "lavender",
-    "leather",
-    "maroon",
-    "navy",
-    "orange",
-    "pink",
-    "purple",
-    "red",
-    "sky",
-    "tan",
-    "teal",
-    "walnut",
-    "white",
-    "yellow"
-  ]
+    "name": "Backpack",
+    "type_name": "backpack",
+    "preview_row": 7,
+    "layer_1": {
+        "male": "backpack/backpack/male/",
+        "female": "backpack/backpack/female/"
+    },
+    "variants": [
+        "black",
+        "blue",
+        "bluegray",
+        "forest",
+        "gray",
+        "green",
+        "lavender",
+        "leather",
+        "maroon",
+        "navy",
+        "orange",
+        "pink",
+        "purple",
+        "red",
+        "sky",
+        "tan",
+        "teal",
+        "walnut",
+        "white",
+        "yellow"
+    ]
 }

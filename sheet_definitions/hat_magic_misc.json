@@ -1,17 +1,13 @@
 {
-  "name": "Misc Magic Hats",
-  "type_name": "hat",
-  "layer_1": {
-    "zPos": 130,
-    "male": "hat/magic/misc/adult/",
-    "female": "hat/magic/misc/adult/",
-    "muscular": "hat/magic/misc/adult/",
-    "pregnant": "hat/magic/misc/adult/",
-    "teen": "hat/magic/misc/adult/"
-  },
-  "variants": [
-    "starry_moon",
-    "starry",
-    "large"
-  ]
+    "name": "Misc Magic Hats",
+    "type_name": "hat",
+    "layer_1": {
+        "male": "hat/magic/misc/adult/",
+        "female": "hat/magic/misc/adult/"
+    },
+    "variants": [
+        "starry_moon",
+        "starry",
+        "large"
+    ]
 }

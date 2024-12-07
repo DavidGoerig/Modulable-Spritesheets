@@ -1,22 +1,18 @@
 {
-  "name" : "Armour",
-  "type_name" : "shoes",
-  "layer_1" : {
-    "zPos" : 15,
-    "male" : "feet/armour/plate/male/",
-    "muscular" : "feet/armour/plate/male/",
-    "female" : "feet/armour/plate/female/",
-    "pregnant" : "feet/armour/plate/female/",
-    "teen" : "feet/armour/plate/female/"
-  },
-  "variants": [
-    "steel",
-    "iron",
-    "ceramic",
-    "brass",
-    "copper",
-    "bronze",
-    "silver",
-    "gold"
-  ]
+    "name": "Armour",
+    "type_name": "shoes",
+    "layer_1": {
+        "male": "feet/armour/plate/male/",
+        "female": "feet/armour/plate/female/"
+    },
+    "variants": [
+        "steel",
+        "iron",
+        "ceramic",
+        "brass",
+        "copper",
+        "bronze",
+        "silver",
+        "gold"
+    ]
 }

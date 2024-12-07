@@ -1,15 +1,11 @@
 {
-  "name": "Skeleton",
-  "type_name": "head",
-  "layer_1": {
-    "zPos": 100,
-    "male": "head/heads/skeleton/adult/",
-    "muscular": "head/heads/skeleton/adult/",
-    "female": "head/heads/skeleton/adult/",
-    "pregnant": "head/heads/skeleton/adult/",
-    "teen": "head/heads/skeleton/adult/"
-  },
-  "variants": [
-    "skeleton"
-  ]
+    "name": "Skeleton",
+    "type_name": "head",
+    "layer_1": {
+        "male": "head/heads/skeleton/adult/",
+        "female": "head/heads/skeleton/adult/"
+    },
+    "variants": [
+        "skeleton"
+    ]
 }

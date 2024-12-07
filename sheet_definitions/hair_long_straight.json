@@ -1,26 +1,22 @@
 {
-  "name": "Long straight",
-  "type_name": "hair",
-  "layer_1": {
-    "zPos": 120,
-    "male": "hair/long_straight/male/",
-    "muscular": "hair/long_straight/male/",
-    "female": "hair/long_straight/female/",
-    "pregnant": "hair/long_straight/female/",
-    "teen": "hair/long_straight/male/"
-  },
-  "variants": [
-    "ashblonde",
-    "ashplatinum",
-    "black",
-    "blonde",
-    "blue",
-    "brown",
-    "brown2",
-    "green",
-    "orange",
-    "pink",
-    "purple",
-    "red"
-  ]
+    "name": "Long straight",
+    "type_name": "hair",
+    "layer_1": {
+        "male": "hair/long_straight/male/",
+        "female": "hair/long_straight/female/"
+    },
+    "variants": [
+        "ashblonde",
+        "ashplatinum",
+        "black",
+        "blonde",
+        "blue",
+        "brown",
+        "brown2",
+        "green",
+        "orange",
+        "pink",
+        "purple",
+        "red"
+    ]
 }

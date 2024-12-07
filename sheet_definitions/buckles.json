@@ -1,14 +1,13 @@
 {
-  "name": "Buckles",
-  "type_name": "buckles",
-  "layer_1": {
-    "zPos": 75,
-    "female": "torso/waist/buckles/female/"
-  },
-  "variants": [
-    "bronze",
-    "gold",
-    "iron",
-    "silver"
-  ]
+    "name": "Buckles",
+    "type_name": "buckles",
+    "layer_1": {
+        "female": "torso/waist/buckles/female/"
+    },
+    "variants": [
+        "bronze",
+        "gold",
+        "iron",
+        "silver"
+    ]
 }

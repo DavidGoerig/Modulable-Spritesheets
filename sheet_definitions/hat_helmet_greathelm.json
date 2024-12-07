@@ -1,41 +1,37 @@
 {
-  "name": "Greathelm",
-  "type_name": "hat",
-  "layer_1": {
-    "zPos": 130,
-    "female": "hat/helmet/greathelm/female/",
-    "pregnant": "hat/helmet/greathelm/female/",
-    "male": "hat/helmet/greathelm/male/",
-    "muscular": "hat/helmet/greathelm/male/",
-    "teen": "hat/helmet/greathelm/female/"
-  },
-  "variants": [
-    "steel",
-    "iron",
-    "ceramic",
-    "brass",
-    "copper",
-    "bronze",
-    "silver",
-    "gold"
-  ],
-  "animations": [
-    "spellcast",
-    "thrust",
-    "walk",
-    "slash",
-    "shoot",
-    "hurt",
-    "watering",
-    "idle",
-    "jump",
-    "run",
-    "sit",
-    "emote",
-    "climb",
-    "combat",
-    "1h_slash",
-    "1h_backslash",
-    "1h_halfslash"
-  ]
+    "name": "Greathelm",
+    "type_name": "hat",
+    "layer_1": {
+        "female": "hat/helmet/greathelm/female/",
+        "male": "hat/helmet/greathelm/male/"
+    },
+    "variants": [
+        "steel",
+        "iron",
+        "ceramic",
+        "brass",
+        "copper",
+        "bronze",
+        "silver",
+        "gold"
+    ],
+    "animations": [
+        "spellcast",
+        "thrust",
+        "walk",
+        "slash",
+        "shoot",
+        "hurt",
+        "watering",
+        "idle",
+        "jump",
+        "run",
+        "sit",
+        "emote",
+        "climb",
+        "combat",
+        "1h_slash",
+        "1h_backslash",
+        "1h_halfslash"
+    ]
 }

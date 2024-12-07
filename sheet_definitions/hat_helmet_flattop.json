@@ -1,41 +1,37 @@
 {
-  "name": "Flattop",
-  "type_name": "hat",
-  "layer_1": {
-    "zPos": 130,
-    "female": "hat/helmet/flattop/female/",
-    "pregnant": "hat/helmet/flattop/female/",
-    "male": "hat/helmet/flattop/male/",
-    "muscular": "hat/helmet/flattop/male/",
-    "teen": "hat/helmet/flattop/female/"
-  },
-  "variants": [
-    "steel",
-    "iron",
-    "ceramic",
-    "brass",
-    "copper",
-    "bronze",
-    "silver",
-    "gold"
-  ],
-  "animations": [
-    "spellcast",
-    "thrust",
-    "walk",
-    "slash",
-    "shoot",
-    "hurt",
-    "watering",
-    "idle",
-    "jump",
-    "run",
-    "sit",
-    "emote",
-    "climb",
-    "combat",
-    "1h_slash",
-    "1h_backslash",
-    "1h_halfslash"
-  ]
+    "name": "Flattop",
+    "type_name": "hat",
+    "layer_1": {
+        "female": "hat/helmet/flattop/female/",
+        "male": "hat/helmet/flattop/male/"
+    },
+    "variants": [
+        "steel",
+        "iron",
+        "ceramic",
+        "brass",
+        "copper",
+        "bronze",
+        "silver",
+        "gold"
+    ],
+    "animations": [
+        "spellcast",
+        "thrust",
+        "walk",
+        "slash",
+        "shoot",
+        "hurt",
+        "watering",
+        "idle",
+        "jump",
+        "run",
+        "sit",
+        "emote",
+        "climb",
+        "combat",
+        "1h_slash",
+        "1h_backslash",
+        "1h_halfslash"
+    ]
 }

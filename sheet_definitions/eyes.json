@@ -1,42 +1,37 @@
 {
-  "name" : "Eyes",
-  "type_name" : "eyes",
-  "layer_1" : {
-    "zPos" : 105,
-    "male" : "eyes/human/adult/",
-    "muscular" : "eyes/human/adult/",
-    "female" : "eyes/human/adult/",
-    "teen" : "eyes/human/adult/",
-    "pregnant" : "eyes/human/adult/",
-    "child" : "eyes/human/child/"
-  },
-  "variants": [
-    "blue",
-    "brown",
-    "gray",
-    "green",
-    "orange",
-    "purple",
-    "red",
-    "yellow"
-  ],
-  "animations": [
-    "spellcast",
-    "thrust",
-    "walk",
-    "slash",
-    "shoot",
-    "hurt",
-    "watering",
-    "idle",
-    "jump",
-    "run",
-    "sit",
-    "emote",
-    "climb",
-    "combat",
-    "1h_slash",
-    "1h_backslash",
-    "1h_halfslash"
-  ]
+    "name": "Eyes",
+    "type_name": "eyes",
+    "layer_1": {
+        "male": "eyes/human/adult/",
+        "female": "eyes/human/adult/"
+    },
+    "variants": [
+        "blue",
+        "brown",
+        "gray",
+        "green",
+        "orange",
+        "purple",
+        "red",
+        "yellow"
+    ],
+    "animations": [
+        "spellcast",
+        "thrust",
+        "walk",
+        "slash",
+        "shoot",
+        "hurt",
+        "watering",
+        "idle",
+        "jump",
+        "run",
+        "sit",
+        "emote",
+        "climb",
+        "combat",
+        "1h_slash",
+        "1h_backslash",
+        "1h_halfslash"
+    ]
 }
