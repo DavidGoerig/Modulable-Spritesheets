@@ -9,7 +9,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "fur_brown",
@@ -17,7 +18,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "fur_tan",
@@ -25,7 +27,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "fur_copper",
@@ -33,7 +36,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "fur_gold",
@@ -41,7 +45,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "fur_grey",
@@ -49,7 +54,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "fur_white",
@@ -57,7 +63,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "light",
@@ -65,7 +72,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "amber",
@@ -73,7 +81,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "olive",
@@ -81,7 +90,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "taupe",
@@ -89,7 +99,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "bronze",
@@ -97,7 +108,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "brown",
@@ -105,7 +117,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "black",
@@ -113,7 +126,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "lavender",
@@ -121,7 +135,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "blue",
@@ -129,7 +144,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "zombie_green",
@@ -137,7 +153,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "green",
@@ -145,7 +162,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "pale_green",
@@ -153,7 +171,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "bright_green",
@@ -161,7 +180,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "dark_green",
@@ -169,7 +189,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "zombie",
@@ -177,7 +198,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         }
     ],
     "match_body_color": true,

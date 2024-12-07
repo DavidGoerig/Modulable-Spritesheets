@@ -12,7 +12,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "spartan",
@@ -20,7 +21,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "round black",
@@ -28,7 +30,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "round brown",
@@ -36,7 +39,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "round gold",
@@ -44,7 +48,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "round green",
@@ -52,7 +57,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "round silver",
@@ -60,7 +66,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "round yellow",
@@ -68,7 +75,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "kite blue blue",
@@ -76,7 +84,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "kite blue gray",
@@ -84,7 +93,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "kite gray blue",
@@ -92,7 +102,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "kite gray gray",
@@ -100,7 +111,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "kite gray green",
@@ -108,7 +120,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "kite gray orange",
@@ -116,7 +129,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "kite gray",
@@ -124,7 +138,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "kite green gray",
@@ -132,7 +147,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "kite orange",
@@ -140,7 +156,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "kite red gray",
@@ -148,7 +165,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         }
     ]
 }

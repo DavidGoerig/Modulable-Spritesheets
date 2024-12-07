@@ -16,7 +16,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "square",
@@ -24,7 +25,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         }
     ]
 }

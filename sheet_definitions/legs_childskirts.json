@@ -9,7 +9,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "blue",
@@ -17,7 +18,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "darkblue",
@@ -25,7 +27,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "green",
@@ -33,7 +36,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "lavender",
@@ -41,7 +45,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "lightblue",
@@ -49,7 +54,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "maroon",
@@ -57,7 +63,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "pink",
@@ -65,7 +72,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "red",
@@ -73,7 +81,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "white",
@@ -81,7 +90,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         }
     ]
 }

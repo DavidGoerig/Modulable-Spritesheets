@@ -12,7 +12,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "bend",
@@ -20,7 +21,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "bend_sinister",
@@ -28,7 +30,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "bendy",
@@ -36,7 +39,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "bendy_sinister",
@@ -44,7 +48,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "bordure",
@@ -52,7 +57,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "chevron",
@@ -60,7 +66,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "chevron_inverted",
@@ -68,7 +75,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "chief",
@@ -76,7 +84,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "cross",
@@ -84,7 +93,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "fess",
@@ -92,7 +102,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "lozengy",
@@ -100,7 +111,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "paint",
@@ -108,7 +120,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "pale",
@@ -116,7 +129,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "pall",
@@ -124,7 +138,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "paly",
@@ -132,7 +147,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "per_bend",
@@ -140,7 +156,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "per_bend_sinister",
@@ -148,7 +165,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "per_chevron",
@@ -156,7 +174,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "per_chevron_inverted",
@@ -164,7 +183,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "per_fess",
@@ -172,7 +192,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "per_pale",
@@ -180,7 +201,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "per_saltire",
@@ -188,7 +210,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "quarterly",
@@ -196,7 +219,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         },
         {
             "name": "saltire",
@@ -204,7 +228,8 @@
             "description": "",
             "spell": 1,
             "rare": 1,
-            "element": 1
+            "element": 1,
+            "icon_path": ""
         }
     ]
 }

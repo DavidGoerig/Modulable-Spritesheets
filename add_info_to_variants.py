@@ -5,17 +5,19 @@ import json
 folder_path = 'sheet_definitions'
 log_file_path = 'logs/update_variants.log'
 
-# Ensure the directory for the log file exists
-os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
-
-# Default details for each variant
+# Define the default details for each variant
 default_variant_details = {
+    "name": "",
     "full_name": "",
     "description": "",
+    "icon_path": "",
     "spell": 1,
     "rare": 1,
     "element": 1
 }
+
+# Ensure the directory for the log file exists
+os.makedirs(os.path.dirname(log_file_path), exist_ok=True)
 
 # Open the log file in write mode
 with open(log_file_path, 'w') as log_file:
@@ -40,6 +42,11 @@ with open(log_file_path, 'w') as log_file:
                             updated_variants.append(variant_obj)
                             modified = True
                         elif isinstance(variant, dict) and 'name' in variant:
+                            # Ensure the variant has all the default details
+                            for key, value in default_variant_details.items():
+                                if key not in variant:
+                                    variant[key] = value
+                                    modified = True
                             updated_variants.append(variant)
                         else:
                             log_file.write(f'{filename}: Invalid variant format\n')
