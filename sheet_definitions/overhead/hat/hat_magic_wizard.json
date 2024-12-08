@@ -1,0 +1,299 @@
+{
+    "name": "Wizard Hat Base",
+    "type_name": "hat",
+    "layer_1": {
+        "male": "hat/magic/wizard/base/adult/",
+        "female": "hat/magic/wizard/base/adult/"
+    },
+    "variants": [
+        {
+            "name": "base_black",
+            "full_name": "Mystic Shadow Wizard Hat",
+            "description": "This black wizard hat is imbued with shadows, perfect for wizards who practice the mystical arts of stealth and invisibility.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "hat/magic/wizard/base/adult/base_black_icon.png"
+        },
+        {
+            "name": "base_brown",
+            "full_name": "Earthstone Wizard Hat",
+            "description": "Crafted from the fibers of the ancient Earthwood tree, this brown hat enhances the wearer's affinity with earth-based magic.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "hat/magic/wizard/base/adult/base_brown_icon.png"
+        },
+        {
+            "name": "base_gray",
+            "full_name": "Gray Fog Wizard Hat",
+            "description": "This hat is woven from the mist of the Graymarshes, ideal for spellcasters specializing in illusions and fog magic.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "hat/magic/wizard/base/adult/base_gray_icon.png"
+        },
+        {
+            "name": "base_red",
+            "full_name": "Crimson Flame Wizard Hat",
+            "description": "Sewn with threads dipped in dragon's blood, this red wizard hat grants the bearer powerful fire magic capabilities.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "hat/magic/wizard/base/adult/base_red_icon.png"
+        },
+        {
+            "name": "base_teal",
+            "full_name": "Oceanic Breeze Wizard Hat",
+            "description": "Infused with the essence of the ocean, this teal wizard hat allows its owner to manipulate water and air to create devastating spells.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "hat/magic/wizard/base/adult/base_teal_icon.png"
+        },
+        {
+            "name": "base_yellow",
+            "full_name": "Sunburst Wizard Hat",
+            "description": "Crafted under the first light of the summer solstice, this yellow wizard hat enhances light magic and solar spells.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "hat/magic/wizard/base/adult/base_yellow_icon.png"
+        },
+        {
+            "name": "white",
+            "full_name": "White Moon Wizard Hat",
+            "description": "This pure white wizard hat is favored by those who draw power from the moon and stars, boosting their night magic significantly.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "hat/magic/wizard/base/adult/white_icon.png"
+        },
+        {
+            "name": "black",
+            "full_name": "Ebony Void Wizard Hat",
+            "description": "This deep black wizard hat is a gateway to void magic, enhancing dark spells and necromancy for the bold sorcerer.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "hat/magic/wizard/base/adult/black_icon.png"
+        },
+        {
+            "name": "blue",
+            "full_name": "Azure Sky Wizard Hat",
+            "description": "This bright blue hat is charged with the essence of the sky, granting the wizard control over weather and the skies.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "hat/magic/wizard/base/adult/blue_icon.png"
+        },
+        {
+            "name": "bluegray",
+            "full_name": "Stormcaller Wizard Hat",
+            "description": "The bluegray color of this hat resonates with storm energies, ideal for wizards who specialize in thunder and lightning magic.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ELECTRIC",
+            "icon_path": "hat/magic/wizard/base/adult/bluegray_icon.png"
+        },
+        {
+            "name": "brown",
+            "full_name": "Terra Wizard Hat",
+            "description": "This earth-toned wizard hat increases the user's control over geological forces, perfect for earth magic and geomancy.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "hat/magic/wizard/base/adult/brown_icon.png"
+        },
+        {
+            "name": "charcoal",
+            "full_name": "Smoky Shadows Wizard Hat",
+            "description": "Charcoal black and imbued with smoke, this hat is for those who seek to obscure their actions and intentions with shadow magic.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "hat/magic/wizard/base/adult/charcoal_icon.png"
+        },
+        {
+            "name": "forest",
+            "full_name": "Forest Whisper Wizard Hat",
+            "description": "Infused with the spirits of ancient forests, this green hat enhances botanical spells and communication with nature spirits.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "hat/magic/wizard/base/adult/forest_icon.png"
+        },
+        {
+            "name": "gray",
+            "full_name": "Misty Veil Wizard Hat",
+            "description": "This gray wizard hat is perfect for those who wish to walk unseen, cloaking the wearer in mist and shadows.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "hat/magic/wizard/base/adult/gray_icon.png"
+        },
+        {
+            "name": "green",
+            "full_name": "Emerald Enchanter Wizard Hat",
+            "description": "Bright and vibrant, this green wizard hat is soaked in life energy, amplifying healing and growth spells.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "hat/magic/wizard/base/adult/green_icon.png"
+        },
+        {
+            "name": "lavender",
+            "full_name": "Lavender Lore Wizard Hat",
+            "description": "This delicately scented lavender hat is steeped in ancient wisdom, boosting the wearer's magical knowledge and spell accuracy.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "hat/magic/wizard/base/adult/lavender_icon.png"
+        },
+        {
+            "name": "leather",
+            "full_name": "Leatherbound Wizard Hat",
+            "description": "This rugged leather wizard hat offers physical protection as well as magical, warding off both blades and curses.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "hat/magic/wizard/base/adult/leather_icon.png"
+        },
+        {
+            "name": "maroon",
+            "full_name": "Maroon Mage Wizard Hat",
+            "description": "Dyed with the blood of dragons, this maroon hat is for wizards who seek to harness the raw power of fire and battle magic.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "hat/magic/wizard/base/adult/maroon_icon.png"
+        },
+        {
+            "name": "navy",
+            "full_name": "Deep Sea Wizard Hat",
+            "description": "This navy hat allows its wearer to delve into the mysteries of the deep sea, enhancing magic that involves water and ice.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "hat/magic/wizard/base/adult/navy_icon.png"
+        },
+        {
+            "name": "orange",
+            "full_name": "Sunfire Wizard Hat",
+            "description": "This blazing orange hat contains the fury of the sun, perfect for those who channel fire and light into their spells.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "hat/magic/wizard/base/adult/orange_icon.png"
+        },
+        {
+            "name": "pink",
+            "full_name": "Charmcaster Wizard Hat",
+            "description": "Soft pink and enchanting, this wizard hat enhances charm and bewitchment spells, weaving a spell of attraction around the wearer.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "hat/magic/wizard/base/adult/pink_icon.png"
+        },
+        {
+            "name": "purple",
+            "full_name": "Twilight Sorcerer Wizard Hat",
+            "description": "This deep purple hat is favored by sorcerers who draw their power from the twilight, enhancing both dark and light magics.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "hat/magic/wizard/base/adult/purple_icon.png"
+        },
+        {
+            "name": "red",
+            "full_name": "Crimson Warlock Wizard Hat",
+            "description": "This red hat is soaked in ancient warspells, granting its bearer significant boosts in combat magic and protective wards.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "hat/magic/wizard/base/adult/red_icon.png"
+        },
+        {
+            "name": "rose",
+            "full_name": "Rose Petal Wizard Hat",
+            "description": "Infused with the essence of a thousand rose petals, this hat enhances spells related to love, peace, and healing.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "hat/magic/wizard/base/adult/rose_icon.png"
+        },
+        {
+            "name": "sky",
+            "full_name": "Skyward Wizard Hat",
+            "description": "This light blue wizard hat is perfect for those who seek to master the air, offering control over the winds and the skies.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ELECTRIC",
+            "icon_path": "hat/magic/wizard/base/adult/sky_icon.png"
+        },
+        {
+            "name": "slate",
+            "full_name": "Slate Shade Wizard Hat",
+            "description": "This slate-colored hat is imbued with earth magic, perfect for wizards specializing in protection and barrier spells.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "hat/magic/wizard/base/adult/slate_icon.png"
+        },
+        {
+            "name": "tan",
+            "full_name": "Dust Wanderer Wizard Hat",
+            "description": "This tan wizard hat is crafted from desert cloths, offering resistance against sandstorms and enhancing earth and wind spells.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "hat/magic/wizard/base/adult/tan_icon.png"
+        },
+        {
+            "name": "teal",
+            "full_name": "Aqua Mage Wizard Hat",
+            "description": "This teal hat is soaked with the power of freshwater lakes, enhancing water spells and providing clarity of mind.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "hat/magic/wizard/base/adult/teal_icon.png"
+        },
+        {
+            "name": "walnut",
+            "full_name": "Woodland Mage Wizard Hat",
+            "description": "Made from the bark of the ancient Walnut tree, this hat increases the wearer's affinity with the forest and its creatures.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "hat/magic/wizard/base/adult/walnut_icon.png"
+        },
+        {
+            "name": "yellow",
+            "full_name": "Golden Radiance Wizard Hat",
+            "description": "This bright yellow wizard hat radiates a warm, soothing energy, amplifying light-based spells and providing illumination in the darkest places.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "hat/magic/wizard/base/adult/yellow_icon.png"
+        }
+    ],
+    "animations": [
+        "spellcast",
+        "thrust",
+        "walk",
+        "slash",
+        "shoot",
+        "hurt",
+        "watering",
+        "idle",
+        "jump",
+        "run",
+        "sit",
+        "emote",
+        "climb",
+        "combat",
+        "1h_slash",
+        "1h_backslash",
+        "1h_halfslash"
+    ]
+}

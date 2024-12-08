@@ -1,0 +1,19 @@
+{
+    "name": "Bandages",
+    "type_name": "bandages",
+    "layer_1": {
+        "male": "torso/bandage/male/",
+        "female": "torso/bandage/female/"
+    },
+    "variants": [
+        {
+            "name": "white",
+            "full_name": "White Bandages of Sanctaith",
+            "description": "These bandages, woven from the **Blessed Threads of Sanctaith**, possess a soothing aura of **LUMIERE**. Traditionally used by the **Clerics of Solara**, they are known to quicken the healing of wounds and nullify the effects of poison. Rumor has it that the soul of **Sister Elira**, a martyred healer, lingers within each thread, ensuring that no injury treated with them is ever left to fester. Soldiers who wore these bandages during the **Siege of Moonshadow Keep** claimed to hear Elira's voice guiding them to safety in the fog of war.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "torso/bandage/icon/white_bandage_icon.png"
+        }
+    ]
+}

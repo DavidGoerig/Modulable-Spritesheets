@@ -1,0 +1,82 @@
+{
+  "name": "Armour",
+  "type_name": "arms",
+  "layer_1": {
+      "male": "arms/armour/plate/male/",
+      "female": "arms/armour/plate/female/"
+  },
+  "variants": [
+      {
+          "name": "steel",
+          "full_name": "Steel Armour of the Stoic",
+          "description": "Crafted from hardened steel, this armour is imbued with the resilience of soldiers who stood unwavering in the deadliest battles. Its wearers are said to gain unmatched endurance and strength, echoing the undying spirit of those who fell in combat.",
+          "spell": 1,
+          "rare": 1,
+          "element": "ACIER",
+          "icon_path": "arms/armour/plate/male/steel_icon.png"
+      },
+      {
+          "name": "iron",
+          "full_name": "Iron Armour of the Resilient",
+          "description": "Forged in the fires of war, the Iron Armour of the Resilient carries the essence of countless warriors who fought valiantly against overwhelming odds. It offers protection not just from physical attacks but also fortifies the wearer's resolve.",
+          "spell": 1,
+          "rare": 1,
+          "element": "ROCHE",
+          "icon_path": "arms/armour/plate/male/iron_icon.png"
+      },
+      {
+          "name": "ceramic",
+          "full_name": "Ceramic Armour of the Silent",
+          "description": "This rare armour, crafted from mystical ceramic, whispers secrets of ancient stealth warriors. Light yet durable, it shields its wearer while cloaking their movements in silence, perfect for those who strike from the shadows.",
+          "spell": 1,
+          "rare": 1,
+          "element": "TENEBRE",
+          "icon_path": "arms/armour/plate/male/ceramic_icon.png"
+      },
+      {
+          "name": "brass",
+          "full_name": "Brass Armour of the Bold",
+          "description": "Gleaming with the luster of polished brass, this armour resonates with the courage of heroes who led charges into the fray. It bolsters the bearer's bravery, encouraging daring acts in the face of danger.",
+          "spell": 1,
+          "rare": 1,
+          "element": "COMBAT",
+          "icon_path": "arms/armour/plate/male/brass_icon.png"
+      },
+      {
+          "name": "copper",
+          "full_name": "Copper Armour of the Conductor",
+          "description": "Infused with the conductive power of copper, this armour harnesses the energy of fallen electrical warriors. It energizes the wearer, boosting their agility and speed with every strike.",
+          "spell": 1,
+          "rare": 1,
+          "element": "ELECTRIC",
+          "icon_path": "arms/armour/plate/male/copper_icon.png"
+      },
+      {
+          "name": "bronze",
+          "full_name": "Bronze Armour of the Ageless",
+          "description": "The Bronze Armour of the Ageless is etched with runes of ancient wisdom. Wearing it connects one to the age-old tactics and strategies of legendary generals, offering insights that could turn the tide of any battle.",
+          "spell": 1,
+          "rare": 1,
+          "element": "ROCHE",
+          "icon_path": "arms/armour/plate/male/bronze_icon.png"
+      },
+      {
+          "name": "silver",
+          "full_name": "Silver Armour of the Pure",
+          "description": "This shining silver armour is sanctified by the spirits of virtuous knights. It protects against dark forces and corruption, providing a bastion of purity and light in times of dire need.",
+          "spell": 1,
+          "rare": 1,
+          "element": "LUMIERE",
+          "icon_path": "arms/armour/plate/male/silver_icon.png"
+      },
+      {
+          "name": "gold",
+          "full_name": "Gold Armour of the Fallen",
+          "description": "The Gold Armour of the Fallen is a legendary piece, forged from the very treasures that once adorned the greatest warriors of ancient battles. It is said that each golden plate is imbued with the spirit of a fallen soldier, granting its bearer not only protection but also the wisdom and courage of countless lost souls. As light reflects off its shimmering surface, one can almost hear the faint echoes of ancient battles, reminding the wearer of the sacrifices made for honor and glory.",
+          "spell": 1,
+          "rare": 1,
+          "element": "LUMIERE",
+          "icon_path": "arms/armour/plate/male/gold_icon.png"
+      }
+  ]
+}

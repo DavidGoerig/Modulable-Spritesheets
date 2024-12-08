@@ -1,0 +1,131 @@
+{
+    "name": "Great",
+    "type_name": "weapon",
+    "preview_row": 17,
+    "layer_1": {
+        "male": "weapon/ranged/bow/great/universal/background/",
+        "female": "weapon/ranged/bow/great/universal/background/"
+    },
+    "layer_2": {
+        "male": "weapon/ranged/bow/great/universal/foreground/",
+        "female": "weapon/ranged/bow/great/universal/foreground/"
+    },
+    "layer_3": {
+        "male": "weapon/ranged/bow/great/walk/background/",
+        "female": "weapon/ranged/bow/great/walk/background/"
+    },
+    "layer_4": {
+        "male": "weapon/ranged/bow/great/walk/foreground/",
+        "female": "weapon/ranged/bow/great/walk/foreground/"
+    },
+    "variants": [
+        {
+            "name": "light",
+            "full_name": "Sunray Bow",
+            "description": "Forged from the blessed wood of the Solgrove, the Sunray Bow channels the brilliance of the sun itself. Arrows fired from it leave a trail of radiant light, and its glow can blind those who stand against it. It is said to be wielded by the sun-priest **Solarios, The Dawnbringer**.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "weapon/ranged/bow/great/icon/light_icon.png"
+        },
+        {
+            "name": "medium",
+            "full_name": "The Unyielding",
+            "description": "A bow carved from ancient yew, sturdy and steadfast. No enchantments, no magical aura — only the timeless reliability of fine craftsmanship. It was wielded by **Gara the Relentless**, a warrior who stood her ground even when outnumbered 100 to 1.",
+            "spell": 1,
+            "rare": 1,
+            "element": "NORMAL",
+            "icon_path": "weapon/ranged/bow/great/icon/medium_icon.png"
+        },
+        {
+            "name": "red",
+            "full_name": "Hellfire Bow",
+            "description": "The Hellfire Bow is forged from infernal ashwood, with veins of molten flame running through its core. Every arrow loosed from this bow burns with unquenchable fire, searing both body and soul. It is a weapon feared in the hands of **Flamecaller Rhaegor**, a pyromancer from the Ashen Spire.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "weapon/ranged/bow/great/icon/red_icon.png"
+        },
+        {
+            "name": "dark",
+            "full_name": "Whispering Shade",
+            "description": "This bow, formed from shadowroot wood, resonates with whispers from the realm of shadows. Arrows fired from it leave no sound, no trace, only the quiet promise of death. It is said that those struck by it can hear their name whispered by unseen voices.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "weapon/ranged/bow/great/icon/dark_icon.png"
+        },
+        {
+            "name": "brass",
+            "full_name": "Paragon's Vow",
+            "description": "A ceremonial bow crafted from polished brass and adorned with emblems of honor. It is often used during royal hunts and ceremonial duels. Its shots always fly true, for it is a symbol of the unbreakable vow of justice and truth.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "weapon/ranged/bow/great/icon/brass_icon.png"
+        },
+        {
+            "name": "bronze",
+            "full_name": "Bow of Thorns",
+            "description": "This bow, grown from enchanted forest roots, draws power from the wilds. Its arrows are tipped with seeds of thorns, which sprout and bind the victim in vines upon impact. The druids of **The Verdant Council** only gift this bow to those who swear to protect nature's sanctity.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "weapon/ranged/bow/great/icon/bronze_icon.png"
+        },
+        {
+            "name": "ceramic",
+            "full_name": "Frozen Fang",
+            "description": "Forged from frost-hardened ceramic, this bow is eternally cold to the touch. Each arrow fired from it is tipped with ice, freezing its targets on impact. The Frostguard Rangers wield this bow as they patrol the icy wastes of the Frostveil Glaciers.",
+            "spell": 1,
+            "rare": 1,
+            "element": "GLACE",
+            "icon_path": "weapon/ranged/bow/great/icon/ceramic_icon.png"
+        },
+        {
+            "name": "copper",
+            "full_name": "Tempest Bow",
+            "description": "With copper filigree tracing its limbs, the Tempest Bow draws in atmospheric energy. Thunder roars with every shot, and when lightning strikes, the wielder can call it down on their enemies. The infamous warlord **Zara Stormbreaker** claimed this bow after summoning a storm to destroy an entire fleet.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ELECTRIC",
+            "icon_path": "weapon/ranged/bow/great/icon/copper_icon.png"
+        },
+        {
+            "name": "gold",
+            "full_name": "Solarflare Bow",
+            "description": "Made from enchanted goldwood, this bow shines like the sun at dawn. It fires arrows that blaze like miniature suns, scalding enemies with holy flames. The **Priests of the Golden Light** grant this bow only to those destined for greatness in their holy order.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "weapon/ranged/bow/great/icon/gold_icon.png"
+        },
+        {
+            "name": "iron",
+            "full_name": "Bulwark Bow",
+            "description": "Built with iron-reinforced limbs, this bow can endure any battle. Soldiers rely on it for its strength and durability. Its heavy draw weight ensures that every shot lands with the force of a battering ram. It is often seen in the hands of castle defenders during sieges.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ACIER",
+            "icon_path": "weapon/ranged/bow/great/icon/iron_icon.png"
+        },
+        {
+            "name": "silver",
+            "full_name": "Moonshadow Bow",
+            "description": "Crafted from blessed silver, this bow glows faintly in moonlight. Arrows fired from it are imbued with water magic, striking with the force of crashing waves. The **Moonlit Rangers** wield this bow, using it to subdue waterborne beasts and sea terrors.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "weapon/ranged/bow/great/icon/silver_icon.png"
+        },
+        {
+            "name": "steel",
+            "full_name": "Titan's Grasp",
+            "description": "Forged in the heart of the **Anvil of Titans**, this bow is made from tempered steel. It is nearly unbreakable, and the strength required to draw it is immense. It was once wielded by **Gorun the Colossus**, a warrior who could fell giants with a single shot.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ACIER",
+            "icon_path": "weapon/ranged/bow/great/icon/steel_icon.png"
+        }
+    ]
+}

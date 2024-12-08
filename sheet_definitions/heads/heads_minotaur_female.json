@@ -1,0 +1,228 @@
+{
+    "name": "Minotaur female",
+    "type_name": "head",
+    "layer_1": {
+        "male": "head/heads/minotaur/female/",
+        "female": "head/heads/minotaur/female/"
+    },
+    "variants": [
+        {
+            "name": "fur_black",
+            "full_name": "Nightshade Minotaur Queen",
+            "description": "This variant, with deep black fur, rules the night, using her natural camouflage to protect her territory from intruders.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "head/heads/minotaur/female/fur_black_icon.png"
+        },
+        {
+            "name": "fur_brown",
+            "full_name": "Earth Mother Minotaur",
+            "description": "Rich brown fur covers this majestic minotaur, symbolizing her connection to the earth and her role as a guardian of nature.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "head/heads/minotaur/female/fur_brown_icon.png"
+        },
+        {
+            "name": "fur_tan",
+            "full_name": "Desert Guardian Minotaur",
+            "description": "Adapted to the harsh desert, this tan-furred minotaur female uses her endurance and strength to lead her tribe in survival.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "head/heads/minotaur/female/fur_tan_icon.png"
+        },
+        {
+            "name": "fur_copper",
+            "full_name": "Copper Luster Minotaur",
+            "description": "This minotaur's shimmering copper fur reflects the sun's rays, dazzling her foes while she defends her young with fierce determination.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ACIER",
+            "icon_path": "head/heads/minotaur/female/fur_copper_icon.png"
+        },
+        {
+            "name": "fur_gold",
+            "full_name": "Golden Wisdom Minotaur",
+            "description": "Adorned with golden fur, this wise minotaur is sought after for her sage advice and her magical abilities in gold alchemy.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "head/heads/minotaur/female/fur_gold_icon.png"
+        },
+        {
+            "name": "fur_grey",
+            "full_name": "Silver Storm Minotaur",
+            "description": "With fur as grey as the winter sky, this minotaur wields the power of storms, commanding thunder and wind to protect her clan.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ELECTRIC",
+            "icon_path": "head/heads/minotaur/female/fur_grey_icon.png"
+        },
+        {
+            "name": "fur_white",
+            "full_name": "Frost Walker Minotaur",
+            "description": "Her white fur blending into the snowy landscape, this minotaur navigates the frozen tundra with ease, guarding the secrets of the ice.",
+            "spell": 1,
+            "rare": 1,
+            "element": "GLACE",
+            "icon_path": "head/heads/minotaur/female/fur_white_icon.png"
+        },
+        {
+            "name": "light",
+            "full_name": "Luminous Beacon Minotaur",
+            "description": "Radiating a gentle, guiding light, this minotaur leads lost travelers to safety, her presence a comforting glow in the dark.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "head/heads/minotaur/female/light_icon.png"
+        },
+        {
+            "name": "amber",
+            "full_name": "Amber Sun Minotaur",
+            "description": "With fur like molten amber, this minotaur embodies the spirit of the sun, her warmth and radiance inspiring all around her.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "head/heads/minotaur/female/amber_icon.png"
+        },
+        {
+            "name": "olive",
+            "full_name": "Olive Leaf Minotaur",
+            "description": "Her fur a deep olive, this minotaur is a healer, using the medicinal plants of the forest to treat her people and allies.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "head/heads/minotaur/female/olive_icon.png"
+        },
+        {
+            "name": "taupe",
+            "full_name": "Stone Heart Minotaur",
+            "description": "Her taupe fur blending with the mountain stone, this minotaur stands unyielding against those who threaten her home.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "head/heads/minotaur/female/taupe_icon.png"
+        },
+        {
+            "name": "bronze",
+            "full_name": "Bronze Shield Minotaur",
+            "description": "This minotaur's bronze fur shines in battle, her courage and strength forming an impenetrable shield around her loved ones.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ACIER",
+            "icon_path": "head/heads/minotaur/female/bronze_icon.png"
+        },
+        {
+            "name": "brown",
+            "full_name": "Highland Heart Minotaur",
+            "description": "Her deep brown fur echoes the highland soils, and her knowledge of the land makes her a formidable leader and protector.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "head/heads/minotaur/female/brown_icon.png"
+        },
+        {
+            "name": "black",
+            "full_name": "Ebony Night Minotaur",
+            "description": "Majestic in the moonlight, her black fur a cloak of darkness, this minotaur moves silently to guard her realm from nocturnal threats.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "head/heads/minotaur/female/black_icon.png"
+        },
+        {
+            "name": "lavender",
+            "full_name": "Lavender Mist Minotaur",
+            "description": "Infused with the calming scent of lavender, this minotaur soothes the weary and wounded with her gentle presence and healing magic.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "head/heads/minotaur/female/lavender_icon.png"
+        },
+        {
+            "name": "blue",
+            "full_name": "Sapphire Wave Minotaur",
+            "description": "Her blue fur as deep as the ocean, this minotaur commands the waters, her voice as powerful as the crashing waves.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "head/heads/minotaur/female/blue_icon.png"
+        },
+        {
+            "name": "zombie_green",
+            "full_name": "Necrotic Forest Minotaur",
+            "description": "A chilling sight, her green fur marked by the signs of resurrection, this minotaur has returned from death with newfound dark powers.",
+            "spell": 1,
+            "rare": 1,
+            "element": "POISON",
+            "icon_path": "head/heads/minotaur/female/zombie_green_icon.png"
+        },
+        {
+            "name": "green",
+            "full_name": "Emerald Guardian Minotaur",
+            "description": "Vibrant green fur marks this minotaur as a protector of the ancient woods, her strength key to preserving the natural order.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "head/heads/minotaur/female/green_icon.png"
+        },
+        {
+            "name": "pale_green",
+            "full_name": "Gentle Breeze Minotaur",
+            "description": "With fur the color of young leaves, this minotaur brings renewal and growth wherever she roams, healing the land and its creatures.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "head/heads/minotaur/female/pale_green_icon.png"
+        },
+        {
+            "name": "bright_green",
+            "full_name": "Vivid Life Minotaur",
+            "description": "Her bright green fur is a beacon of life, representing her role as a life-giver and nurturer within her tribe.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "head/heads/minotaur/female/bright_green_icon.png"
+        },
+        {
+            "name": "dark_green",
+            "full_name": "Deep Forest Minotaur",
+            "description": "This dark green minotaur thrives in the thickest parts of the forest, her presence a sign of the deep, unexplored wilds.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "head/heads/minotaur/female/dark_green_icon.png"
+        },
+        {
+            "name": "zombie",
+            "full_name": "Undying Spirit Minotaur",
+            "description": "Once a great warrior, now resurrected, this zombie minotaur uses her second life to protect her land from those who dare defile it.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "head/heads/minotaur/female/zombie_icon.png"
+        }
+    ],
+    "match_body_color": true,
+    "animations": [
+        "spellcast",
+        "thrust",
+        "walk",
+        "slash",
+        "shoot",
+        "hurt",
+        "watering",
+        "idle",
+        "jump",
+        "run",
+        "sit",
+        "emote",
+        "climb",
+        "combat",
+        "1h_slash",
+        "1h_backslash",
+        "1h_halfslash"
+    ]
+}

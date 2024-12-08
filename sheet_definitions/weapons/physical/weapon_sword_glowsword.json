@@ -1,0 +1,40 @@
+{
+    "name": "Glowsword",
+    "type_name": "weapon",
+    "layer_1": {
+        "male": "weapon/sword/glowsword/",
+        "female": "weapon/sword/glowsword/"
+    },
+    "layer_2": {
+        "male": "weapon/sword/glowsword/universal_behind/",
+        "female": "weapon/sword/glowsword/universal_behind/"
+    },
+    "layer_3": {
+        "male": "weapon/sword/glowsword/attack_slash/behind/",
+        "female": "weapon/sword/glowsword/attack_slash/behind/"
+    },
+    "layer_4": {
+        "male": "weapon/sword/glowsword/attack_slash/",
+        "female": "weapon/sword/glowsword/attack_slash/"
+    },
+    "variants": [
+        {
+            "name": "blue",
+            "full_name": "Azure Radiance Glowsword",
+            "description": "The Azure Radiance Glowsword is a weapon of celestial origins, imbued with the ethereal glow of a fallen star. Its blade hums softly, resonating with the user's heartbeat. Legends speak of this sword being a gift from the 'Order of the Shining Dawn,' an ancient order of lightbearers who walked the realms to purge darkness. Each swing leaves a faint trail of shimmering blue light, and in moments of peril, the glow intensifies, guiding its wielder through even the darkest abyss.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "weapon/sword/glowsword/icon/blue_icon.png"
+        },
+        {
+            "name": "red",
+            "full_name": "Crimson Eclipse Glowsword",
+            "description": "Forged in the flames of a dying sun, the Crimson Eclipse Glowsword radiates an intense crimson glow. It is said that the sword's core holds a fragment of the last ember from an ancient star. The wielder of this blade becomes a beacon of power and destruction, their every strike erupting with flashes of burning red light. As the glow intensifies in battle, foes are blinded by the brilliance of a miniature eclipse, leaving them vulnerable to a final, decisive blow.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "weapon/sword/glowsword/icon/red_icon.png"
+        }
+    ]
+}

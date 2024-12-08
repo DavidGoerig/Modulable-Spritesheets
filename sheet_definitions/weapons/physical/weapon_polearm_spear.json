@@ -1,0 +1,124 @@
+{
+    "name": "Spear",
+    "type_name": "weapon",
+    "preview_row": 11,
+    "preview_column": 0,
+    "layer_1": {
+        "male": "weapon/polearm/spear/foreground/",
+        "female": "weapon/polearm/spear/foreground/"
+    },
+    "layer_2": {
+        "male": "weapon/polearm/spear/background/",
+        "female": "weapon/polearm/spear/background/"
+    },
+    "variants": [
+        {
+            "name": "medium",
+            "full_name": "Spear of the Balanced Current",
+            "description": "Forged in the Temple of the Seven Streams, this spear is perfectly balanced, allowing for precision strikes and swift recoveries. It was wielded by **Aenid the Streamwalker**, a warrior who danced across riverbeds without disturbing the water's surface.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "weapon/polearm/spear/icon/medium_icon.png"
+        },
+        {
+            "name": "light",
+            "full_name": "Feathered Lance",
+            "description": "Crafted from enchanted willowwood and tipped with a razor-sharp feather of the **Sky Drake**, this spear is as light as air. Warriors of the **Cloudspire Order** wield it to leap and strike from above.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "weapon/polearm/spear/icon/light_icon.png"
+        },
+        {
+            "name": "red",
+            "full_name": "Flamefang",
+            "description": "This spear burns with an eternal flame. Its molten tip leaves searing wounds that cannot be extinguished by water. Forged by **Azarok, the Forgefather**, it is said to have been dipped into the heart of a volcano.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "weapon/polearm/spear/icon/red_icon.png"
+        },
+        {
+            "name": "dark",
+            "full_name": "Nightpiercer",
+            "description": "Born from the shadows of the **Obsidian Veil**, this spear grants its wielder the ability to become unseen in darkness. **Zyra the Shadowbound** once used it to hunt foes under the cover of the new moon.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "weapon/polearm/spear/icon/dark_icon.png"
+        },
+        {
+            "name": "brass",
+            "full_name": "Herald's Pike",
+            "description": "Brass bells hang from its shaft, ringing with every thrust. The sound signals the approach of the **Golden Legion**, instilling fear in their enemies. **Marshal Elgras** carried this pike into battle during the **War of Broken Shields**.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "weapon/polearm/spear/icon/brass_icon.png"
+        },
+        {
+            "name": "bronze",
+            "full_name": "Spear of Verdant Reach",
+            "description": "Enchanted by **Feral Druids** of the **Emerald Grove**, this bronze-tipped spear sprouts vines upon striking. It is used to ensnare prey and choke out intruders in sacred forests.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "weapon/polearm/spear/icon/bronze_icon.png"
+        },
+        {
+            "name": "ceramic",
+            "full_name": "Frostbite Pike",
+            "description": "This ceramic spear is forged in the frigid forges of **Frostpeak Spire**. Its enchanted core keeps the spearhead frozen solid, causing frostbite with every cut. **Hjorvald the Winterborn** is known to wield one in his raids.",
+            "spell": 1,
+            "rare": 1,
+            "element": "GLACE",
+            "icon_path": "weapon/polearm/spear/icon/ceramic_icon.png"
+        },
+        {
+            "name": "copper",
+            "full_name": "Spear of the Stormcaller",
+            "description": "The copper veins running along its shaft attract lightning from the skies. **Zalthra of the Tempest Spire** wielded it during the **Great Storm Siege**, summoning bolts of lightning to smite her enemies.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ELECTRIC",
+            "icon_path": "weapon/polearm/spear/icon/copper_icon.png"
+        },
+        {
+            "name": "gold",
+            "full_name": "Spear of the Sunlit Spearhead",
+            "description": "The golden head of this spear reflects sunlight so intensely that it blinds enemies. **The Sunward King** was said to wield it in battles fought at dawn, using the rising sun to his advantage.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "weapon/polearm/spear/icon/gold_icon.png"
+        },
+        {
+            "name": "iron",
+            "full_name": "Steelpoint Javelin",
+            "description": "A rugged spear used by foot soldiers, built to endure the wear and tear of long campaigns. It is said that **General Kaeliron** led his entire legion armed with only iron javelins and triumphed over overwhelming odds.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ACIER",
+            "icon_path": "weapon/polearm/spear/icon/iron_icon.png"
+        },
+        {
+            "name": "silver",
+            "full_name": "Moonlit Harpoon",
+            "description": "This silver-tipped spear is wielded by the **Deepsea Wardens**. Its reflective sheen guides hunters under the pale light of the moon. It is believed to be enchanted by **Selora, Goddess of the Tides**.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "weapon/polearm/spear/icon/silver_icon.png"
+        },
+        {
+            "name": "steel",
+            "full_name": "The Ironbrand",
+            "description": "A spear known for its deadly precision, forged in the **Ironbrand Forge**. Its head retains the mark of its creator, **Kholgar the Steelwright**, who imbued it with unyielding durability.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ACIER",
+            "icon_path": "weapon/polearm/spear/icon/steel_icon.png"
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "name": "Slingshot",
+    "type_name": "weapon",
+    "layer_1": {
+        "male": "weapon/ranged/slingshot/foreground/",
+        "female": "weapon/ranged/slingshot/foreground/"
+    },
+    "layer_2": {
+        "male": "weapon/ranged/slingshot/background/",
+        "female": "weapon/ranged/slingshot/background/"
+    },
+    "variants": [
+        {
+            "name": "slingshot",
+            "full_name": "Wildbranch Slingshot",
+            "description": "The Wildbranch Slingshot is a mischievous creation of the forest folk, crafted from the twisted branches of the Elderwood Grove. Its frame pulses faintly with the life force of the tree it was taken from, and its elastic vine string never loses its tension. Used by goblins, sprites, and clever children, it is said that the spirit of the Elderwood watches over those who wield it, guiding each stone to its mark with uncanny precision. Under the right conditions, its shots can even sprout small seedlings on impact.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "weapon/ranged/slingshot/icon/slingshot_icon.png"
+        }
+    ]
+}

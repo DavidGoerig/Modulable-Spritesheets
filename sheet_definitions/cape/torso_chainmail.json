@@ -1,0 +1,19 @@
+{
+    "name": "Chainmail",
+    "type_name": "chainmail",
+    "layer_1": {
+        "male": "torso/chainmail/male/",
+        "female": "torso/chainmail/female/"
+    },
+    "variants": [
+        {
+            "name": "gray",
+            "full_name": "Graysteel Chainmail",
+            "description": "Crafted by the master **blacksmith Orlag the Steadfast**, the Graysteel Chainmail is known for its remarkable balance of durability and flexibility. Forged from enchanted graysteel, this armor is said to contain traces of the essence of **TENEBRE**, offering subtle protection from shadow-infused attacks. Legends tell of it being worn by the human knight **Sir Eadric the Veiled**, a warrior of the Obsidian Order who once traversed the **Shadewood Hollow**, where light was scarce and darkness reigned supreme. The chainmail absorbed the whispers of the forest, and its wearer was never caught unaware.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "torso/chainmail/icon/graysteel_icon.png"
+        }
+    ]
+}

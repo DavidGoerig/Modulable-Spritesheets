@@ -1,0 +1,317 @@
+{
+    "name": "Gloves",
+    "type_name": "gloves",
+    "layer_1": {
+        "male": "arms/gloves/male/",
+        "female": "arms/gloves/female/"
+    },
+    "variants": [
+        {
+            "name": "brass",
+            "full_name": "Brass Gauntlets of the Bold",
+            "description": "These gauntlets emit a soft glow, said to embolden the heart of the wearer, reminiscent of the bravery shown by knights in countless tales.",
+            "spell": 1,
+            "rare": 1,
+            "element": "COMBAT",
+            "icon_path": "arms/gloves/male/brass_icon.png"
+        },
+        {
+            "name": "bronze",
+            "full_name": "Bronze Gauntlets of the Ancient Protector",
+            "description": "Etched with timeless runes, these gauntlets grant the wisdom of ancient protectors, providing both defense and ancient knowledge.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "arms/gloves/male/bronze_icon.png"
+        },
+        {
+            "name": "ceramic",
+            "full_name": "Ceramic Cuffs of the Silent Step",
+            "description": "Favored by elven scouts, these light ceramic cuffs enhance stealth and agility, perfect for silent maneuvers.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "arms/gloves/male/ceramic_icon.png"
+        },
+        {
+            "name": "copper",
+            "full_name": "Copper Vambraces of the Stormcaller",
+            "description": "These copper vambraces crackle with stored electrical energy, occasionally sparking with the raw power of a tempest.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ELECTRIC",
+            "icon_path": "arms/gloves/male/copper_icon.png"
+        },
+        {
+            "name": "gold",
+            "full_name": "Golden Gloves of the Sun Warrior",
+            "description": "Radiating a warm, golden light, these gloves are said to contain the very essence of the sun, empowering the wearer with unmatched vitality.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "arms/gloves/male/gold_icon.png"
+        },
+        {
+            "name": "iron",
+            "full_name": "Iron Bindings of the Minotaur",
+            "description": "Thick and almost impenetrable, these iron gloves offer incredible protection and augment the wearer's physical strength, akin to that of a minotaur.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "arms/gloves/male/iron_icon.png"
+        },
+        {
+            "name": "silver",
+            "full_name": "Silver Wristguards of the Moonlit Walker",
+            "description": "These shimmering silver wristguards grant the wearer enhanced night vision and agility, ideal for movements shrouded in darkness.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "arms/gloves/male/silver_icon.png"
+        },
+        {
+            "name": "steel",
+            "full_name": "Steel Gloves of the Orcish Guard",
+            "description": "Made from the finest orc-forged steel, these gloves are nearly indestructible, providing superb protection in combat.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ACIER",
+            "icon_path": "arms/gloves/male/steel_icon.png"
+        },
+        {
+            "name": "black",
+            "full_name": "Black Gloves of the Shadow",
+            "description": "These dark gloves are favored by thieves and assassins, blending perfectly with the shadows to render the wearer nearly invisible.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "arms/gloves/male/black_icon.png"
+        },
+        {
+            "name": "blue",
+            "full_name": "Blue Gloves of the Deep Waters",
+            "description": "Infused with the essence of ocean depths, these blue gloves allow the wearer to manipulate water, granting abilities akin to those of aquatic creatures.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "arms/gloves/male/blue_icon.png"
+        },
+        {
+            "name": "bluegray",
+            "full_name": "Bluegray Gloves of the Stormy Skies",
+            "description": "These gloves resonate with the power of stormy skies, occasionally sparking with static energy, enhancing electrical attacks.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ELECTRIC",
+            "icon_path": "arms/gloves/male/bluegray_icon.png"
+        },
+        {
+            "name": "brown",
+            "full_name": "Brown Leather Gloves of the Earth",
+            "description": "Crafted from thick, durable leather, these brown gloves provide resilience and a natural connection to the earth, enhancing earth-related abilities.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "arms/gloves/male/brown_icon.png"
+        },
+        {
+            "name": "charcoal",
+            "full_name": "Charcoal Gloves of the Smoldering Fire",
+            "description": "These gloves are imbued with a smoldering fire, providing warmth and protection, and can ignite flammable materials with a touch.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "arms/gloves/male/charcoal_icon.png"
+        },
+        {
+            "name": "forest",
+            "full_name": "Forest Gloves of the Woodland Ranger",
+            "description": "These gloves are made from materials harvested from the deepest woods, providing camouflage and an affinity with forest creatures.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "arms/gloves/male/forest_icon.png"
+        },
+        {
+            "name": "gray",
+            "full_name": "Gray Gloves of the Mist",
+            "description": "These gloves are cloaked in an ever-present mist, obscuring the wearer's hands and confusing their foes, perfect for deception.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "arms/gloves/male/gray_icon.png"
+        },
+        {
+            "name": "green",
+            "full_name": "Green Gloves of the Forest Guardian",
+            "description": "Enchanted with the vitality of the green forests, these gloves can accelerate the growth of plants and heal minor wounds.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "arms/gloves/male/green_icon.png"
+        },
+        {
+            "name": "lavender",
+            "full_name": "Lavender Gloves of the Healer",
+            "description": "These delicately scented gloves enhance the wearer's healing abilities, often used by clerics and healers in sacred rituals.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "arms/gloves/male/lavender_icon.png"
+        },
+        {
+            "name": "leather",
+            "full_name": "Leather Gloves of the Prowler",
+            "description": "Crafted from supple leather, these gloves provide the perfect balance of flexibility and protection, ideal for stealthy movements.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "arms/gloves/male/leather_icon.png"
+        },
+        {
+            "name": "maroon",
+            "full_name": "Maroon Gloves of the Warlord",
+            "description": "Dyed in the blood of fallen foes, these maroon gloves are a symbol of power and authority, often worn by feared warlords.",
+            "spell": 1,
+            "rare": 1,
+            "element": "COMBAT",
+            "icon_path": "arms/gloves/male/maroon_icon.png"
+        },
+        {
+            "name": "navy",
+            "full_name": "Navy Gloves of the Ocean's Commander",
+            "description": "These deep blue gloves carry the calm of the ocean, providing strategic insights and a command over sea creatures.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "arms/gloves/male/navy_icon.png"
+        },
+        {
+            "name": "orange",
+            "full_name": "Orange Gloves of the Blazing Sun",
+            "description": "Bright as the midday sun, these gloves imbue the wearer with fiery energy, enhancing stamina and heat resistance.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "arms/gloves/male/orange_icon.png"
+        },
+        {
+            "name": "pink",
+            "full_name": "Pink Gloves of the Enchanter",
+            "description": "These charming pink gloves are imbued with enchanting powers, making them a favorite among mages for casting complex spells.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "arms/gloves/male/pink_icon.png"
+        },
+        {
+            "name": "purple",
+            "full_name": "Purple Gloves of the Mystic",
+            "description": "Shrouded in mystery, these purple gloves are said to enhance magical abilities and are sought after by sorcerers and mystics.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "arms/gloves/male/purple_icon.png"
+        },
+        {
+            "name": "red",
+            "full_name": "Red Gloves of the Flame Dancer",
+            "description": "These vibrant red gloves can summon and manipulate fire, dancing with flames as if part of a fiery ballet.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "arms/gloves/male/red_icon.png"
+        },
+        {
+            "name": "rose",
+            "full_name": "Rose Gloves of the Gentle Touch",
+            "description": "Infused with the gentle essence of roses, these gloves are known to soothe pain and calm the spirit, beloved by healers and peacemakers.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "arms/gloves/male/rose_icon.png"
+        },
+        {
+            "name": "sky",
+            "full_name": "Sky Gloves of the High Winds",
+            "description": "These light blue gloves are as light as the sky itself, allowing the wearer to move with the speed and grace of the wind.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ELECTRIC",
+            "icon_path": "arms/gloves/male/sky_icon.png"
+        },
+        {
+            "name": "slate",
+            "full_name": "Slate Gloves of the Mountain",
+            "description": "Crafted from the rocks of the highest peaks, these slate gloves grant incredible strength and resilience, echoing the unyielding spirit of the mountains.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "arms/gloves/male/slate_icon.png"
+        },
+        {
+            "name": "tan",
+            "full_name": "Tan Gloves of the Desert Nomad",
+            "description": "These sand-colored gloves are designed for survival in harsh desert climates, providing resistance to extreme heat and aiding in sand navigation.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "arms/gloves/male/tan_icon.png"
+        },
+        {
+            "name": "teal",
+            "full_name": "Teal Gloves of the Riverwalker",
+            "description": "Merging the hues of green and blue, these gloves allow the wearer to tread on water as if walking on land, harnessing the fluidity of rivers.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "arms/gloves/male/teal_icon.png"
+        },
+        {
+            "name": "walnut",
+            "full_name": "Walnut Gloves of the Forest Forger",
+            "description": "These sturdy gloves, crafted from walnut wood, provide exceptional protection and a deep connection to the forest, enhancing woodworking and crafting skills.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "arms/gloves/male/walnut_icon.png"
+        },
+        {
+            "name": "white",
+            "full_name": "White Gloves of the Frost Guardian",
+            "description": "These pristine white gloves are imbued with the power of ice, capable of freezing objects with a mere touch, guarding against the harshest of winters.",
+            "spell": 1,
+            "rare": 1,
+            "element": "GLACE",
+            "icon_path": "arms/gloves/male/white_icon.png"
+        },
+        {
+            "name": "yellow",
+            "full_name": "Yellow Gloves of the Lightning Hand",
+            "description": "These bright yellow gloves crackle with electrical energy, empowering the wearer to harness and wield bolts of lightning.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ELECTRIC",
+            "icon_path": "arms/gloves/male/yellow_icon.png"
+        }
+    ],
+    "animations": [
+        "spellcast",
+        "thrust",
+        "walk",
+        "slash",
+        "shoot",
+        "hurt",
+        "watering",
+        "idle",
+        "jump",
+        "run",
+        "sit",
+        "emote",
+        "climb",
+        "combat",
+        "1h_slash",
+        "1h_bgslash",
+        "1h_halfslash"
+    ]
+}

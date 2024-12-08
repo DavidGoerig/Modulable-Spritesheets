@@ -1,0 +1,32 @@
+{
+    "name": "Basket",
+    "type_name": "backpack",
+    "layer_1": {
+        "male": "backpack/basket/fg/",
+        "female": "backpack/basket/fg/"
+    },
+    "layer_2": {
+        "male": "backpack/basket/bg/",
+        "female": "backpack/basket/bg/"
+    },
+    "variants": [
+        {
+            "name": "round",
+            "full_name": "Round Harvest Basket",
+            "description": "This beautifully woven round basket is a traditional tool for gathering herbs and flowers. It is said to be enchanted to keep its contents fresh and vibrant, as if just picked from the earth.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "backpack/basket/fg/round_icon.png"
+        },
+        {
+            "name": "square",
+            "full_name": "Square Gatherer's Basket",
+            "description": "The square basket, with its sturdy build and magical enhancements, is perfect for collecting rare minerals and crystals. Its spells protect against the weight and sharp edges of the gathered treasures.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "backpack/basket/fg/square_icon.png"
+        }
+    ]
+}

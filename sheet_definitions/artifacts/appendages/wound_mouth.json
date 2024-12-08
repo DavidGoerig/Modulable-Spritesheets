@@ -1,0 +1,19 @@
+{
+    "name": "Mouth",
+    "type_name": "wound_mouth",
+    "layer_1": {
+        "male": "body/wound/",
+        "female": "body/wound/"
+    },
+    "variants": [
+        {
+            "name": "mouth",
+            "full_name": "Cursed Silence Mouth",
+            "description": "The Cursed Silence Mouth wound is a haunting remnant from a sorcerer's duel gone awry. The bearer of this wound was once a boastful mage who dared to challenge a witch renowned for her mastery of silencing spells. During their fateful encounter, the witch cursed the mage's mouth, sealing his ability to speak or cast spells with his voice. This scar is not only a physical wound but also a mark of his eternal silence, serving as a stark reminder of the price of arrogance and the power of words left unspoken.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "body/wound/mouth_icon.png"
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "name": "Longsword Alt",
+    "type_name": "weapon",
+    "layer_1": {
+        "male": "weapon/sword/longsword_alt/walk/",
+        "female": "weapon/sword/longsword_alt/walk/"
+    },
+    "layer_2": {
+        "male": "weapon/sword/longsword_alt/walk/behind/",
+        "female": "weapon/sword/longsword_alt/walk/behind/"
+    },
+    "layer_3": {
+        "male": "weapon/sword/longsword_alt/slash/",
+        "female": "weapon/sword/longsword_alt/slash/"
+    },
+    "layer_4": {
+        "male": "weapon/sword/longsword_alt/slash/behind/",
+        "female": "weapon/sword/longsword_alt/slash/behind/"
+    },
+    "variants": [
+        {
+            "name": "longsword_alt",
+            "full_name": "Eclipse Fang Longsword",
+            "description": "Forged in the depths of the Abyssal Forge, the Eclipse Fang Longsword is a weapon feared by kings and warlords alike. Its obsidian-black blade absorbs surrounding light, casting an eerie darkness wherever it is drawn. They say the sword is cursed with the essence of a betrayed general, his soul now bound within the steel. Each swing echoes his vengeful wail, and in the dead of night, the blade’s edge becomes nearly invisible, allowing its wielder to strike unseen. The longer it remains unsheathed, the colder the air grows, as if the shadows themselves are answering its call.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "weapon/sword/longsword_alt/icon/longsword_alt_icon.png"
+        }
+    ]
+}

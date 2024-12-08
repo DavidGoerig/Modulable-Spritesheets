@@ -1,0 +1,19 @@
+{
+    "name": "Brain",
+    "type_name": "wound_brain",
+    "layer_1": {
+        "male": "body/wound/",
+        "female": "body/wound/"
+    },
+    "variants": [
+        {
+            "name": "brain",
+            "full_name": "Mind's Eclipse Wound",
+            "description": "The Mind's Eclipse Wound is a grim souvenir from a battle between two powerful psychomancers. During a duel that shook the very fabric of reality, one combatant managed to penetrate the mental defenses of the other, causing a cerebral wound that not only impaired cognitive functions but also unleashed chaotic psychic abilities. This wound pulses with a dark energy, occasionally emanating whispers of thoughts that were never meant to be heard. It serves as a potent reminder of the dangers inherent in wielding mind-altering powers without restraint.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "body/wound/brain_icon.png"
+        }
+    ]
+}

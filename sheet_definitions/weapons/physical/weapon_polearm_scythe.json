@@ -1,0 +1,35 @@
+{
+    "name": "Scythe",
+    "type_name": "weapon",
+    "preview_row": 0,
+    "preview_column": 0,
+    "preview_x_offset": 11,
+    "preview_y_offset": 716,
+    "layer_1": {
+        "male": "weapon/polearm/scythe/",
+        "female": "weapon/polearm/scythe/"
+    },
+    "layer_2": {
+        "male": "weapon/polearm/scythe/universal_behind/",
+        "female": "weapon/polearm/scythe/universal_behind/"
+    },
+    "layer_3": {
+        "male": "weapon/polearm/scythe/attack_slash/behind/",
+        "female": "weapon/polearm/scythe/attack_slash/behind/"
+    },
+    "layer_4": {
+        "male": "weapon/polearm/scythe/attack_slash/",
+        "female": "weapon/polearm/scythe/attack_slash/"
+    },
+    "variants": [
+        {
+            "name": "scythe",
+            "full_name": "Soulreaper's Scythe",
+            "description": "The legendary weapon of **Ruvok, the Ferryman of the Lost**, this scythe is said to harvest not just grain, but the very essence of souls. Its curved blade glows faintly in the presence of lingering spirits, and those struck by it are said to hear the distant whispers of the **Eternal Chorus**. It is bound to the element of **TENEBRE**, drawing strength from the shadows of the unseen realm.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "weapon/polearm/scythe/icon/scythe_icon.png"
+        }
+    ]
+}

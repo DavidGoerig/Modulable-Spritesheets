@@ -1,0 +1,31 @@
+{
+    "name": "Saber",
+    "type_name": "weapon",
+    "layer_1": {
+        "male": "weapon/sword/saber/",
+        "female": "weapon/sword/saber/"
+    },
+    "layer_2": {
+        "male": "weapon/sword/saber/universal_behind/",
+        "female": "weapon/sword/saber/universal_behind/"
+    },
+    "layer_3": {
+        "male": "weapon/sword/saber/attack_slash/behind/",
+        "female": "weapon/sword/saber/attack_slash/behind/"
+    },
+    "layer_4": {
+        "male": "weapon/sword/saber/attack_slash/",
+        "female": "weapon/sword/saber/attack_slash/"
+    },
+    "variants": [
+        {
+            "name": "saber",
+            "full_name": "Frostbite Saber",
+            "description": "The Frostbite Saber is forged from a mythical steel found deep within the northern ice fields. This saber is renowned for its ability to channel the biting cold of the arctic winds, freezing the air around its blade as it slices through enemies. Legend has it that the saber was once wielded by a knight who roamed the frost-covered wastelands, vanquishing foes with gusts of icy wind so cold that they could shatter steel.",
+            "spell": 1,
+            "rare": 1,
+            "element": "GLACE",
+            "icon_path": "weapon/sword/saber/icon/saber_icon.png"
+        }
+    ]
+}

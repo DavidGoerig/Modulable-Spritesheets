@@ -1,0 +1,134 @@
+{
+    "name": "Trident",
+    "type_name": "weapon",
+    "preview_row": 0,
+    "preview_column": 0,
+    "preview_x_offset": 9,
+    "preview_y_offset": 38,
+    "layer_1": {
+        "male": "weapon/polearm/trident/walk/foreground/",
+        "female": "weapon/polearm/trident/walk/foreground/"
+    },
+    "layer_2": {
+        "male": "weapon/polearm/trident/walk/background/",
+        "female": "weapon/polearm/trident/walk/background/"
+    },
+    "layer_3": {
+        "male": "weapon/polearm/trident/thrust/foreground/",
+        "female": "weapon/polearm/trident/thrust/foreground/"
+    },
+    "layer_4": {
+        "male": "weapon/polearm/trident/thrust/background/",
+        "female": "weapon/polearm/trident/thrust/background/"
+    },
+    "variants": [
+        {
+            "name": "medium",
+            "full_name": "The Sea Piercer",
+            "description": "Forged in the depths of **Azure Abyss**, this trident is favored by sea-born warriors. Its balanced design offers equal precision in thrusts and parries. Legends say it was wielded by **Captain Velsar, the Wavebreaker**, who defeated the Leviathan of Tidefall with a single strike.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "weapon/polearm/trident/icon/medium_icon.png"
+        },
+        {
+            "name": "light",
+            "full_name": "Moonlit Trident",
+            "description": "This trident glows faintly with an ethereal silver-blue light under moonlight. It is said that **Nirae, the Tidecaller**, summoned this weapon from the heart of the moonlit sea to guard her against sea phantoms.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "weapon/polearm/trident/icon/light_icon.png"
+        },
+        {
+            "name": "red",
+            "full_name": "Crimson Tide",
+            "description": "Forged in volcanic magma and cooled in boiling blood, this trident burns with the rage of a thousand battles. Its points drip with the essence of fire, igniting enemies with every strike. **Zor’Kal the Inferno**, a fire-born orc champion, was its first wielder.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "weapon/polearm/trident/icon/red_icon.png"
+        },
+        {
+            "name": "dark",
+            "full_name": "Shadowspike",
+            "description": "Crafted from obsidian dredged from the **Depths of Gloomwater**, the Shadowspike absorbs light and sound alike. It is known to appear in the hands of the **Phantom of the Abyss**, a ghostly warrior seen at the edge of sailors' nightmares.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "weapon/polearm/trident/icon/dark_icon.png"
+        },
+        {
+            "name": "brass",
+            "full_name": "Gilded Spear of Valor",
+            "description": "This ceremonial trident is crafted from burnished brass, polished to a blinding shine. It is a symbol of valor awarded to warriors who defend coastal strongholds. **Commander Lior of Seawatch** bore this weapon during the Siege of Tidemarch.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "weapon/polearm/trident/icon/brass_icon.png"
+        },
+        {
+            "name": "bronze",
+            "full_name": "Trident of the Wild Current",
+            "description": "This bronze trident hums with the pulse of untamed waters. It channels the unpredictable nature of ocean currents, making its wielder as swift as a tide. It was entrusted to **Sylva the Sea Druid**, a protector of aquatic sanctuaries.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "weapon/polearm/trident/icon/bronze_icon.png"
+        },
+        {
+            "name": "ceramic",
+            "full_name": "Frozen Tines",
+            "description": "Shaped from frost-forged ceramic, this trident is permanently chilled. Each strike leaves frostbitten wounds, and the chill lingers long after the battle. The Frostfang Tribes use it to hunt sea monsters that dwell under glacial shelves.",
+            "spell": 1,
+            "rare": 1,
+            "element": "GLACE",
+            "icon_path": "weapon/polearm/trident/icon/ceramic_icon.png"
+        },
+        {
+            "name": "copper",
+            "full_name": "Stormcaller’s Fork",
+            "description": "Copper filaments run along the prongs, attracting static energy. Thunderclouds gather when this trident is raised, and lightning arcs down to its wielder. **Zara the Tempest-Touched** wielded it to channel the fury of storms upon her enemies.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ELECTRIC",
+            "icon_path": "weapon/polearm/trident/icon/copper_icon.png"
+        },
+        {
+            "name": "gold",
+            "full_name": "Triton’s Glory",
+            "description": "This ornate trident, made of gold tempered by seafoam, shines with the authority of kings. It is carried only by the rulers of **The Sunken Kingdom**, where it serves as both a weapon and a symbol of divine right.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "weapon/polearm/trident/icon/gold_icon.png"
+        },
+        {
+            "name": "iron",
+            "full_name": "Harbinger of Woe",
+            "description": "An iron trident designed for war, heavy and uncompromising. It is a soldier's weapon, sturdy and dependable. Wielded by the **Iron Vanguard**, it symbolizes unyielding strength and enduring perseverance on the battlefield.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ACIER",
+            "icon_path": "weapon/polearm/trident/icon/iron_icon.png"
+        },
+        {
+            "name": "silver",
+            "full_name": "Moonspire Trident",
+            "description": "The Moonspire Trident is said to be blessed by the sea goddess **Selora**, shimmering like liquid moonlight. It calls forth waves of seawater upon impact, engulfing foes in crashing tides.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "weapon/polearm/trident/icon/silver_icon.png"
+        },
+        {
+            "name": "steel",
+            "full_name": "Ironshore Trident",
+            "description": "The Ironshore Trident is crafted from steel extracted from shipwrecks. Every inch of it is honed to perfection, its points as sharp as harpoons. It is wielded by **Admiral Dren of the Wrecked Fleet**, who vowed to never be shipwrecked again.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ACIER",
+            "icon_path": "weapon/polearm/trident/icon/steel_icon.png"
+        }
+    ]
+}

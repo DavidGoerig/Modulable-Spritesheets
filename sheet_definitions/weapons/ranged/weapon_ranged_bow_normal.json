@@ -1,0 +1,131 @@
+{
+    "name": "Normal",
+    "type_name": "weapon",
+    "preview_row": 17,
+    "layer_1": {
+        "male": "weapon/ranged/bow/normal/universal/background/",
+        "female": "weapon/ranged/bow/normal/universal/background/"
+    },
+    "layer_2": {
+        "male": "weapon/ranged/bow/normal/universal/foreground/",
+        "female": "weapon/ranged/bow/normal/universal/foreground/"
+    },
+    "layer_3": {
+        "male": "weapon/ranged/bow/normal/walk/background/",
+        "female": "weapon/ranged/bow/normal/walk/background/"
+    },
+    "layer_4": {
+        "male": "weapon/ranged/bow/normal/walk/foreground/",
+        "female": "weapon/ranged/bow/normal/walk/foreground/"
+    },
+    "variants": [
+        {
+            "name": "light",
+            "full_name": "Radiant Bow",
+            "description": "Crafted from blessed silverwood, the Radiant Bow glows faintly in the presence of darkness. Its arrows burn with the power of pure light, said to be favored by knights of the Celestial Order. Each shot leaves behind a luminous streak, and creatures of darkness flee before its brilliance.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "weapon/ranged/bow/normal/icon/light_icon.png"
+        },
+        {
+            "name": "medium",
+            "full_name": "Plainstrider Bow",
+            "description": "This bow is simple but reliable, made from supple ash wood and strong sinew. Used by hunters and soldiers alike, it has no enchantments or magical qualities. It embodies precision, balance, and control. The Plainstrider Bow is a symbol of the unyielding perseverance of mortal archers.",
+            "spell": 1,
+            "rare": 1,
+            "element": "NORMAL",
+            "icon_path": "weapon/ranged/bow/normal/icon/medium_icon.png"
+        },
+        {
+            "name": "red",
+            "full_name": "Inferno Bow",
+            "description": "This bow is infused with the essence of fire from the Emberheart Forge. Flames dance along its limbs, and each arrow ignites upon release. Said to be wielded by the fire shaman **Grekka the Scorched**, the Inferno Bow is a weapon of pure destruction, reducing its enemies to ash.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "weapon/ranged/bow/normal/icon/red_icon.png"
+        },
+        {
+            "name": "dark",
+            "full_name": "Shadowclaw Bow",
+            "description": "Crafted from wood harvested from the Shadowroot Tree, this bow radiates an eerie presence. Arrows fired from it become silent and undetectable, as if they are shadows themselves. It is often used by night-stalkers, assassins, and shadow-born hunters. It is said that each arrow whispers the names of those it will strike.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "weapon/ranged/bow/normal/icon/dark_icon.png"
+        },
+        {
+            "name": "brass",
+            "full_name": "Herald’s Oath",
+            "description": "A ceremonial bow made of polished brass, used in rites of passage and duels of honor. While ceremonial, the Herald's Oath remains deadly accurate in battle. Each bow is blessed by a High Judge, and breaking an oath sworn on it is said to curse the wielder forever with misfortune.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "weapon/ranged/bow/normal/icon/brass_icon.png"
+        },
+        {
+            "name": "bronze",
+            "full_name": "Thornbound Bow",
+            "description": "A bow crafted from ancient, twisted roots imbued with the essence of wild forests. When drawn, the air is filled with the fresh scent of soil and moss. Upon impact, arrows sprout thorny vines that ensnare the target. Druids believe this bow is a gift from the Wildfather himself.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "weapon/ranged/bow/normal/icon/bronze_icon.png"
+        },
+        {
+            "name": "ceramic",
+            "full_name": "Glacier Bow",
+            "description": "Forged from enchanted ceramic frozen within the depths of the Frostvault Caverns, this bow is as cold as the tundra. Its arrows freeze the air as they fly, and enemies struck by them are encased in ice. Legend has it that only those with hearts of frost can wield the Glacier Bow without succumbing to its chill.",
+            "spell": 1,
+            "rare": 1,
+            "element": "GLACE",
+            "icon_path": "weapon/ranged/bow/normal/icon/ceramic_icon.png"
+        },
+        {
+            "name": "copper",
+            "full_name": "Tempest Bow",
+            "description": "Made with copper inlays to channel electricity, the Tempest Bow crackles with static energy. When drawn, sparks leap from the bowstring, and critical shots are followed by bolts of lightning that arc toward nearby enemies. It was first wielded by **Zora Stormcaller**, a warrior known for summoning tempests in battle.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ELECTRIC",
+            "icon_path": "weapon/ranged/bow/normal/icon/copper_icon.png"
+        },
+        {
+            "name": "gold",
+            "full_name": "Sunpiercer Bow",
+            "description": "Forged from molten gold and tempered in sacred flames, this bow shines with radiant light. Arrows fired from it glow with the brilliance of the sun, searing the shadows from any battlefield. The Sunpiercer is said to have been crafted by the **Golden Forger**, a master blacksmith blessed by the Sun King.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "weapon/ranged/bow/normal/icon/gold_icon.png"
+        },
+        {
+            "name": "iron",
+            "full_name": "Fortress Bow",
+            "description": "An ironclad bow built to withstand the harshest sieges. It is favored by castle guards and stronghold defenders. Known for its durability, the Fortress Bow can be used as both a weapon and a shield. It is said that no archer using this bow has ever fled a siege.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ACIER",
+            "icon_path": "weapon/ranged/bow/normal/icon/iron_icon.png"
+        },
+        {
+            "name": "silver",
+            "full_name": "Moonveil Bow",
+            "description": "Bathe in moonlight, the Moonveil Bow reflects the serene glow of the night sky. Arrows fired from this bow shimmer with ethereal brilliance, like falling stars. Used by elven rangers of the Moonlit Glen, it is said to be blessed by **Selara**, the Moon's Daughter.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "weapon/ranged/bow/normal/icon/silver_icon.png"
+        },
+        {
+            "name": "steel",
+            "full_name": "Wardbow",
+            "description": "Forged by the masters of the **Steelforge Bastion**, the Wardbow is a paragon of precision and strength. Its steel limbs give it unmatched draw power, making each arrow hit like a ballista. Warriors on the frontlines of battle call it 'The Last Argument' because its arrows end disputes quickly.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ACIER",
+            "icon_path": "weapon/ranged/bow/normal/icon/steel_icon.png"
+        }
+    ]
+}

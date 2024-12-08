@@ -1,0 +1,23 @@
+{
+    "name": "Crossbow",
+    "type_name": "weapon",
+    "layer_1": {
+        "male": "weapon/ranged/crossbow/background/",
+        "female": "weapon/ranged/crossbow/background/"
+    },
+    "layer_2": {
+        "male": "weapon/ranged/crossbow/foreground/",
+        "female": "weapon/ranged/crossbow/foreground/"
+    },
+    "variants": [
+        {
+            "name": "crossbow",
+            "full_name": "Ironbolt Crossbow",
+            "description": "The Ironbolt Crossbow is a marvel of engineering precision and lethal intent. Built with reinforced steel arms and a tightly wound sinew drawstring, this crossbow is capable of launching bolts with devastating force. Forged in the Ironclad Foundry, each crossbow is personally inspected by master craftsmen to ensure it can withstand the rigors of war. Rumors speak of a master sniper named Korran Ironbolt, who could pin a fly to a tree from 300 paces. It is said that his spirit guides every bolt fired from a crossbow bearing his name.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ACIER",
+            "icon_path": "weapon/ranged/crossbow/icon/crossbow_icon.png"
+        }
+    ]
+}

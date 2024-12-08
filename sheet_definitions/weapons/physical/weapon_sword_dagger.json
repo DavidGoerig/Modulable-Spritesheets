@@ -1,0 +1,23 @@
+{
+    "name": "Dagger",
+    "type_name": "weapon",
+    "layer_1": {
+        "male": "weapon/sword/dagger/",
+        "female": "weapon/sword/dagger/"
+    },
+    "layer_2": {
+        "male": "weapon/sword/dagger/behind/",
+        "female": "weapon/sword/dagger/behind/"
+    },
+    "variants": [
+        {
+            "name": "dagger",
+            "full_name": "Venomfang Dagger",
+            "description": "The Venomfang Dagger is as deadly as it is silent. Coated in an alchemical poison that never dries, its green-tinted blade carries the sting of a thousand venomous creatures. Assassins whisper the name of this blade with reverence, for a single nick from its edge is said to bring about a slow, paralyzing death. Forged in the lair of a giant serpent, the dagger's handle is adorned with fangs from the beast itself, and it is rumored that those who wield it can feel the serpent's cold hiss in their mind.",
+            "spell": 1,
+            "rare": 1,
+            "element": "POISON",
+            "icon_path": "weapon/sword/dagger/icon/dagger_icon.png"
+        }
+    ]
+}

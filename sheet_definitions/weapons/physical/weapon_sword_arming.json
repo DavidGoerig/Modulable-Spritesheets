@@ -1,0 +1,129 @@
+{
+    "name": "Arming Sword",
+    "type_name": "weapon",
+    "layer_1": {
+        "male": "weapon/sword/arming/universal/fg/",
+        "female": "weapon/sword/arming/universal/fg/"
+    },
+    "layer_2": {
+        "male": "weapon/sword/arming/universal/bg/",
+        "female": "weapon/sword/arming/universal/bg/"
+    },
+    "layer_3": {
+        "male": "weapon/sword/arming/attack_slash/bg/",
+        "female": "weapon/sword/arming/attack_slash/bg/"
+    },
+    "layer_4": {
+        "male": "weapon/sword/arming/attack_slash/fg/",
+        "female": "weapon/sword/arming/attack_slash/fg/"
+    },
+    "layer_5": {
+        "male": "weapon/sword/arming/attack_backslash/bg/",
+        "female": "weapon/sword/arming/attack_backslash/bg/"
+    },
+    "layer_6": {
+        "male": "weapon/sword/arming/attack_backslash/fg/",
+        "female": "weapon/sword/arming/attack_backslash/fg/"
+    },
+    "layer_7": {
+        "male": "weapon/sword/arming/attack_halfslash/bg/",
+        "female": "weapon/sword/arming/attack_halfslash/bg/"
+    },
+    "layer_8": {
+        "male": "weapon/sword/arming/attack_halfslash/fg/",
+        "female": "weapon/sword/arming/attack_halfslash/fg/"
+    },
+    "variants": [
+        {
+            "name": "brass",
+            "full_name": "Brass Vow Arming Sword",
+            "description": "A ceremonial sword used during ancient oaths of loyalty, the Brass Vow Arming Sword shines with a golden luster. Though ceremonial in origin, it has seen battle, earning its scars on the fields of forgotten wars. Warriors believe that wielding this sword binds them to their word, for betrayal while wielding it is said to curse one's lineage.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "weapon/sword/arming/icon/brass_icon.png"
+        },
+        {
+            "name": "bronze",
+            "full_name": "Bronze Relic Arming Sword",
+            "description": "An ancient blade excavated from the ruins of the lost city of Eldarun. The Bronze Relic Arming Sword carries with it the memories of an ancient empire's conquests. Though tarnished, it is unyielding in combat. It is said that the spirits of Eldarun's fallen kings reside within the blade, lending their battle-hardened wisdom to its wielder.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "weapon/sword/arming/icon/bronze_icon.png"
+        },
+        {
+            "name": "ceramic",
+            "full_name": "Ceramic Shatterfang",
+            "description": "The Ceramic Shatterfang is a blade of paradoxical fragility and strength. Crafted from reinforced ceramic and enchanted with magical runes, this sword is known for its perfect edge, sharper than any steel. Each swing produces a faint ringing sound, like shattered glass, unnerving foes with the sound of imminent defeat.",
+            "spell": 1,
+            "rare": 1,
+            "element": "GLACE",
+            "icon_path": "weapon/sword/arming/icon/ceramic_icon.png"
+        },
+        {
+            "name": "copper",
+            "full_name": "Stormcoil Arming Sword",
+            "description": "Forged with copper from the peaks of the Thundercrag Mountains, the Stormcoil Arming Sword channels the power of the storm. During battle, sparks dance along its blade, and with a well-placed strike, the wielder can release a burst of static electricity to disorient enemies. This sword has become a symbol of thunder-clan warriors.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ELECTRIC",
+            "icon_path": "weapon/sword/arming/icon/copper_icon.png"
+        },
+        {
+            "name": "gold",
+            "full_name": "Sunforge Arming Sword",
+            "description": "Forged in the sacred Sunforge itself, this sword glows faintly with the light of an eternal flame. The Sunforge Arming Sword is often wielded by knights of the Solar Order, defenders of the realm against darkness. It is believed to be unbreakable, and its golden glow shines brightest in the presence of evil, as if urging its wielder to smite it.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "weapon/sword/arming/icon/gold_icon.png"
+        },
+        {
+            "name": "iron",
+            "full_name": "Steelfang Arming Sword",
+            "description": "The Steelfang Arming Sword is a weapon of sheer practicality, forged for war and nothing else. Its unassuming appearance belies its deadly precision and unwavering durability. Carried by soldiers of the Ironclad Legion, it is said that the soul of every fallen soldier strengthens the blade, making it sharper after every battle.",
+            "spell": 1,
+            "rare": 1,
+            "element": "COMBAT",
+            "icon_path": "weapon/sword/arming/icon/iron_icon.png"
+        },
+        {
+            "name": "silver",
+            "full_name": "Moonlit Fang Arming Sword",
+            "description": "The Moonlit Fang Arming Sword is a fabled weapon forged under the light of a silver moon. Its blade reflects the night sky, shimmering with a ghostly light. It is known as the bane of dark creatures, with werewolves and shadowbeasts falling swiftly to its edge. Legends claim that on nights of a full moon, it hums with a silent melody only its wielder can hear.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "weapon/sword/arming/icon/silver_icon.png"
+        },
+        {
+            "name": "steel",
+            "full_name": "Champion's Edge Arming Sword",
+            "description": "Wielded by the arena champions of old, the Champion's Edge Arming Sword is a finely balanced weapon with an edge that never dulls. Forged from tempered steel and quenched in the blood of champions, it is said that only those with true skill in combat can wield it properly. The blade has been known to vibrate in anticipation when its wielder faces a worthy opponent.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ACIER",
+            "icon_path": "weapon/sword/arming/icon/steel_icon.png"
+        }
+    ],
+    "animations": [
+        "spellcast",
+        "thrust",
+        "walk",
+        "slash",
+        "shoot",
+        "hurt",
+        "watering",
+        "idle",
+        "jump",
+        "run",
+        "sit",
+        "emote",
+        "climb",
+        "combat",
+        "1h_slash",
+        "1h_backslash",
+        "1h_halfslash"
+    ]
+}

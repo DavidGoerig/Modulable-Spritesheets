@@ -1,0 +1,41 @@
+{
+    "name": "Halberd",
+    "type_name": "weapon",
+    "preview_row": 8,
+    "preview_column": 0,
+    "layer_1": {
+        "male": "weapon/polearm/halberd/behind/",
+        "female": "weapon/polearm/halberd/behind/"
+    },
+    "layer_2": {
+        "male": "weapon/polearm/halberd/",
+        "female": "weapon/polearm/halberd/"
+    },
+    "layer_3": {
+        "male": "weapon/polearm/halberd/attack_thrust/behind/",
+        "female": "weapon/polearm/halberd/attack_thrust/behind/"
+    },
+    "layer_4": {
+        "male": "weapon/polearm/halberd/attack_thrust/",
+        "female": "weapon/polearm/halberd/attack_thrust/"
+    },
+    "layer_5": {
+        "male": "weapon/polearm/halberd/attack_slash/behind/",
+        "female": "weapon/polearm/halberd/attack_slash/behind/"
+    },
+    "layer_6": {
+        "male": "weapon/polearm/halberd/attack_slash/",
+        "female": "weapon/polearm/halberd/attack_slash/"
+    },
+    "variants": [
+        {
+            "name": "halberd",
+            "full_name": "Halberd of Braxigar",
+            "description": "Forged in the blazing forges of the **Rockshard Keep**, this halberd was once wielded by **Braxigar the Unyielding**, a legendary minotaur warlord. Its blade gleams with the fiery glow of molten metal, hinting at the **FEU** enchantment coursing through its edge. With every swing, it leaves a faint trail of embers in the air. Legends say Braxigar used this halberd to strike down the **Ashbound Colossus**, embedding his name in myth and battle songs. The weapon now waits for a warrior worthy of its rage.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "weapon/polearm/halberd/icon/halberd_icon.png"
+        }
+    ]
+}

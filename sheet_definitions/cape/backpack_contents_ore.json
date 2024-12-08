@@ -1,0 +1,86 @@
+{
+    "name": "Ore",
+    "type_name": "cargo",
+    "layer_1": {
+        "male": "backpack/basket_contents/ore/fg/",
+        "female": "backpack/basket_contents/ore/fg/"
+    },
+    "layer_2": {
+        "male": "backpack/basket_contents/ore/bg/",
+        "female": "backpack/basket_contents/ore/bg/"
+    },
+    "variants": [
+        {
+            "name": "coal",
+            "full_name": "Ancient Coal Ore",
+            "description": "This lump of coal has absorbed mystical energies from the earth over millennia, burning with an unusual, smoky flame that never seems to extinguish.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "backpack/basket_contents/ore/fg/coal_icon.png"
+        },
+        {
+            "name": "iron",
+            "full_name": "Forged Iron Ore",
+            "description": "This iron ore is imbued with ancient smithing spells, making it incredibly resilient and valuable for crafting powerful weapons and armor.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ACIER",
+            "icon_path": "backpack/basket_contents/ore/fg/iron_icon.png"
+        },
+        {
+            "name": "steel",
+            "full_name": "Tempered Steel Ore",
+            "description": "Steel ore that has been tempered by the breath of a dragon, granting it exceptional strength and the ability to withstand magical enchantments.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ACIER",
+            "icon_path": "backpack/basket_contents/ore/fg/steel_icon.png"
+        },
+        {
+            "name": "tin",
+            "full_name": "Stalwart Tin Ore",
+            "description": "Tin ore known for its protective qualities, often used in the creation of magical barriers and wards to guard against dark sorcery.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "backpack/basket_contents/ore/fg/tin_icon.png"
+        },
+        {
+            "name": "copper",
+            "full_name": "Conductive Copper Ore",
+            "description": "This highly conductive copper ore attracts magical currents, making it essential for crafting artifacts that harness electrical energies.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ELECTRIC",
+            "icon_path": "backpack/basket_contents/ore/fg/copper_icon.png"
+        },
+        {
+            "name": "bronze",
+            "full_name": "Heroic Bronze Ore",
+            "description": "Bronze ore blessed by the ancient gods, often used to forge medals and statues commemorating heroes and their legendary deeds.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "backpack/basket_contents/ore/fg/bronze_icon.png"
+        },
+        {
+            "name": "silver",
+            "full_name": "Moonlit Silver Ore",
+            "description": "Silver ore bathed in the light of a full moon, imbuing it with the power to ward off evil spirits and curses.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "backpack/basket_contents/ore/fg/silver_icon.png"
+        },
+        {
+            "name": "gold",
+            "full_name": "Royal Gold Ore",
+            "description": "Gold ore that radiates a regal aura, sought after by kings and queens throughout the ages for its beauty and magical affinity.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "backpack/basket_contents/ore/fg/gold_icon.png"
+        }
+    ]
+}

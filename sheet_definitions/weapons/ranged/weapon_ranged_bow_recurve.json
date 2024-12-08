@@ -1,0 +1,131 @@
+{
+    "name": "Recurve",
+    "type_name": "weapon",
+    "preview_row": 17,
+    "layer_1": {
+        "male": "weapon/ranged/bow/recurve/universal/background/",
+        "female": "weapon/ranged/bow/recurve/universal/background/"
+    },
+    "layer_2": {
+        "male": "weapon/ranged/bow/recurve/universal/foreground/",
+        "female": "weapon/ranged/bow/recurve/universal/foreground/"
+    },
+    "layer_3": {
+        "male": "weapon/ranged/bow/recurve/walk/background/",
+        "female": "weapon/ranged/bow/recurve/walk/background/"
+    },
+    "layer_4": {
+        "male": "weapon/ranged/bow/recurve/walk/foreground/",
+        "female": "weapon/ranged/bow/recurve/walk/foreground/"
+    },
+    "variants": [
+        {
+            "name": "light",
+            "full_name": "Sunlit Recurve Bow",
+            "description": "The Sunlit Recurve Bow radiates a soft golden glow, as if eternally blessed by the first light of dawn. It is said that this bow was crafted by the ancient elves of the Radiant Glade, whose mastery of light magic remains unmatched. Arrows fired from this bow leave a glowing trail, illuminating the path of justice. The bow hums with a soft, melodic vibration when drawn under the morning sun.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "weapon/ranged/bow/recurve/icon/light_icon.png"
+        },
+        {
+            "name": "medium",
+            "full_name": "Hunter's Mark Recurve Bow",
+            "description": "The Hunter's Mark Recurve Bow is the signature weapon of rangers who stalk the twilight forests. This bow is finely balanced, offering precision and deadly accuracy. It is said that the spirits of fallen hunters reside in its core, guiding every arrow to its mark. The leather grip is stained with the sweat of a thousand hunts, and the scent of wild cedar lingers on its limbs.",
+            "spell": 1,
+            "rare": 1,
+            "element": "COMBAT",
+            "icon_path": "weapon/ranged/bow/recurve/icon/medium_icon.png"
+        },
+        {
+            "name": "red",
+            "full_name": "Flamebark Recurve Bow",
+            "description": "Forged in the heart of the Emberforge Grove, the Flamebark Recurve Bow is constructed from wood infused with ever-burning embers. When drawn, the bowstring crackles with fiery energy, igniting arrows with searing flames. This bow was once wielded by the Fireborne Clan's greatest archer, known as the 'Blazing Warden.' Every shot carries with it the heat of an inferno.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "weapon/ranged/bow/recurve/icon/red_icon.png"
+        },
+        {
+            "name": "dark",
+            "full_name": "Shadowfang Recurve Bow",
+            "description": "The Shadowfang Recurve Bow is shrouded in darkness, its surface absorbing light as if the shadows themselves cling to it. This weapon is said to have been crafted from the bones of a shadow wolf, whose howl still echoes through the arrows it fires. Assassins and rogues favor it for its ability to strike unseen and vanish without a trace. It is whispered that each arrow claims a fragment of its victim’s soul.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "weapon/ranged/bow/recurve/icon/dark_icon.png"
+        },
+        {
+            "name": "brass",
+            "full_name": "Eternal Vow Recurve Bow",
+            "description": "The Eternal Vow Recurve Bow is a ceremonial bow made from polished brass, often used during grand oaths of loyalty and fealty. Though symbolic, this bow can unleash deadly accurate shots. In battle, it shines like a beacon of honor and justice. Legends tell of a noble archer who used it to defend his kingdom, never letting a single arrow stray from its mark.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "weapon/ranged/bow/recurve/icon/brass_icon.png"
+        },
+        {
+            "name": "bronze",
+            "full_name": "Verdant Legacy Recurve Bow",
+            "description": "This bow is forged from ancient bronze wood, the material known to shift colors as the seasons change. The Verdant Legacy Recurve Bow is revered by druids, as each arrow fired from it sprouts vines upon impact, ensnaring its target. This bow is said to have been blessed by the Great Oak Spirit, who granted it the power of nature's wrath.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "weapon/ranged/bow/recurve/icon/bronze_icon.png"
+        },
+        {
+            "name": "ceramic",
+            "full_name": "Frostshard Recurve Bow",
+            "description": "The Frostshard Recurve Bow is composed of enchanted ceramic that is cold to the touch. Each draw of the string causes icy mist to swirl around the wielder's hands. Arrows loosed from this bow leave a trail of frost, and targets struck by its icy arrows are often left frozen in place. This bow is said to have been crafted in the heart of the Frostvault Caverns.",
+            "spell": 1,
+            "rare": 1,
+            "element": "GLACE",
+            "icon_path": "weapon/ranged/bow/recurve/icon/ceramic_icon.png"
+        },
+        {
+            "name": "copper",
+            "full_name": "Stormcall Recurve Bow",
+            "description": "Wielders of the Stormcall Recurve Bow are said to command the power of the storm. The copper in its frame crackles with latent electrical energy. Every shot fired generates static discharge, allowing the wielder to electrify their arrows. It was first used by the Thunderheart Clan, whose warriors were known to summon storms to fight alongside them.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ELECTRIC",
+            "icon_path": "weapon/ranged/bow/recurve/icon/copper_icon.png"
+        },
+        {
+            "name": "gold",
+            "full_name": "Sunflare Recurve Bow",
+            "description": "The Sunflare Recurve Bow was forged with sunlight and starlight, resulting in its unique golden hue. The bow glows faintly at dawn and dusk. It is said that this bow can channel the power of the sun into a single arrow, unleashing a radiant burst on impact. Only those pure of heart can wield it, as the sun's light rejects the wicked.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "weapon/ranged/bow/recurve/icon/gold_icon.png"
+        },
+        {
+            "name": "iron",
+            "full_name": "Bastion Recurve Bow",
+            "description": "The Bastion Recurve Bow is the hallmark of castle defenders, forged from iron and designed for durability. It is known for its unyielding resilience, withstanding harsh weather and relentless use. Soldiers stationed on battlements favor this bow, as it never falters under pressure. It is said that the bow’s resolve transfers to its wielder, giving them the strength to endure any siege.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ACIER",
+            "icon_path": "weapon/ranged/bow/recurve/icon/iron_icon.png"
+        },
+        {
+            "name": "silver",
+            "full_name": "Moonlit Whisper Recurve Bow",
+            "description": "Under the light of a full moon, the Moonlit Whisper Recurve Bow glows with soft silver light. Arrows fired from it move silently through the air, making it a favorite among elven scouts. The bow’s craftsmanship is so flawless that no creak or twang can be heard when drawn. Hunters believe that the moon itself guides each arrow to its target.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "weapon/ranged/bow/recurve/icon/silver_icon.png"
+        },
+        {
+            "name": "steel",
+            "full_name": "Stell Bow",
+            "description": "Steel and watery.",
+            "spell": 1,
+            "rare": 1,
+            "element": "WATER",
+            "icon_path": "weapon/ranged/bow/recurve/icon/silver_icon.png"
+        }
+    ]
+}

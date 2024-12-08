@@ -1,0 +1,245 @@
+{
+    "name": "Cavalier",
+    "type_name": "hat",
+    "layer_1": {
+        "male": "hat/pirate/cavalier/adult/",
+        "female": "hat/pirate/cavalier/adult/"
+    },
+    "variants": [
+        {
+            "name": "black",
+            "full_name": "Black Shadow Cavalier",
+            "description": "This dark hat, favored by rogue pirates, is said to grant its wearer the ability to blend into the shadows and move unseen among enemies.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "hat/pirate/cavalier/adult/black_icon.png"
+        },
+        {
+            "name": "blue",
+            "full_name": "Blue Ocean Cavalier",
+            "description": "Crafted with the deepest blue silks, this hat symbolizes the vast ocean, offering protection and guidance to sailors and adventurers alike.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "hat/pirate/cavalier/adult/blue_icon.png"
+        },
+        {
+            "name": "bluegray",
+            "full_name": "Stormy Sky Cavalier",
+            "description": "This bluegray hat is imbued with the tempestuous power of storm clouds, granting the wearer control over winds and lightning.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ELECTRIC",
+            "icon_path": "hat/pirate/cavalier/adult/bluegray_icon.png"
+        },
+        {
+            "name": "brown",
+            "full_name": "Brown Earth Cavalier",
+            "description": "Made from rugged leather, this brown hat offers durability and resilience, echoing the steadfast qualities of the earth itself.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "hat/pirate/cavalier/adult/brown_icon.png"
+        },
+        {
+            "name": "charcoal",
+            "full_name": "Charcoal Mist Cavalier",
+            "description": "This charcoal-colored hat is favored by mystics for its ability to conceal thoughts and intentions, shrouded as if by mist.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "hat/pirate/cavalier/adult/charcoal_icon.png"
+        },
+        {
+            "name": "forest",
+            "full_name": "Forest Guardian Cavalier",
+            "description": "Adorned with leaves and vines, this green hat protects those who wander into the forest, blending perfectly with its surroundings.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "hat/pirate/cavalier/adult/forest_icon.png"
+        },
+        {
+            "name": "gray",
+            "full_name": "Gray Wanderer Cavalier",
+            "description": "This gray hat is often worn by travelers and nomads, offering protection from the elements and a touch of wisdom from the road.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "hat/pirate/cavalier/adult/gray_icon.png"
+        },
+        {
+            "name": "green",
+            "full_name": "Emerald Enchanter Cavalier",
+            "description": "Vibrant and alluring, this green hat is said to enhance the magical abilities of its wearer, particularly in spells involving nature and life.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "hat/pirate/cavalier/adult/green_icon.png"
+        },
+        {
+            "name": "lavender",
+            "full_name": "Lavender Dream Cavalier",
+            "description": "This softly colored lavender hat is favored by artists and dreamers, enhancing creativity and calming the mind.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "hat/pirate/cavalier/adult/lavender_icon.png"
+        },
+        {
+            "name": "leather",
+            "full_name": "Rugged Leather Cavalier",
+            "description": "Crafted from high-quality leather, this hat offers robust protection and a classic look, ideal for adventurers and bandits alike.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "hat/pirate/cavalier/adult/leather_icon.png"
+        },
+        {
+            "name": "maroon",
+            "full_name": "Maroon Majesty Cavalier",
+            "description": "This richly colored maroon hat exudes a regal aura, often worn by nobles and high-ranking officers during ceremonial occasions.",
+            "spell": 1,
+            "rare": 1,
+            "element": "COMBAT",
+            "icon_path": "hat/pirate/cavalier/adult/maroon_icon.png"
+        },
+        {
+            "name": "navy",
+            "full_name": "Navy Night Cavalier",
+            "description": "Deep as the midnight sea, this navy hat is perfect for covert operations, providing excellent cover in darkness.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "hat/pirate/cavalier/adult/navy_icon.png"
+        },
+        {
+            "name": "orange",
+            "full_name": "Blazing Sun Cavalier",
+            "description": "This bright orange hat captures the essence of the sun, offering warmth and light to all who wear it.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "hat/pirate/cavalier/adult/orange_icon.png"
+        },
+        {
+            "name": "pink",
+            "full_name": "Pink Whisper Cavalier",
+            "description": "Soft and subtle, this pink hat is said to carry the whispers of love and friendship, strengthening bonds and soothing conflicts.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "hat/pirate/cavalier/adult/pink_icon.png"
+        },
+        {
+            "name": "purple",
+            "full_name": "Purple Sorcerer Cavalier",
+            "description": "This purple hat is imbued with mystical energies, favored by sorcerers and diviners for its enhancement of psychic and magical powers.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "hat/pirate/cavalier/adult/purple_icon.png"
+        },
+        {
+            "name": "red",
+            "full_name": "Crimson Commander Cavalier",
+            "description": "This striking red hat is a symbol of authority and power, often worn by military commanders to boost morale and intimidate foes.",
+            "spell": 1,
+            "rare": 1,
+            "element": "COMBAT",
+            "icon_path": "hat/pirate/cavalier/adult/red_icon.png"
+        },
+        {
+            "name": "rose",
+            "full_name": "Rose Heart Cavalier",
+            "description": "Decorated with rose petals, this hat is a favorite among romantics, believed to attract true love and passion.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "hat/pirate/cavalier/adult/rose_icon.png"
+        },
+        {
+            "name": "sky",
+            "full_name": "Sky Freedom Cavalier",
+            "description": "Light as the sky itself, this hat grants a sense of freedom and liberation, inspiring its wearer to pursue their dreams unbound.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ELECTRIC",
+            "icon_path": "hat/pirate/cavalier/adult/sky_icon.png"
+        },
+        {
+            "name": "slate",
+            "full_name": "Slate Stone Cavalier",
+            "description": "This slate-colored hat is as tough as stone, providing solid protection and a grounded presence to those who face adversity.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "hat/pirate/cavalier/adult/slate_icon.png"
+        },
+        {
+            "name": "tan",
+            "full_name": "Tan Traveler Cavalier",
+            "description": "This tan hat is made for the open road, offering durability and comfort to those who wander far from home.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "hat/pirate/cavalier/adult/tan_icon.png"
+        },
+        {
+            "name": "teal",
+            "full_name": "Teal Tide Cavalier",
+            "description": "Reflecting the color of shallow waters, this teal hat is cherished by seafarers for its ability to keep them safe on their journeys across the sea.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "hat/pirate/cavalier/adult/teal_icon.png"
+        },
+        {
+            "name": "walnut",
+            "full_name": "Walnut Wisdom Cavalier",
+            "description": "This walnut-colored hat, crafted from fine woods, is renowned for its ability to enhance the wisdom and decision-making skills of its wearer.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "hat/pirate/cavalier/adult/walnut_icon.png"
+        },
+        {
+            "name": "white",
+            "full_name": "White Dove Cavalier",
+            "description": "Pure and simple, this white hat symbolizes peace and hope, often worn by diplomats and peacemakers during negotiations.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "hat/pirate/cavalier/adult/white_icon.png"
+        },
+        {
+            "name": "yellow",
+            "full_name": "Golden Glory Cavalier",
+            "description": "This bright yellow hat shines like the sun, inspiring joy and confidence in all who see it, enhancing the wearer's charisma and leadership qualities.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "hat/pirate/cavalier/adult/yellow_icon.png"
+        }
+    ],
+    "animations": [
+        "spellcast",
+        "thrust",
+        "walk",
+        "slash",
+        "shoot",
+        "hurt",
+        "watering",
+        "idle",
+        "jump",
+        "run",
+        "sit",
+        "emote",
+        "climb",
+        "combat",
+        "1h_slash",
+        "1h_backslash",
+        "1h_halfslash"
+    ]
+}

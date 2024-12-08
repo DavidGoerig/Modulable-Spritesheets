@@ -1,0 +1,31 @@
+{
+    "name": "Rapier",
+    "type_name": "weapon",
+    "layer_1": {
+        "male": "weapon/sword/rapier/",
+        "female": "weapon/sword/rapier/"
+    },
+    "layer_2": {
+        "male": "weapon/sword/rapier/universal_behind/",
+        "female": "weapon/sword/rapier/universal_behind/"
+    },
+    "layer_3": {
+        "male": "weapon/sword/rapier/attack_slash/behind/",
+        "female": "weapon/sword/rapier/attack_slash/behind/"
+    },
+    "layer_4": {
+        "male": "weapon/sword/rapier/attack_slash/",
+        "female": "weapon/sword/rapier/attack_slash/"
+    },
+    "variants": [
+        {
+            "name": "rapier",
+            "full_name": "Duelist's Grace Rapier",
+            "description": "The Duelist's Grace Rapier is a masterpiece of weapon craftsmanship, designed for the agile fighter. Its slender blade is forged from the finest steel, offering unparalleled balance and responsiveness. This rapier thrums with a subtle metallic energy, enhancing each thrust and parry with surgical precision. It is said to have been the favored weapon of a legendary duelist whose skill was so great, he could disarm any opponent without drawing blood.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ACIER",
+            "icon_path": "weapon/sword/rapier/icon/rapier_icon.png"
+        }
+    ]
+}

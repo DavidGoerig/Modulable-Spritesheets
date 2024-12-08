@@ -1,0 +1,31 @@
+{
+    "name": "Katana",
+    "type_name": "weapon",
+    "layer_1": {
+        "male": "weapon/sword/katana/walk/",
+        "female": "weapon/sword/katana/walk/"
+    },
+    "layer_2": {
+        "male": "weapon/sword/katana/walk/behind/",
+        "female": "weapon/sword/katana/walk/behind/"
+    },
+    "layer_3": {
+        "male": "weapon/sword/katana/slash/",
+        "female": "weapon/sword/katana/slash/"
+    },
+    "layer_4": {
+        "male": "weapon/sword/katana/slash/behind/",
+        "female": "weapon/sword/katana/slash/behind/"
+    },
+    "variants": [
+        {
+            "name": "katana",
+            "full_name": "Blade of the Moonlit Samurai",
+            "description": "Forged from a rare meteorite alloy, the Blade of the Moonlit Samurai is steeped in legend. It is said that this katana was crafted during a mystical moonlit ceremony by a master swordsmith who imbued it with the fierce spirit of a fallen samurai warrior. This blade glows faintly under the moonlight, its edge sharp enough to slice through the barriers between the physical and spiritual realms. Wielders of this katana are often said to move with unmatched grace and speed, their strikes as swift and silent as the night wind.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "weapon/sword/katana/icon/katana_icon.png"
+        }
+    ]
+}

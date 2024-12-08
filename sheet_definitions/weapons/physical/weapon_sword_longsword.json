@@ -1,0 +1,47 @@
+{
+    "name": "Longsword",
+    "type_name": "weapon",
+    "layer_1": {
+        "male": "weapon/sword/longsword/",
+        "female": "weapon/sword/longsword/"
+    },
+    "layer_2": {
+        "male": "weapon/sword/longsword/universal_behind/",
+        "female": "weapon/sword/longsword/universal_behind/"
+    },
+    "layer_3": {
+        "male": "weapon/sword/longsword/attack_slash/behind/",
+        "female": "weapon/sword/longsword/attack_slash/behind/"
+    },
+    "layer_4": {
+        "male": "weapon/sword/longsword/attack_slash/",
+        "female": "weapon/sword/longsword/attack_slash/"
+    },
+    "layer_5": {
+        "male": "weapon/sword/longsword/attack_slash_reverse/behind/",
+        "female": "weapon/sword/longsword/attack_slash_reverse/behind/"
+    },
+    "layer_6": {
+        "male": "weapon/sword/longsword/attack_slash_reverse/",
+        "female": "weapon/sword/longsword/attack_slash_reverse/"
+    },
+    "layer_7": {
+        "male": "weapon/sword/longsword/attack_thrust/behind/",
+        "female": "weapon/sword/longsword/attack_thrust/behind/"
+    },
+    "layer_8": {
+        "male": "weapon/sword/longsword/attack_thrust/",
+        "female": "weapon/sword/longsword/attack_thrust/"
+    },
+    "variants": [
+        {
+            "name": "longsword",
+            "full_name": "Warlord's Legacy Longsword",
+            "description": "The Warlord's Legacy Longsword is a relic of countless battles, forged from the finest steel known to the ancient forges. This blade has carved its history through the ages, each scratch and nick on its surface telling tales of valor and conquest. It is said to possess an intrinsic combat spirit, granting its wielder unmatched prowess in battle. The longsword’s balance and weight are meticulously crafted to enhance both slashing and thrusting, making it a formidable weapon against both armored and unarmored foes.",
+            "spell": 1,
+            "rare": 1,
+            "element": "COMBAT",
+            "icon_path": "weapon/sword/longsword/icon/longsword_icon.png"
+        }
+    ]
+}

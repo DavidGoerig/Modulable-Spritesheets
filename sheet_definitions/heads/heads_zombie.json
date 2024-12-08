@@ -1,0 +1,165 @@
+{
+    "name": "Zombie",
+    "type_name": "head",
+    "layer_1": {
+        "male": "head/heads/zombie/adult/",
+        "female": "head/heads/zombie/adult/"
+    },
+    "variants": [
+        {
+            "name": "zombie",
+            "full_name": "Graveborn Zombie",
+            "description": "Emerging from the darkest crypts, the Graveborn Zombie is a terrifying sight with flesh marred by the decay of ages.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "head/heads/zombie/adult/zombie_icon.png"
+        },
+        {
+            "name": "zombie_green",
+            "full_name": "Noxgreen Zombie",
+            "description": "The Noxgreen Zombie's skin glows with a sickly green hue, a result of the toxic fumes that animated its undead form.",
+            "spell": 1,
+            "rare": 1,
+            "element": "POISON",
+            "icon_path": "head/heads/zombie/adult/zombie_green_icon.png"
+        },
+        {
+            "name": "light",
+            "full_name": "Lumina Zombie",
+            "description": "This rare zombie, illuminated by an internal ghostly light, wanders ancient graveyards, eternally seeking to reclaim its lost soul.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "head/heads/zombie/adult/light_icon.png"
+        },
+        {
+            "name": "amber",
+            "full_name": "Amberglow Zombie",
+            "description": "Preserved in mystic amber, this zombie radiates a warm glow, belying the cold death that has touched its soul.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "head/heads/zombie/adult/amber_icon.png"
+        },
+        {
+            "name": "olive",
+            "full_name": "Verdant Rot Zombie",
+            "description": "Infested with the flora of the forest where it was buried, the Verdant Rot Zombie brings a piece of the woodland with it wherever it roams.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "head/heads/zombie/adult/olive_icon.png"
+        },
+        {
+            "name": "taupe",
+            "full_name": "Dustshade Zombie",
+            "description": "Caked in the dust of the barren lands, this zombie blends into the desert, making it a nearly invisible predator.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "head/heads/zombie/adult/taupe_icon.png"
+        },
+        {
+            "name": "bronze",
+            "full_name": "Metalrot Zombie",
+            "description": "This zombie's skin has been fused with molten bronze, giving it a shimmering, indestructible exterior.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ACIER",
+            "icon_path": "head/heads/zombie/adult/bronze_icon.png"
+        },
+        {
+            "name": "brown",
+            "full_name": "Mudborn Zombie",
+            "description": "Risen from the swampy earth, the Mudborn Zombie is covered in thick mud that oozes from its pores, exuding a stench of decay.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "head/heads/zombie/adult/brown_icon.png"
+        },
+        {
+            "name": "black",
+            "full_name": "Shadowmire Zombie",
+            "description": "The Shadowmire Zombie thrives in the absence of light; its pitch-black appearance makes it a phantom in the night.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "head/heads/zombie/adult/black_icon.png"
+        },
+        {
+            "name": "lavender",
+            "full_name": "Wraithbloom Zombie",
+            "description": "Imbued with the essence of spectral flowers, this lavender-hued zombie exudes a mesmerizing aroma that masks its true danger.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "head/heads/zombie/adult/lavender_icon.png"
+        },
+        {
+            "name": "blue",
+            "full_name": "Frostbite Zombie",
+            "description": "The Frostbite Zombie's icy blue skin is a remnant of its time trapped beneath a frozen lake, its touch now as cold as the waters that entombed it.",
+            "spell": 1,
+            "rare": 1,
+            "element": "GLACE",
+            "icon_path": "head/heads/zombie/adult/blue_icon.png"
+        },
+        {
+            "name": "green",
+            "full_name": "Ghoulish Green Zombie",
+            "description": "The unnatural green pallor of this zombie's flesh is the result of the vile experiments that gave it unlife, making it a horror to behold.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "head/heads/zombie/adult/green_icon.png"
+        },
+        {
+            "name": "pale_green",
+            "full_name": "Phantomlight Zombie",
+            "description": "This ghostly pale green zombie glows faintly in the dark, its eerie light a beacon of doom for the living.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "head/heads/zombie/adult/pale_green_icon.png"
+        },
+        {
+            "name": "bright_green",
+            "full_name": "Acidic Zombie",
+            "description": "The bright green skin of this zombie sizzles with acidic venom, a dangerous remnant of the chemicals that resurrected it.",
+            "spell": 1,
+            "rare": 1,
+            "element": "POISON",
+            "icon_path": "head/heads/zombie/adult/bright_green_icon.png"
+        },
+        {
+            "name": "dark_green",
+            "full_name": "Evernight Zombie",
+            "description": "Hailing from the darkest forests, this dark green zombie blends into the shadows, stalking its prey with deadly precision.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "head/heads/zombie/adult/dark_green_icon.png"
+        }
+    ],
+    "match_body_color": true,
+    "animations": [
+        "spellcast",
+        "thrust",
+        "walk",
+        "slash",
+        "shoot",
+        "hurt",
+        "watering",
+        "idle",
+        "jump",
+        "run",
+        "sit",
+        "emote",
+        "climb",
+        "combat",
+        "1h_slash",
+        "1h_backslash",
+        "1h_halfslash"
+    ]
+}

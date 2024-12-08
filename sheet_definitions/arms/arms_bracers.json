@@ -1,0 +1,82 @@
+{
+    "name": "Bracers",
+    "type_name": "bracers",
+    "layer_1": {
+        "male": "arms/bracers/male/",
+        "female": "arms/bracers/female/"
+    },
+    "variants": [
+        {
+            "name": "steel",
+            "full_name": "Steel Bracers of the Orcish Guard",
+            "description": "Forged in the fiery forges of orc blacksmiths, these steel bracers have seen countless battles, providing impenetrable defense while augmenting the bearer's combat prowess.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ACIER",
+            "icon_path": "arms/bracers/male/steel_icon.png"
+        },
+        {
+            "name": "iron",
+            "full_name": "Iron Bindings of the Minotaur",
+            "description": "Robust and unyielding, these iron bracers are adorned with minotaur motifs, bestowing upon the wearer the beast's legendary strength and ferocity.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "arms/bracers/male/iron_icon.png"
+        },
+        {
+            "name": "ceramic",
+            "full_name": "Ceramic Cuffs of the Silent Step",
+            "description": "These light, yet durable ceramic bracers are favored by elven assassins for their ability to silence the clinking of arms, allowing for stealthy movement.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "arms/bracers/male/ceramic_icon.png"
+        },
+        {
+            "name": "brass",
+            "full_name": "Brass Bracers of the Bold",
+            "description": "Shimmering with a golden hue, these brass bracers inspire courage in the wearer, echoing the valiant hearts of the knights of yore.",
+            "spell": 1,
+            "rare": 1,
+            "element": "COMBAT",
+            "icon_path": "arms/bracers/male/brass_icon.png"
+        },
+        {
+            "name": "copper",
+            "full_name": "Copper Vambraces of the Stormcaller",
+            "description": "Empowered with the essence of thunder, these copper bracers can channel the raw energy of storms, granting their wearer control over lightning.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ELECTRIC",
+            "icon_path": "arms/bracers/male/copper_icon.png"
+        },
+        {
+            "name": "bronze",
+            "full_name": "Bronze Gauntlets of the Ancient Protector",
+            "description": "These age-old bronze gauntlets bear the wisdom of the ancient protectors, offering both defense and guidance to those who dare to wield them.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "arms/bracers/male/bronze_icon.png"
+        },
+        {
+            "name": "silver",
+            "full_name": "Silver Wristguards of the Moonlit Walker",
+            "description": "Bathed in moonlight, these silver wristguards possess a mystical allure, providing enhanced agility and invisibility under the cloak of night.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "arms/bracers/male/silver_icon.png"
+        },
+        {
+            "name": "gold",
+            "full_name": "Golden Armlets of the Sun Warrior",
+            "description": "Crafted from the finest gold, these armlets shine as brightly as the sun, imbuing their bearer with unmatched valor and the power to vanquish darkness.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "arms/bracers/male/gold_icon.png"
+        }
+    ]
+}

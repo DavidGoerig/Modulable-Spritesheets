@@ -1,0 +1,31 @@
+{
+    "name": "Scimitar",
+    "type_name": "weapon",
+    "layer_1": {
+        "male": "weapon/sword/scimitar/walk/",
+        "female": "weapon/sword/scimitar/walk/"
+    },
+    "layer_2": {
+        "male": "weapon/sword/scimitar/walk/behind/",
+        "female": "weapon/sword/scimitar/walk/behind/"
+    },
+    "layer_3": {
+        "male": "weapon/sword/scimitar/slash/",
+        "female": "weapon/sword/scimitar/slash/"
+    },
+    "layer_4": {
+        "male": "weapon/sword/scimitar/slash/behind/",
+        "female": "weapon/sword/scimitar/slash/behind/"
+    },
+    "variants": [
+        {
+            "name": "scimitar",
+            "full_name": "Desert Wind Scimitar",
+            "description": "The Desert Wind Scimitar, a legendary blade, is known for its distinctive curved edge designed to cut through the harsh desert winds as effortlessly as it slices enemies. This scimitar was once the prized possession of a nomadic warlord who conquered vast stretches of the desert. Infused with the essence of a sandstorm, wielders of this blade are said to move with the speed and ferocity of the desert wind itself, their strikes as relentless as the ever-shifting sands.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "weapon/sword/scimitar/icon/scimitar_icon.png"
+        }
+    ]
+}

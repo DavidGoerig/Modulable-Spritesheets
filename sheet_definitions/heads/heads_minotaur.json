@@ -1,0 +1,228 @@
+{
+    "name": "Minotaur",
+    "type_name": "head",
+    "layer_1": {
+        "male": "head/heads/minotaur/male/",
+        "female": "head/heads/minotaur/male/"
+    },
+    "variants": [
+        {
+            "name": "fur_black",
+            "full_name": "Shadow Minotaur",
+            "description": "This variant, with its jet-black fur, is often found in the darkest corners of the labyrinth, striking fear with its mere presence.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "head/heads/minotaur/male/fur_black_icon.png"
+        },
+        {
+            "name": "fur_brown",
+            "full_name": "Earthbound Minotaur",
+            "description": "Rich brown fur covers this minotaur, perfect camouflage in the deep forests where it guards ancient treasures.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "head/heads/minotaur/male/fur_brown_icon.png"
+        },
+        {
+            "name": "fur_tan",
+            "full_name": "Desert Minotaur",
+            "description": "Adapted to arid environments, this minotaur with sandy tan fur can survive in harsh desert conditions without water for days.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "head/heads/minotaur/male/fur_tan_icon.png"
+        },
+        {
+            "name": "fur_copper",
+            "full_name": "Metallic Minotaur",
+            "description": "Copper fur gives this minotaur an unusual reflective quality, which it uses to dazzle and confuse its opponents in battle.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ACIER",
+            "icon_path": "head/heads/minotaur/male/fur_copper_icon.png"
+        },
+        {
+            "name": "fur_gold",
+            "full_name": "Golden Minotaur",
+            "description": "This rare gold-furred minotaur is often considered a majestic creature, its presence said to bring prosperity to those worthy of its respect.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "head/heads/minotaur/male/fur_gold_icon.png"
+        },
+        {
+            "name": "fur_grey",
+            "full_name": "Storm Minotaur",
+            "description": "With fur as grey as storm clouds, this minotaur is capable of summoning tempests and thunder with a bellow of its mighty roar.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ELECTRIC",
+            "icon_path": "head/heads/minotaur/male/fur_grey_icon.png"
+        },
+        {
+            "name": "fur_white",
+            "full_name": "Albino Minotaur",
+            "description": "This pure white minotaur is a rare genetic marvel, striking in appearance and possessing a mystical presence that can calm even the most turbulent spirits.",
+            "spell": 1,
+            "rare": 1,
+            "element": "GLACE",
+            "icon_path": "head/heads/minotaur/male/fur_white_icon.png"
+        },
+        {
+            "name": "light",
+            "full_name": "Lighthouse Minotaur",
+            "description": "This minotaur variant, with fur that glows softly in the dark, serves as a beacon to lost travelers trying to navigate treacherous terrains.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "head/heads/minotaur/male/light_icon.png"
+        },
+        {
+            "name": "amber",
+            "full_name": "Amber Minotaur",
+            "description": "With fur like polished amber, this minotaur can harness the power of the sun to create dazzling displays of light that blind its foes.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "head/heads/minotaur/male/amber_icon.png"
+        },
+        {
+            "name": "olive",
+            "full_name": "Olive Grove Minotaur",
+            "description": "This minotaur, with deep olive fur, is a guardian of ancient groves and natural forests, blending perfectly into the foliage.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "head/heads/minotaur/male/olive_icon.png"
+        },
+        {
+            "name": "taupe",
+            "full_name": "Taupe Guardian Minotaur",
+            "description": "The taupe fur of this minotaur offers perfect camouflage in mountainous and rocky environments, making it a stealthy predator.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "head/heads/minotaur/male/taupe_icon.png"
+        },
+        {
+            "name": "bronze",
+            "full_name": "Bronze Warrior Minotaur",
+            "description": "This minotaur's bronze fur shimmers in battle, inspiring awe and fear in equal measure among its foes.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ACIER",
+            "icon_path": "head/heads/minotaur/male/bronze_icon.png"
+        },
+        {
+            "name": "brown",
+            "full_name": "Highland Minotaur",
+            "description": "Native to highland regions, this brown-furred minotaur is known for its incredible strength and endurance.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "head/heads/minotaur/male/brown_icon.png"
+        },
+        {
+            "name": "black",
+            "full_name": "Midnight Minotaur",
+            "description": "The black fur of this minotaur absorbs light, allowing it to move unseen at night and strike without warning.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "head/heads/minotaur/male/black_icon.png"
+        },
+        {
+            "name": "lavender",
+            "full_name": "Mystic Lavender Minotaur",
+            "description": "This minotaur, with its unusual lavender fur, is said to have psychic abilities, often seen leading herds with its mental prowess.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "head/heads/minotaur/male/lavender_icon.png"
+        },
+        {
+            "name": "blue",
+            "full_name": "Azure Sea Minotaur",
+            "description": "This blue-furred minotaur is often found near the sea, where it uses its might to protect coastal villages from threats.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "head/heads/minotaur/male/blue_icon.png"
+        },
+        {
+            "name": "zombie_green",
+            "full_name": "Necrotic Green Minotaur",
+            "description": "A terrifying sight, this green-furred minotaur has returned from the dead, its body hosting a myriad of dark magics.",
+            "spell": 1,
+            "rare": 1,
+            "element": "POISON",
+            "icon_path": "head/heads/minotaur/male/zombie_green_icon.png"
+        },
+        {
+            "name": "green",
+            "full_name": "Emerald Forest Minotaur",
+            "description": "With fur as green as the emerald leaves of the oldest trees, this minotaur is a natural protector of the forest.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "head/heads/minotaur/male/green_icon.png"
+        },
+        {
+            "name": "pale_green",
+            "full_name": "Pale Sage Minotaur",
+            "description": "This pale green minotaur is wise beyond its years, often sought for its knowledge of ancient herbal remedies and natural magic.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "head/heads/minotaur/male/pale_green_icon.png"
+        },
+        {
+            "name": "bright_green",
+            "full_name": "Vibrant Life Minotaur",
+            "description": "Radiating vitality, this brightly colored green minotaur can regenerate its wounds and has a deep connection to the life force of the earth.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "head/heads/minotaur/male/bright_green_icon.png"
+        },
+        {
+            "name": "dark_green",
+            "full_name": "Deep Grove Minotaur",
+            "description": "This dark green minotaur is a guardian of sacred groves, blending into the shadows of the trees to protect its realm from intruders.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "head/heads/minotaur/male/dark_green_icon.png"
+        },
+        {
+            "name": "zombie",
+            "full_name": "Undead Minotaur",
+            "description": "Once a mighty warrior, this minotaur has been resurrected through forbidden necromancy, now serving as a grim sentinel of the underworld.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "head/heads/minotaur/male/zombie_icon.png"
+        }
+    ],
+    "match_body_color": true,
+    "animations": [
+        "spellcast",
+        "thrust",
+        "walk",
+        "slash",
+        "shoot",
+        "hurt",
+        "watering",
+        "idle",
+        "jump",
+        "run",
+        "sit",
+        "emote",
+        "climb",
+        "combat",
+        "1h_slash",
+        "1h_backslash",
+        "1h_halfslash"
+    ]
+}

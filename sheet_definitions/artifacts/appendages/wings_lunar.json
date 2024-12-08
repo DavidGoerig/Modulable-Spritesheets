@@ -1,0 +1,284 @@
+{
+    "name": "Lunar Wings",
+    "type_name": "wings",
+    "layer_1": {
+        "male": "body/wings/lunar/fg/",
+        "female": "body/wings/lunar/fg/"
+    },
+    "layer_2": {
+        "male": "body/wings/lunar/bg/",
+        "female": "body/wings/lunar/bg/"
+    },
+    "variants": [
+        {
+            "name": "lunar",
+            "full_name": "Celestial Navigator Wings",
+            "description": "These wings shimmer with a light reminiscent of the moon's glow. Worn by the revered Celestial Navigators, they guide souls across the night skies, charting courses by the stars.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "body/wings/lunar/fg/lunar_icon.png"
+        },
+        {
+            "name": "amber",
+            "full_name": "Sunset Amber Wings",
+            "description": "Infused with the warmth of the setting sun, these wings capture the last light of day, offering protection and guidance during twilight travels.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "body/wings/lunar/fg/amber_icon.png"
+        },
+        {
+            "name": "black",
+            "full_name": "Eclipse Shadow Wings",
+            "description": "Dark as a solar eclipse, these wings are a rare sight, enveloping their bearer in shadows and mystery, perfect for those who operate under the cover of darkness.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "body/wings/lunar/fg/black_icon.png"
+        },
+        {
+            "name": "blue",
+            "full_name": "Deep Ocean Wings",
+            "description": "Mirroring the deep blue of the ocean, these wings are favored by sea voyagers and stormcallers alike, harnessing the power of the vast waters.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "body/wings/lunar/fg/blue_icon.png"
+        },
+        {
+            "name": "bluegray",
+            "full_name": "Stormwatcher Wings",
+            "description": "These wings carry the hues of a stormy sky, granting their bearer the ability to command the winds and rains, guiding storms away from or towards lands as needed.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ELECTRIC",
+            "icon_path": "body/wings/lunar/fg/bluegray_icon.png"
+        },
+        {
+            "name": "bright_green",
+            "full_name": "Verdant Growth Wings",
+            "description": "Bright green and vibrant, these wings are imbued with the essence of spring's renewal, accelerating growth and healing in their wake.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "body/wings/lunar/fg/bright_green_icon.png"
+        },
+        {
+            "name": "bronze",
+            "full_name": "Ancient Metal Wings",
+            "description": "Forged from the alloys of lost civilizations, these wings carry tales of forgotten ages, providing wisdom and strength from the ancients.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ACIER",
+            "icon_path": "body/wings/lunar/fg/bronze_icon.png"
+        },
+        {
+            "name": "brown",
+            "full_name": "Earthbound Wings",
+            "description": "These wings blend into the wilderness, offering their wearer camouflage and a deep connection with the terrestrial forces.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "body/wings/lunar/fg/brown_icon.png"
+        },
+        {
+            "name": "ceramic",
+            "full_name": "Alabaster Flight Wings",
+            "description": "Crafted from a ceramic that gleams like polished alabaster, these wings are a masterpiece of art, offering beauty and an unusual, smooth flight.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "body/wings/lunar/fg/ceramic_icon.png"
+        },
+        {
+            "name": "forest",
+            "full_name": "Woodland Guardian Wings",
+            "description": "Embodying the spirit of the forest, these wings allow their bearer to move unseen through trees, whispering secrets of the woods.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "body/wings/lunar/fg/forest_icon.png"
+        },
+        {
+            "name": "gold",
+            "full_name": "Radiant Dawn Wings",
+            "description": "Gleaming with the brilliance of pure gold, these wings reflect the first light of dawn, revitalizing all those who bask in their glow.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "body/wings/lunar/fg/gold_icon.png"
+        },
+        {
+            "name": "green",
+            "full_name": "Emerald Mist Wings",
+            "description": "These emerald wings are bathed in the essence of lush meadows, healing and soothing the spirits of all who follow in their path.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "body/wings/lunar/fg/green_icon.png"
+        },
+        {
+            "name": "iron",
+            "full_name": "Forged Warrior Wings",
+            "description": "These iron wings are as sturdy as the armor of ancient warriors, providing unmatched protection and a fierce silhouette against the sky.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ACIER",
+            "icon_path": "body/wings/lunar/fg/iron_icon.png"
+        },
+        {
+            "name": "lavender",
+            "full_name": "Twilight Soothe Wings",
+            "description": "With a soothing lavender hue, these wings are cherished by healers and peacekeepers, spreading tranquility wherever they glide.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "body/wings/lunar/fg/lavender_icon.png"
+        },
+        {
+            "name": "light",
+            "full_name": "Guiding Light Wings",
+            "description": "These wings, almost translucent, capture and amplify light, guiding the lost and forlorn to safety during the darkest nights.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "body/wings/lunar/fg/light_icon.png"
+        },
+        {
+            "name": "lunar",
+            "full_name": "Lunar Gleam Wings",
+            "description": "Bathed in the soft silver light of the moon, these wings grant the power of night vision and silent flight, perfect for nocturnal escapades.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "body/wings/lunar/fg/lunar_icon.png"
+        },
+        {
+            "name": "maroon",
+            "full_name": "Dusk Whisper Wings",
+            "description": "This deep maroon pair of wings is favored by dusk wanderers and twilight poets, enhancing their muses as the sun sets.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "body/wings/lunar/fg/maroon_icon.png"
+        },
+        {
+            "name": "navy",
+            "full_name": "Deep Sea Wings",
+            "description": "The navy hue of these wings holds the mysteries of the deep sea, offering insights and dreams of the oceanic abyss.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "body/wings/lunar/fg/navy_icon.png"
+        },
+        {
+            "name": "orange",
+            "full_name": "Sunfire Flare Wings",
+            "description": "Blazing like a sunset, these orange wings are imbued with the fiery essence of the sun, energizing all who see them.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "body/wings/lunar/fg/orange_icon.png"
+        },
+        {
+            "name": "pale_green",
+            "full_name": "Spring's Breath Wings",
+            "description": "These pale green wings flutter with the freshness of spring, reviving the weary and bringing new growth in their wake.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "body/wings/lunar/fg/pale_green_icon.png"
+        },
+        {
+            "name": "pink",
+            "full_name": "Blossom Gale Wings",
+            "description": "These wings carry the gentle hues of spring cherry blossoms, inspiring love and friendship among those who encounter their bearer.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "body/wings/lunar/fg/pink_icon.png"
+        },
+        {
+            "name": "purple",
+            "full_name": "Mystic Twilight Wings",
+            "description": "Enshrouded in the enigmatic aura of twilight, these purple wings are sought after by mystics and seers for their divinatory powers.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "body/wings/lunar/fg/purple_icon.png"
+        },
+        {
+            "name": "red",
+            "full_name": "Crimson Storm Wings",
+            "description": "These red wings crackle with the fury of a tempest, bestowing upon their wearer the ferocity and command of a storm.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "body/wings/lunar/fg/red_icon.png"
+        },
+        {
+            "name": "rose",
+            "full_name": "Dawn's First Light Wings",
+            "description": "Colored like the first blush of dawn, these rose wings awaken hope and renewal, heralding the start of new endeavors.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "body/wings/lunar/fg/rose_icon.png"
+        },
+        {
+            "name": "silver",
+            "full_name": "Moonbeam Wings",
+            "description": "These silver wings glisten under the moonlight, providing clarity and illumination, making them a favorite among lunar priests and priestesses.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "body/wings/lunar/fg/silver_icon.png"
+        },
+        {
+            "name": "sky",
+            "full_name": "Celestial Breeze Wings",
+            "description": "Reflecting the color of a clear day's sky, these wings offer freedom and perspective, lifting their bearer to new heights.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "body/wings/lunar/fg/sky_icon.png"
+        },
+        {
+            "name": "teal",
+            "full_name": "Ocean Whisper Wings",
+            "description": "These teal wings ripple with the tranquility of ocean waves, soothing the soul and carrying secrets from the deep.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "body/wings/lunar/fg/teal_icon.png"
+        },
+        {
+            "name": "white",
+            "full_name": "Frost Feather Wings",
+            "description": "Pure as driven snow, these white wings cool the air around them, offering protection from heat and bringing a winter's calm.",
+            "spell": 1,
+            "rare": 1,
+            "element": "GLACE",
+            "icon_path": "body/wings/lunar/fg/white_icon.png"
+        },
+        {
+            "name": "yellow",
+            "full_name": "Sunrise Serenade Wings",
+            "description": "Bright as the early morning sun, these yellow wings fill the air with melodies of birdsong, awakening the day with joy.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "body/wings/lunar/fg/yellow_icon.png"
+        },
+        {
+            "name": "zombie_green",
+            "full_name": "Toxic Spore Wings",
+            "description": "These unusual zombie green wings are imbued with a toxic essence, warding off foes with their noxious fumes, yet bewitching flora with their fertile touch.",
+            "spell": 1,
+            "rare": 1,
+            "element": "POISON",
+            "icon_path": "body/wings/lunar/fg/zombie_green_icon.png"
+        }
+    ]
+}

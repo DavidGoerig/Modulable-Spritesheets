@@ -1,0 +1,19 @@
+{
+    "name": "Ribs",
+    "type_name": "wound_ribs",
+    "layer_1": {
+        "male": "body/wound/",
+        "female": "body/wound/"
+    },
+    "variants": [
+        {
+            "name": "ribs",
+            "full_name": "Echoes of Battle Ribs",
+            "description": "The Echoes of Battle Ribs mark bears the scars of an ancient warrior who faced a mighty dragon. Legend says that during the climactic battle, the dragon's fiery breath seared through his armor, scorching his ribs but not defeating his spirit. These ribs, now part of the warrior's tale, symbolize his enduring courage and pain. They serve as a grim reminder of the close brush with death and the relentless will to survive, teaching new generations the values of bravery and resilience.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "body/wound/ribs_icon.png"
+        }
+    ]
+}

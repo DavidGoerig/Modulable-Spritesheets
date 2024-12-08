@@ -1,0 +1,19 @@
+{
+    "name": "Skeleton",
+    "type_name": "head",
+    "layer_1": {
+        "male": "head/heads/skeleton/adult/",
+        "female": "head/heads/skeleton/adult/"
+    },
+    "variants": [
+        {
+            "name": "skeleton",
+            "full_name": "Arisen Boneguard",
+            "description": "Arisen from the ancient catacombs beneath the forgotten temple of Lumis, the Arisen Boneguard once served as a mighty warrior king. Bound by an ancient curse, his skeleton was condemned to guard the sacred relics for eternity. His hollow eyes, forever ablaze with spectral flames, serve as a warning to all who dare to disturb the slumber of the dead. The Boneguard wields a sword crafted from the same cursed bones that form his body, imbued with dark magic that can cleave through both flesh and spirit. As legend has it, those who gaze upon the Arisen Boneguard and live to tell the tale speak of a sorrowful wail that echoes through the halls, a remnant of the king’s mourning for his lost kingdom and soul.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "head/heads/skeleton/adult/skeleton_icon.png"
+        }
+    ]
+}

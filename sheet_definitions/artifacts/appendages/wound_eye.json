@@ -1,0 +1,19 @@
+{
+    "name": "Eye",
+    "type_name": "wound_eye",
+    "layer_1": {
+        "male": "body/wound/",
+        "female": "body/wound/"
+    },
+    "variants": [
+        {
+            "name": "eye",
+            "full_name": "Seer's Bane Eye",
+            "description": "The Seer's Bane Eye wound is shrouded in legend. It is said to be the mark of a once-visionary seer who peered too far into the forbidden realms, seeking knowledge that was meant to remain hidden. During a clandestine ritual, a shadow creature from beyond struck him, leaving his eye eternally closed with a scar that glimmers faintly with otherworldly energy. This wound not only robbed him of his sight but also granted him the eerie ability to perceive truths hidden to others, making his remaining eye a window to both the past and the ominous futures.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "body/wound/eye_icon.png"
+        }
+    ]
+}

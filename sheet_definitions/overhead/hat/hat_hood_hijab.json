@@ -1,0 +1,254 @@
+{
+    "name": "Hijab",
+    "type_name": "hat",
+    "layer_1": {
+        "male": "hat/cloth/hijab/male/",
+        "female": "hat/cloth/hijab/thin/"
+    },
+    "variants": [
+        {
+            "name": "base",
+            "full_name": "Essence of Serenity Hijab",
+            "description": "Crafted from the serene waters of the Mirrored Lake, this hijab radiates a peaceful aura, bringing calm to those around its bearer.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "hat/cloth/hijab/thin/base_icon.png"
+        },
+        {
+            "name": "black",
+            "full_name": "Nightshade Veil Hijab",
+            "description": "This black hijab, woven from the darkest silks of the East, is a favorite among the guardians of the night, empowering them to move unseen.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "hat/cloth/hijab/thin/black_icon.png"
+        },
+        {
+            "name": "blue",
+            "full_name": "Azure Sky Hijab",
+            "description": "Colored like the midday sky, this hijab is said to harness the vastness of the heavens, offering wisdom to those who wear it.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "hat/cloth/hijab/thin/blue_icon.png"
+        },
+        {
+            "name": "bluegray",
+            "full_name": "Stormcloud Hijab",
+            "description": "This bluegray hijab mirrors the stormy seas and is worn by those who command the rain and winds.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ELECTRIC",
+            "icon_path": "hat/cloth/hijab/thin/bluegray_icon.png"
+        },
+        {
+            "name": "brown",
+            "full_name": "Earthbound Hijab",
+            "description": "Made from the woven fibers of ancient trees, this brown hijab strengthens the connection between its wearer and the nurturing earth.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "hat/cloth/hijab/thin/brown_icon.png"
+        },
+        {
+            "name": "charcoal",
+            "full_name": "Mystic Shadow Hijab",
+            "description": "The charcoal hue of this hijab is chosen by those who delve into mysteries, offering protection from unseen threats.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "hat/cloth/hijab/thin/charcoal_icon.png"
+        },
+        {
+            "name": "forest",
+            "full_name": "Forest Whisper Hijab",
+            "description": "Embellished with leaf patterns, this hijab blends into the woodland, providing camouflage and harmony with nature.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "hat/cloth/hijab/thin/forest_icon.png"
+        },
+        {
+            "name": "gray",
+            "full_name": "Twilight Mist Hijab",
+            "description": "This gray hijab is favored by twilight wanderers, giving them the ability to see through fog and darkness.",
+            "spell": 1,
+            "rare": 1,
+            "element": "TENEBRE",
+            "icon_path": "hat/cloth/hijab/thin/gray_icon.png"
+        },
+        {
+            "name": "green",
+            "full_name": "Emerald Garden Hijab",
+            "description": "Vibrant as a freshly sprouted leaf, this green hijab is often worn by healers and herbalists.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "hat/cloth/hijab/thin/green_icon.png"
+        },
+        {
+            "name": "lavender",
+            "full_name": "Lavender Dream Hijab",
+            "description": "Infused with the essence of lavender, this hijab is believed to soothe the mind and enhance meditative thoughts.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "hat/cloth/hijab/thin/lavender_icon.png"
+        },
+        {
+            "name": "leather",
+            "full_name": "Warrior's Veil Hijab",
+            "description": "Crafted from toughened leather, this hijab is worn by battle-hardened warriors, offering both spiritual and physical protection.",
+            "spell": 1,
+            "rare": 1,
+            "element": "COMBAT",
+            "icon_path": "hat/cloth/hijab/thin/leather_icon.png"
+        },
+        {
+            "name": "maroon",
+            "full_name": "Crimson Dusk Hijab",
+            "description": "This maroon hijab is imbued with the warmth of the setting sun, energizing the wearer during evening prayers.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "hat/cloth/hijab/thin/maroon_icon.png"
+        },
+        {
+            "name": "navy",
+            "full_name": "Deep Sea Hijab",
+            "description": "The navy color of this hijab reflects the depths of the ocean, offering clarity and calm to those who wear it during sea voyages.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "hat/cloth/hijab/thin/navy_icon.png"
+        },
+        {
+            "name": "orange",
+            "full_name": "Sunrise Aura Hijab",
+            "description": "Bright as the morning sun, this orange hijab is often worn to bring joy and vitality to new beginnings.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "hat/cloth/hijab/thin/orange_icon.png"
+        },
+        {
+            "name": "pink",
+            "full_name": "Cherry Blossom Hijab",
+            "description": "Adorned with the soft pink hues of cherry blossoms, this hijab celebrates renewal and the beauty of nature.",
+            "spell": 1,
+            "rare": 1,
+            "element": "PLANTE",
+            "icon_path": "hat/cloth/hijab/thin/pink_icon.png"
+        },
+        {
+            "name": "purple",
+            "full_name": "Royal Amethyst Hijab",
+            "description": "This purple hijab, resembling the precious amethyst stone, is worn by women of regal bearing, enhancing their natural authority.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "hat/cloth/hijab/thin/purple_icon.png"
+        },
+        {
+            "name": "red",
+            "full_name": "Flameheart Hijab",
+            "description": "This fiery red hijab is worn by those with passionate spirits, often seen in the midst of charitable works and community leadership.",
+            "spell": 1,
+            "rare": 1,
+            "element": "FEU",
+            "icon_path": "hat/cloth/hijab/thin/red_icon.png"
+        },
+        {
+            "name": "rose",
+            "full_name": "Bloom of Roses Hijab",
+            "description": "Every thread of this rose-colored hijab tells a story of love and compassion, weaving a tale of community and connection.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "hat/cloth/hijab/thin/rose_icon.png"
+        },
+        {
+            "name": "sky",
+            "full_name": "Heaven's Breath Hijab",
+            "description": "This sky blue hijab breathes a sense of peace and expansiveness, often worn to remind the wearer of the vastness above.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "hat/cloth/hijab/thin/sky_icon.png"
+        },
+        {
+            "name": "slate",
+            "full_name": "Guardian's Shade Hijab",
+            "description": "The slate gray color of this hijab offers protection and strength, serving as a shield against both physical and spiritual adversities.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "hat/cloth/hijab/thin/slate_icon.png"
+        },
+        {
+            "name": "tan",
+            "full_name": "Desert Mirage Hijab",
+            "description": "This tan hijab is favored by wanderers of the desert realms, blending seamlessly into the sands and protecting from the sun's harsh rays.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "hat/cloth/hijab/thin/tan_icon.png"
+        },
+        {
+            "name": "teal",
+            "full_name": "Aqua Reflection Hijab",
+            "description": "Mirroring the tranquil waters of a hidden oasis, this teal hijab soothes the soul and refreshes the mind with its cool hues.",
+            "spell": 1,
+            "rare": 1,
+            "element": "EAU",
+            "icon_path": "hat/cloth/hijab/thin/teal_icon.png"
+        },
+        {
+            "name": "walnut",
+            "full_name": "Earth Wisdom Hijab",
+            "description": "The deep walnut shade of this hijab is imbued with the ancient wisdom of the earth, offering grounding and stability to those who adorn it.",
+            "spell": 1,
+            "rare": 1,
+            "element": "ROCHE",
+            "icon_path": "hat/cloth/hijab/thin/walnut_icon.png"
+        },
+        {
+            "name": "white",
+            "full_name": "Purity Light Hijab",
+            "description": "This pristine white hijab represents purity and clarity, often worn in times of spiritual reflection and meditation.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "hat/cloth/hijab/thin/white_icon.png"
+        },
+        {
+            "name": "yellow",
+            "full_name": "Sunbeam Glow Hijab",
+            "description": "Bright as the morning sun, this yellow hijab inspires optimism and warmth, spreading happiness wherever it is seen.",
+            "spell": 1,
+            "rare": 1,
+            "element": "LUMIERE",
+            "icon_path": "hat/cloth/hijab/thin/yellow_icon.png"
+        }
+    ],
+    "animations": [
+        "spellcast",
+        "thrust",
+        "walk",
+        "slash",
+        "shoot",
+        "hurt",
+        "watering",
+        "idle",
+        "jump",
+        "run",
+        "sit",
+        "emote",
+        "climb",
+        "combat",
+        "1h_slash",
+        "1h_backslash",
+        "1h_halfslash"
+    ]
+}

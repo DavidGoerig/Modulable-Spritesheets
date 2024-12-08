@@ -1,0 +1,1276 @@
+2024-12-07 21:36:23,586 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Armour' and variant 'steel' from the file 'sheettest\\arms_armour.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-3.5-turbo', 'max_tokens': 150}}
+2024-12-07 21:36:23,639 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-07 21:36:23,640 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-12-07 21:36:23,708 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000201FA884E00>
+2024-12-07 21:36:23,708 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000201FA80BC50> server_hostname='api.openai.com' timeout=5.0
+2024-12-07 21:36:23,720 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000201FA7D6600>
+2024-12-07 21:36:23,720 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-07 21:36:23,721 - DEBUG - send_request_headers.complete
+2024-12-07 21:36:23,721 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-07 21:36:23,721 - DEBUG - send_request_body.complete
+2024-12-07 21:36:23,721 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-07 21:36:23,923 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 07 Dec 2024 20:36:23 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_1521cd99e9fda85a72713d82b5498328'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=YldRgUf7Snf5PjxwVVayxHsZZdJruLK_uGbc32_rhA0-1733603783-1.0.1.1-kKNveYCd3j0n2kw6CLPB5qjAmPyW.z7BN63aE8tF1CzE_BVko2V4X0Y5Q1nFCpzjlKmN7H0.Rm8dSHcWwra1DA; path=/; expires=Sat, 07-Dec-24 21:06:23 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=PkOeT1Wsl2llqWz6BpEzc7bMBZPXemEy5_lhYn6f.kA-1733603783169-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8ee74ebb9a601989-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-07 21:36:23,924 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-07 21:36:23,924 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-07 21:36:23,924 - DEBUG - receive_response_body.complete
+2024-12-07 21:36:23,924 - DEBUG - response_closed.started
+2024-12-07 21:36:23,925 - DEBUG - response_closed.complete
+2024-12-07 21:36:23,925 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers([('date', 'Sat, 07 Dec 2024 20:36:23 GMT'), ('content-type', 'application/json; charset=utf-8'), ('content-length', '337'), ('connection', 'keep-alive'), ('vary', 'Origin'), ('x-request-id', 'req_1521cd99e9fda85a72713d82b5498328'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=YldRgUf7Snf5PjxwVVayxHsZZdJruLK_uGbc32_rhA0-1733603783-1.0.1.1-kKNveYCd3j0n2kw6CLPB5qjAmPyW.z7BN63aE8tF1CzE_BVko2V4X0Y5Q1nFCpzjlKmN7H0.Rm8dSHcWwra1DA; path=/; expires=Sat, 07-Dec-24 21:06:23 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=PkOeT1Wsl2llqWz6BpEzc7bMBZPXemEy5_lhYn6f.kA-1733603783169-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8ee74ebb9a601989-FRA'), ('alt-svc', 'h3=":443"; ma=86400')])
+2024-12-07 21:36:23,925 - DEBUG - request_id: req_1521cd99e9fda85a72713d82b5498328
+2024-12-07 21:36:23,925 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-07 21:36:23,927 - DEBUG - Retrying due to status code 429
+2024-12-07 21:36:23,927 - DEBUG - 2 retries left
+2024-12-07 21:36:23,927 - INFO - Retrying request to /chat/completions in 0.495686 seconds
+2024-12-07 21:36:24,424 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Armour' and variant 'steel' from the file 'sheettest\\arms_armour.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-3.5-turbo', 'max_tokens': 150}}
+2024-12-07 21:36:24,424 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-07 21:36:24,424 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-07 21:36:24,425 - DEBUG - send_request_headers.complete
+2024-12-07 21:36:24,425 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-07 21:36:24,425 - DEBUG - send_request_body.complete
+2024-12-07 21:36:24,425 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-07 21:36:24,615 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 07 Dec 2024 20:36:23 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_550862e4f9954bdec09a79e99c4e4315'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8ee74ec00f431989-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-07 21:36:24,615 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-07 21:36:24,616 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-07 21:36:24,617 - DEBUG - receive_response_body.complete
+2024-12-07 21:36:24,617 - DEBUG - response_closed.started
+2024-12-07 21:36:24,617 - DEBUG - response_closed.complete
+2024-12-07 21:36:24,617 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sat, 07 Dec 2024 20:36:23 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_550862e4f9954bdec09a79e99c4e4315', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8ee74ec00f431989-FRA', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-12-07 21:36:24,617 - DEBUG - request_id: req_550862e4f9954bdec09a79e99c4e4315
+2024-12-07 21:36:24,618 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-07 21:36:24,619 - DEBUG - Retrying due to status code 429
+2024-12-07 21:36:24,619 - DEBUG - 1 retry left
+2024-12-07 21:36:24,619 - INFO - Retrying request to /chat/completions in 0.946026 seconds
+2024-12-07 21:36:25,566 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Armour' and variant 'steel' from the file 'sheettest\\arms_armour.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-3.5-turbo', 'max_tokens': 150}}
+2024-12-07 21:36:25,567 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-07 21:36:25,567 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-07 21:36:25,567 - DEBUG - send_request_headers.complete
+2024-12-07 21:36:25,567 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-07 21:36:25,568 - DEBUG - send_request_body.complete
+2024-12-07 21:36:25,568 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-07 21:36:25,763 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 07 Dec 2024 20:36:25 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_aaf83d21f0e9a13da963d15969565ead'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8ee74ec72fbe1989-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-07 21:36:25,763 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-07 21:36:25,763 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-07 21:36:25,764 - DEBUG - receive_response_body.complete
+2024-12-07 21:36:25,764 - DEBUG - response_closed.started
+2024-12-07 21:36:25,764 - DEBUG - response_closed.complete
+2024-12-07 21:36:25,764 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sat, 07 Dec 2024 20:36:25 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_aaf83d21f0e9a13da963d15969565ead', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8ee74ec72fbe1989-FRA', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-12-07 21:36:25,764 - DEBUG - request_id: req_aaf83d21f0e9a13da963d15969565ead
+2024-12-07 21:36:25,764 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-07 21:36:25,766 - DEBUG - Re-raising status error
+2024-12-07 21:36:25,767 - ERROR - [31marms_armour.json: Error - Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2024-12-07 21:36:25,774 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Bracers' and variant 'steel' from the file 'sheettest\\arms_bracers.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-3.5-turbo', 'max_tokens': 150}}
+2024-12-07 21:36:25,775 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-07 21:36:25,775 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-07 21:36:25,775 - DEBUG - send_request_headers.complete
+2024-12-07 21:36:25,775 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-07 21:36:25,776 - DEBUG - send_request_body.complete
+2024-12-07 21:36:25,776 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-07 21:36:25,967 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 07 Dec 2024 20:36:25 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_1bd169fe1f831923a882a249e77d398d'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8ee74ec879301989-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-07 21:36:25,968 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-07 21:36:25,968 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-07 21:36:25,968 - DEBUG - receive_response_body.complete
+2024-12-07 21:36:25,969 - DEBUG - response_closed.started
+2024-12-07 21:36:25,969 - DEBUG - response_closed.complete
+2024-12-07 21:36:25,969 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sat, 07 Dec 2024 20:36:25 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_1bd169fe1f831923a882a249e77d398d', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8ee74ec879301989-FRA', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-12-07 21:36:25,969 - DEBUG - request_id: req_1bd169fe1f831923a882a249e77d398d
+2024-12-07 21:36:25,970 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-07 21:36:25,970 - DEBUG - Retrying due to status code 429
+2024-12-07 21:36:25,970 - DEBUG - 2 retries left
+2024-12-07 21:36:25,971 - INFO - Retrying request to /chat/completions in 0.455885 seconds
+2024-12-07 21:36:26,428 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Bracers' and variant 'steel' from the file 'sheettest\\arms_bracers.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-3.5-turbo', 'max_tokens': 150}}
+2024-12-07 21:36:26,428 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-07 21:36:26,429 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-07 21:36:26,429 - DEBUG - send_request_headers.complete
+2024-12-07 21:36:26,429 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-07 21:36:26,429 - DEBUG - send_request_body.complete
+2024-12-07 21:36:26,429 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-07 21:36:26,618 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 07 Dec 2024 20:36:25 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_16a511b32dfa6b2a163437dded15a960'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8ee74ecc8de81989-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-07 21:36:26,618 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-07 21:36:26,618 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-07 21:36:26,619 - DEBUG - receive_response_body.complete
+2024-12-07 21:36:26,619 - DEBUG - response_closed.started
+2024-12-07 21:36:26,619 - DEBUG - response_closed.complete
+2024-12-07 21:36:26,619 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sat, 07 Dec 2024 20:36:25 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_16a511b32dfa6b2a163437dded15a960', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8ee74ecc8de81989-FRA', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-12-07 21:36:26,619 - DEBUG - request_id: req_16a511b32dfa6b2a163437dded15a960
+2024-12-07 21:36:26,619 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-07 21:36:26,620 - DEBUG - Retrying due to status code 429
+2024-12-07 21:36:26,621 - DEBUG - 1 retry left
+2024-12-07 21:36:26,621 - INFO - Retrying request to /chat/completions in 0.754291 seconds
+2024-12-07 21:36:27,376 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Bracers' and variant 'steel' from the file 'sheettest\\arms_bracers.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-3.5-turbo', 'max_tokens': 150}}
+2024-12-07 21:36:27,377 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-07 21:36:27,377 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-07 21:36:27,377 - DEBUG - send_request_headers.complete
+2024-12-07 21:36:27,377 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-07 21:36:27,378 - DEBUG - send_request_body.complete
+2024-12-07 21:36:27,378 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-07 21:36:27,574 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 07 Dec 2024 20:36:26 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_df471b3a0a7ade1cd5b523c986c7ad15'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8ee74ed27c2c1989-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-07 21:36:27,575 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-07 21:36:27,575 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-07 21:36:27,576 - DEBUG - receive_response_body.complete
+2024-12-07 21:36:27,576 - DEBUG - response_closed.started
+2024-12-07 21:36:27,576 - DEBUG - response_closed.complete
+2024-12-07 21:36:27,576 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sat, 07 Dec 2024 20:36:26 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_df471b3a0a7ade1cd5b523c986c7ad15', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8ee74ed27c2c1989-FRA', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-12-07 21:36:27,576 - DEBUG - request_id: req_df471b3a0a7ade1cd5b523c986c7ad15
+2024-12-07 21:36:27,576 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-07 21:36:27,578 - DEBUG - Re-raising status error
+2024-12-07 21:36:27,579 - ERROR - [31marms_bracers.json: Error - Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2024-12-07 21:36:27,606 - DEBUG - close.started
+2024-12-07 21:36:27,607 - DEBUG - close.complete
+2024-12-07 21:45:35,687 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Armour' and variant 'steel' from the file 'sheettest\\arms_armour.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-07 21:45:35,748 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-07 21:45:35,749 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-12-07 21:45:35,788 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001AC60798BF0>
+2024-12-07 21:45:35,788 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001AC6071BC50> server_hostname='api.openai.com' timeout=5.0
+2024-12-07 21:45:35,801 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001AC605AAE40>
+2024-12-07 21:45:35,801 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-07 21:45:35,802 - DEBUG - send_request_headers.complete
+2024-12-07 21:45:35,802 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-07 21:45:35,802 - DEBUG - send_request_body.complete
+2024-12-07 21:45:35,802 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-07 21:45:35,997 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 07 Dec 2024 20:45:35 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_b6fffcb6ebee0d9b081dd2d5c97319ef'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=3Z0v5Q6JYSz27689fBviNJUNMNXL34rDBmhwbZwsD58-1733604335-1.0.1.1-uMxVhifHITVt40zHwPKGasqc.EA7hS9vXai5UlWRZl3yCDxjf_OQ1HklSws1ZriQxwP3eTLun76MftmF99FSQg; path=/; expires=Sat, 07-Dec-24 21:15:35 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=GQwnGc6K0pTKpmzGhIfbAZtEijkd_illLqfUjRFMXn0-1733604335236-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8ee75c361a5e35f3-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-07 21:45:35,998 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-07 21:45:35,998 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-07 21:45:35,998 - DEBUG - receive_response_body.complete
+2024-12-07 21:45:35,998 - DEBUG - response_closed.started
+2024-12-07 21:45:35,998 - DEBUG - response_closed.complete
+2024-12-07 21:45:35,999 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers([('date', 'Sat, 07 Dec 2024 20:45:35 GMT'), ('content-type', 'application/json; charset=utf-8'), ('content-length', '337'), ('connection', 'keep-alive'), ('vary', 'Origin'), ('x-request-id', 'req_b6fffcb6ebee0d9b081dd2d5c97319ef'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=3Z0v5Q6JYSz27689fBviNJUNMNXL34rDBmhwbZwsD58-1733604335-1.0.1.1-uMxVhifHITVt40zHwPKGasqc.EA7hS9vXai5UlWRZl3yCDxjf_OQ1HklSws1ZriQxwP3eTLun76MftmF99FSQg; path=/; expires=Sat, 07-Dec-24 21:15:35 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=GQwnGc6K0pTKpmzGhIfbAZtEijkd_illLqfUjRFMXn0-1733604335236-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8ee75c361a5e35f3-FRA'), ('alt-svc', 'h3=":443"; ma=86400')])
+2024-12-07 21:45:35,999 - DEBUG - request_id: req_b6fffcb6ebee0d9b081dd2d5c97319ef
+2024-12-07 21:45:35,999 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-07 21:45:36,001 - DEBUG - Retrying due to status code 429
+2024-12-07 21:45:36,001 - DEBUG - 2 retries left
+2024-12-07 21:45:36,001 - INFO - Retrying request to /chat/completions in 0.433435 seconds
+2024-12-07 21:45:36,435 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Armour' and variant 'steel' from the file 'sheettest\\arms_armour.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-07 21:45:36,436 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-07 21:45:36,436 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-07 21:45:36,437 - DEBUG - send_request_headers.complete
+2024-12-07 21:45:36,437 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-07 21:45:36,437 - DEBUG - send_request_body.complete
+2024-12-07 21:45:36,437 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-07 21:45:36,661 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 07 Dec 2024 20:45:35 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_f3226a3cddb140087a9369268711f8ba'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8ee75c3a0e3b35f3-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-07 21:45:36,662 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-07 21:45:36,664 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-07 21:45:36,664 - DEBUG - receive_response_body.complete
+2024-12-07 21:45:36,664 - DEBUG - response_closed.started
+2024-12-07 21:45:36,664 - DEBUG - response_closed.complete
+2024-12-07 21:45:36,664 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sat, 07 Dec 2024 20:45:35 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_f3226a3cddb140087a9369268711f8ba', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8ee75c3a0e3b35f3-FRA', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-12-07 21:45:36,665 - DEBUG - request_id: req_f3226a3cddb140087a9369268711f8ba
+2024-12-07 21:45:36,665 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-07 21:45:36,666 - DEBUG - Retrying due to status code 429
+2024-12-07 21:45:36,666 - DEBUG - 1 retry left
+2024-12-07 21:45:36,666 - INFO - Retrying request to /chat/completions in 0.834955 seconds
+2024-12-07 21:45:37,502 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Armour' and variant 'steel' from the file 'sheettest\\arms_armour.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-07 21:45:37,503 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-07 21:45:37,503 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-07 21:45:37,503 - DEBUG - send_request_headers.complete
+2024-12-07 21:45:37,503 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-07 21:45:37,504 - DEBUG - send_request_body.complete
+2024-12-07 21:45:37,504 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-07 21:45:37,696 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 07 Dec 2024 20:45:36 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_326b1709120f653f7d75d97b7963cb1f'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8ee75c40bccc35f3-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-07 21:45:37,697 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-07 21:45:37,697 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-07 21:45:37,697 - DEBUG - receive_response_body.complete
+2024-12-07 21:45:37,697 - DEBUG - response_closed.started
+2024-12-07 21:45:37,697 - DEBUG - response_closed.complete
+2024-12-07 21:45:37,698 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sat, 07 Dec 2024 20:45:36 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_326b1709120f653f7d75d97b7963cb1f', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8ee75c40bccc35f3-FRA', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-12-07 21:45:37,698 - DEBUG - request_id: req_326b1709120f653f7d75d97b7963cb1f
+2024-12-07 21:45:37,699 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-07 21:45:37,700 - DEBUG - Re-raising status error
+2024-12-07 21:45:37,700 - ERROR - [31marms_armour.json: Error - Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2024-12-07 21:45:37,702 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Bracers' and variant 'steel' from the file 'sheettest\\arms_bracers.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-07 21:45:37,703 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-07 21:45:37,703 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-07 21:45:37,703 - DEBUG - send_request_headers.complete
+2024-12-07 21:45:37,703 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-07 21:45:37,703 - DEBUG - send_request_body.complete
+2024-12-07 21:45:37,704 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-07 21:45:37,891 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 07 Dec 2024 20:45:37 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_156a6aae452bcff612df39beab6511a5'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8ee75c41fdff35f3-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-07 21:45:37,891 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-07 21:45:37,891 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-07 21:45:37,892 - DEBUG - receive_response_body.complete
+2024-12-07 21:45:37,892 - DEBUG - response_closed.started
+2024-12-07 21:45:37,892 - DEBUG - response_closed.complete
+2024-12-07 21:45:37,892 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sat, 07 Dec 2024 20:45:37 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_156a6aae452bcff612df39beab6511a5', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8ee75c41fdff35f3-FRA', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-12-07 21:45:37,893 - DEBUG - request_id: req_156a6aae452bcff612df39beab6511a5
+2024-12-07 21:45:37,893 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-07 21:45:37,893 - DEBUG - Retrying due to status code 429
+2024-12-07 21:45:37,894 - DEBUG - 2 retries left
+2024-12-07 21:45:37,894 - INFO - Retrying request to /chat/completions in 0.470949 seconds
+2024-12-07 21:45:38,365 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Bracers' and variant 'steel' from the file 'sheettest\\arms_bracers.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-07 21:45:38,366 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-07 21:45:38,367 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-07 21:45:38,367 - DEBUG - send_request_headers.complete
+2024-12-07 21:45:38,367 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-07 21:45:38,367 - DEBUG - send_request_body.complete
+2024-12-07 21:45:38,367 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-07 21:45:38,554 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 07 Dec 2024 20:45:37 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_0a25a5dcca4f69585dcde8e119adc69e'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8ee75c4619a135f3-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-07 21:45:38,554 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-07 21:45:38,554 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-07 21:45:38,555 - DEBUG - receive_response_body.complete
+2024-12-07 21:45:38,555 - DEBUG - response_closed.started
+2024-12-07 21:45:38,555 - DEBUG - response_closed.complete
+2024-12-07 21:45:38,555 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sat, 07 Dec 2024 20:45:37 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_0a25a5dcca4f69585dcde8e119adc69e', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8ee75c4619a135f3-FRA', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-12-07 21:45:38,555 - DEBUG - request_id: req_0a25a5dcca4f69585dcde8e119adc69e
+2024-12-07 21:45:38,556 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-07 21:45:38,557 - DEBUG - Retrying due to status code 429
+2024-12-07 21:45:38,557 - DEBUG - 1 retry left
+2024-12-07 21:45:38,557 - INFO - Retrying request to /chat/completions in 0.851265 seconds
+2024-12-07 21:45:39,409 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Bracers' and variant 'steel' from the file 'sheettest\\arms_bracers.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-07 21:45:39,409 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-07 21:45:39,409 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-07 21:45:39,410 - DEBUG - send_request_headers.complete
+2024-12-07 21:45:39,410 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-07 21:45:39,410 - DEBUG - send_request_body.complete
+2024-12-07 21:45:39,410 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-07 21:45:39,616 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 07 Dec 2024 20:45:38 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_0ee609d7f3f64a7895ce1cc8ec11a7b8'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8ee75c4caf4c35f3-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-07 21:45:39,616 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-07 21:45:39,616 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-07 21:45:39,617 - DEBUG - receive_response_body.complete
+2024-12-07 21:45:39,617 - DEBUG - response_closed.started
+2024-12-07 21:45:39,617 - DEBUG - response_closed.complete
+2024-12-07 21:45:39,617 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sat, 07 Dec 2024 20:45:38 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_0ee609d7f3f64a7895ce1cc8ec11a7b8', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8ee75c4caf4c35f3-FRA', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-12-07 21:45:39,617 - DEBUG - request_id: req_0ee609d7f3f64a7895ce1cc8ec11a7b8
+2024-12-07 21:45:39,617 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-07 21:45:39,619 - DEBUG - Re-raising status error
+2024-12-07 21:45:39,619 - ERROR - [31marms_bracers.json: Error - Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2024-12-07 21:45:39,639 - DEBUG - close.started
+2024-12-07 21:45:39,639 - DEBUG - close.complete
+2024-12-07 21:48:10,409 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Armour' and variant 'steel' from the file 'sheettest\\arms_armour.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-07 21:48:10,459 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-07 21:48:10,460 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-12-07 21:48:10,522 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000016E8EB87260>
+2024-12-07 21:48:10,523 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x0000016E8EBBBC50> server_hostname='api.openai.com' timeout=5.0
+2024-12-07 21:48:10,538 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x0000016E8EA4AE40>
+2024-12-07 21:48:10,538 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-07 21:48:10,539 - DEBUG - send_request_headers.complete
+2024-12-07 21:48:10,539 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-07 21:48:10,539 - DEBUG - send_request_body.complete
+2024-12-07 21:48:10,539 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-07 21:48:11,466 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 07 Dec 2024 20:48:10 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_6857b579e2579d469b61c9f175825df5'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=CIdx6OLgWjrIzv2U0zdGPUxUk4vFYvmrJJcyOTqZu5Q-1733604490-1.0.1.1-XNufLAZ1v8moyjoloprlSQRH1qMYuBZt0YFtMcGD_znMzc8dJ38SCjCZSdyHqxlJlO9NkwkqbUsG5wCo5NkPcQ; path=/; expires=Sat, 07-Dec-24 21:18:10 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=x7wkGWI6mpBgqu57njycpZTsFUOMXhilbpIoFhGUot8-1733604490700-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8ee75ffd2eef9202-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-07 21:48:11,467 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-07 21:48:11,467 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-07 21:48:11,467 - DEBUG - receive_response_body.complete
+2024-12-07 21:48:11,467 - DEBUG - response_closed.started
+2024-12-07 21:48:11,468 - DEBUG - response_closed.complete
+2024-12-07 21:48:11,468 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers([('date', 'Sat, 07 Dec 2024 20:48:10 GMT'), ('content-type', 'application/json; charset=utf-8'), ('content-length', '337'), ('connection', 'keep-alive'), ('vary', 'Origin'), ('x-request-id', 'req_6857b579e2579d469b61c9f175825df5'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=CIdx6OLgWjrIzv2U0zdGPUxUk4vFYvmrJJcyOTqZu5Q-1733604490-1.0.1.1-XNufLAZ1v8moyjoloprlSQRH1qMYuBZt0YFtMcGD_znMzc8dJ38SCjCZSdyHqxlJlO9NkwkqbUsG5wCo5NkPcQ; path=/; expires=Sat, 07-Dec-24 21:18:10 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=x7wkGWI6mpBgqu57njycpZTsFUOMXhilbpIoFhGUot8-1733604490700-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8ee75ffd2eef9202-FRA'), ('alt-svc', 'h3=":443"; ma=86400')])
+2024-12-07 21:48:11,468 - DEBUG - request_id: req_6857b579e2579d469b61c9f175825df5
+2024-12-07 21:48:11,469 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-07 21:48:11,470 - DEBUG - Retrying due to status code 429
+2024-12-07 21:48:11,470 - DEBUG - 2 retries left
+2024-12-07 21:48:11,470 - INFO - Retrying request to /chat/completions in 0.420863 seconds
+2024-12-07 21:48:11,891 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Armour' and variant 'steel' from the file 'sheettest\\arms_armour.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-07 21:48:11,891 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-07 21:48:11,892 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-07 21:48:11,892 - DEBUG - send_request_headers.complete
+2024-12-07 21:48:11,892 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-07 21:48:11,892 - DEBUG - send_request_body.complete
+2024-12-07 21:48:11,893 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-07 21:48:12,235 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 07 Dec 2024 20:48:11 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_3623280a48c8ff7a7f4c6e88879d8e65'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8ee76005ad949202-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-07 21:48:12,235 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-07 21:48:12,237 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-07 21:48:12,237 - DEBUG - receive_response_body.complete
+2024-12-07 21:48:12,237 - DEBUG - response_closed.started
+2024-12-07 21:48:12,237 - DEBUG - response_closed.complete
+2024-12-07 21:48:12,237 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sat, 07 Dec 2024 20:48:11 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_3623280a48c8ff7a7f4c6e88879d8e65', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8ee76005ad949202-FRA', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-12-07 21:48:12,237 - DEBUG - request_id: req_3623280a48c8ff7a7f4c6e88879d8e65
+2024-12-07 21:48:12,238 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-07 21:48:12,239 - DEBUG - Retrying due to status code 429
+2024-12-07 21:48:12,239 - DEBUG - 1 retry left
+2024-12-07 21:48:12,239 - INFO - Retrying request to /chat/completions in 0.770396 seconds
+2024-12-07 21:48:13,011 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Armour' and variant 'steel' from the file 'sheettest\\arms_armour.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-07 21:48:13,011 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-07 21:48:13,012 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-07 21:48:13,012 - DEBUG - send_request_headers.complete
+2024-12-07 21:48:13,012 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-07 21:48:13,012 - DEBUG - send_request_body.complete
+2024-12-07 21:48:13,013 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-07 21:48:13,215 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 07 Dec 2024 20:48:12 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_e3712a36ed134873d90dd032c499145c'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8ee7600c9b059202-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-07 21:48:13,215 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-07 21:48:13,216 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-07 21:48:13,216 - DEBUG - receive_response_body.complete
+2024-12-07 21:48:13,216 - DEBUG - response_closed.started
+2024-12-07 21:48:13,216 - DEBUG - response_closed.complete
+2024-12-07 21:48:13,216 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sat, 07 Dec 2024 20:48:12 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_e3712a36ed134873d90dd032c499145c', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8ee7600c9b059202-FRA', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-12-07 21:48:13,217 - DEBUG - request_id: req_e3712a36ed134873d90dd032c499145c
+2024-12-07 21:48:13,217 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-07 21:48:13,219 - DEBUG - Re-raising status error
+2024-12-07 21:48:13,219 - ERROR - [31marms_armour.json: Error - Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2024-12-07 21:48:13,221 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Bracers' and variant 'steel' from the file 'sheettest\\arms_bracers.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-07 21:48:13,221 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-07 21:48:13,222 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-07 21:48:13,222 - DEBUG - send_request_headers.complete
+2024-12-07 21:48:13,222 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-07 21:48:13,222 - DEBUG - send_request_body.complete
+2024-12-07 21:48:13,222 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-07 21:48:13,414 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 07 Dec 2024 20:48:12 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_2fdba0ee1d46bd66a905ae379f5dcf52'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8ee7600dfbfe9202-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-07 21:48:13,415 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-07 21:48:13,415 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-07 21:48:13,415 - DEBUG - receive_response_body.complete
+2024-12-07 21:48:13,415 - DEBUG - response_closed.started
+2024-12-07 21:48:13,415 - DEBUG - response_closed.complete
+2024-12-07 21:48:13,415 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sat, 07 Dec 2024 20:48:12 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_2fdba0ee1d46bd66a905ae379f5dcf52', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8ee7600dfbfe9202-FRA', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-12-07 21:48:13,415 - DEBUG - request_id: req_2fdba0ee1d46bd66a905ae379f5dcf52
+2024-12-07 21:48:13,416 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-07 21:48:13,416 - DEBUG - Retrying due to status code 429
+2024-12-07 21:48:13,416 - DEBUG - 2 retries left
+2024-12-07 21:48:13,416 - INFO - Retrying request to /chat/completions in 0.396201 seconds
+2024-12-07 21:48:13,814 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Bracers' and variant 'steel' from the file 'sheettest\\arms_bracers.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-07 21:48:13,815 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-07 21:48:13,815 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-07 21:48:13,815 - DEBUG - send_request_headers.complete
+2024-12-07 21:48:13,815 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-07 21:48:13,815 - DEBUG - send_request_body.complete
+2024-12-07 21:48:13,815 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-07 21:48:14,018 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 07 Dec 2024 20:48:13 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_9c5d765dd1223c88adf01f9686383a92'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8ee76011aee39202-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-07 21:48:14,018 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-07 21:48:14,019 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-07 21:48:14,019 - DEBUG - receive_response_body.complete
+2024-12-07 21:48:14,019 - DEBUG - response_closed.started
+2024-12-07 21:48:14,019 - DEBUG - response_closed.complete
+2024-12-07 21:48:14,019 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sat, 07 Dec 2024 20:48:13 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_9c5d765dd1223c88adf01f9686383a92', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8ee76011aee39202-FRA', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-12-07 21:48:14,019 - DEBUG - request_id: req_9c5d765dd1223c88adf01f9686383a92
+2024-12-07 21:48:14,020 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-07 21:48:14,021 - DEBUG - Retrying due to status code 429
+2024-12-07 21:48:14,021 - DEBUG - 1 retry left
+2024-12-07 21:48:14,021 - INFO - Retrying request to /chat/completions in 0.884332 seconds
+2024-12-07 21:48:14,906 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Bracers' and variant 'steel' from the file 'sheettest\\arms_bracers.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-07 21:48:14,906 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-07 21:48:14,906 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-07 21:48:14,906 - DEBUG - send_request_headers.complete
+2024-12-07 21:48:14,907 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-07 21:48:14,907 - DEBUG - send_request_body.complete
+2024-12-07 21:48:14,907 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-07 21:48:15,101 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sat, 07 Dec 2024 20:48:14 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_4f6000fb4fa5be50480438b16b90c214'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8ee760187c099202-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-07 21:48:15,102 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-07 21:48:15,102 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-07 21:48:15,102 - DEBUG - receive_response_body.complete
+2024-12-07 21:48:15,102 - DEBUG - response_closed.started
+2024-12-07 21:48:15,102 - DEBUG - response_closed.complete
+2024-12-07 21:48:15,102 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sat, 07 Dec 2024 20:48:14 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_4f6000fb4fa5be50480438b16b90c214', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8ee760187c099202-FRA', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-12-07 21:48:15,103 - DEBUG - request_id: req_4f6000fb4fa5be50480438b16b90c214
+2024-12-07 21:48:15,103 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-07 21:48:15,104 - DEBUG - Re-raising status error
+2024-12-07 21:48:15,105 - ERROR - [31marms_bracers.json: Error - Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2024-12-07 21:48:15,125 - DEBUG - close.started
+2024-12-07 21:48:15,125 - DEBUG - close.complete
+2024-12-08 16:44:39,196 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Armour' and variant 'steel' from the file 'sheettest\\arms_armour.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-08 16:44:39,259 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-08 16:44:39,259 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-12-08 16:44:39,319 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001C9FB067260>
+2024-12-08 16:44:39,319 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001C9FB09BC50> server_hostname='api.openai.com' timeout=5.0
+2024-12-08 16:44:39,344 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001C9FB114A70>
+2024-12-08 16:44:39,344 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-08 16:44:39,344 - DEBUG - send_request_headers.failed exception=LocalProtocolError(LocalProtocolError("Illegal header value b'Bearer '"))
+2024-12-08 16:44:39,344 - DEBUG - response_closed.started
+2024-12-08 16:44:39,344 - DEBUG - response_closed.complete
+2024-12-08 16:44:39,345 - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\http11.py", line 86, in handle_request
+    self._send_request_headers(**kwargs)
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\http11.py", line 144, in _send_request_headers
+    with map_exceptions({h11.LocalProtocolError: LocalProtocolError}):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.LocalProtocolError: Illegal header value b'Bearer '
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 993, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Illegal header value b'Bearer '
+2024-12-08 16:44:39,412 - DEBUG - 2 retries left
+2024-12-08 16:44:39,412 - INFO - Retrying request to /chat/completions in 0.439047 seconds
+2024-12-08 16:44:39,852 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Armour' and variant 'steel' from the file 'sheettest\\arms_armour.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-08 16:44:39,852 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-08 16:44:39,853 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-12-08 16:44:39,861 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001C9FB116CF0>
+2024-12-08 16:44:39,862 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001C9FB09BC50> server_hostname='api.openai.com' timeout=5.0
+2024-12-08 16:44:39,876 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001C9FB116A80>
+2024-12-08 16:44:39,876 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-08 16:44:39,876 - DEBUG - send_request_headers.failed exception=LocalProtocolError(LocalProtocolError("Illegal header value b'Bearer '"))
+2024-12-08 16:44:39,876 - DEBUG - response_closed.started
+2024-12-08 16:44:39,876 - DEBUG - response_closed.complete
+2024-12-08 16:44:39,878 - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\http11.py", line 86, in handle_request
+    self._send_request_headers(**kwargs)
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\http11.py", line 144, in _send_request_headers
+    with map_exceptions({h11.LocalProtocolError: LocalProtocolError}):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.LocalProtocolError: Illegal header value b'Bearer '
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 993, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Illegal header value b'Bearer '
+2024-12-08 16:44:39,882 - DEBUG - 1 retry left
+2024-12-08 16:44:39,882 - INFO - Retrying request to /chat/completions in 0.881476 seconds
+2024-12-08 16:44:40,765 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Armour' and variant 'steel' from the file 'sheettest\\arms_armour.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-08 16:44:40,765 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-08 16:44:40,765 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-12-08 16:44:40,779 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001C9FB117950>
+2024-12-08 16:44:40,779 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001C9FB09BC50> server_hostname='api.openai.com' timeout=5.0
+2024-12-08 16:44:40,793 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001C9FB1176B0>
+2024-12-08 16:44:40,793 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-08 16:44:40,794 - DEBUG - send_request_headers.failed exception=LocalProtocolError(LocalProtocolError("Illegal header value b'Bearer '"))
+2024-12-08 16:44:40,794 - DEBUG - response_closed.started
+2024-12-08 16:44:40,794 - DEBUG - response_closed.complete
+2024-12-08 16:44:40,794 - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\http11.py", line 86, in handle_request
+    self._send_request_headers(**kwargs)
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\http11.py", line 144, in _send_request_headers
+    with map_exceptions({h11.LocalProtocolError: LocalProtocolError}):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.LocalProtocolError: Illegal header value b'Bearer '
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 993, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Illegal header value b'Bearer '
+2024-12-08 16:44:40,799 - DEBUG - Raising connection error
+2024-12-08 16:44:40,799 - ERROR - [31marms_armour.json: Error - Connection error.
+2024-12-08 16:44:40,807 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Bracers' and variant 'steel' from the file 'sheettest\\arms_bracers.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-08 16:44:40,808 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-08 16:44:40,809 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-12-08 16:44:40,824 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001C9FB5591F0>
+2024-12-08 16:44:40,824 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001C9FB09BC50> server_hostname='api.openai.com' timeout=5.0
+2024-12-08 16:44:40,838 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001C9FB558F50>
+2024-12-08 16:44:40,838 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-08 16:44:40,839 - DEBUG - send_request_headers.failed exception=LocalProtocolError(LocalProtocolError("Illegal header value b'Bearer '"))
+2024-12-08 16:44:40,839 - DEBUG - response_closed.started
+2024-12-08 16:44:40,839 - DEBUG - response_closed.complete
+2024-12-08 16:44:40,840 - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\http11.py", line 86, in handle_request
+    self._send_request_headers(**kwargs)
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\http11.py", line 144, in _send_request_headers
+    with map_exceptions({h11.LocalProtocolError: LocalProtocolError}):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.LocalProtocolError: Illegal header value b'Bearer '
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 993, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Illegal header value b'Bearer '
+2024-12-08 16:44:40,843 - DEBUG - 2 retries left
+2024-12-08 16:44:40,844 - INFO - Retrying request to /chat/completions in 0.476619 seconds
+2024-12-08 16:44:41,321 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Bracers' and variant 'steel' from the file 'sheettest\\arms_bracers.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-08 16:44:41,321 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-08 16:44:41,321 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-12-08 16:44:41,350 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001C9FB559E50>
+2024-12-08 16:44:41,351 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001C9FB09BC50> server_hostname='api.openai.com' timeout=5.0
+2024-12-08 16:44:41,363 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001C9FB559B80>
+2024-12-08 16:44:41,363 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-08 16:44:41,363 - DEBUG - send_request_headers.failed exception=LocalProtocolError(LocalProtocolError("Illegal header value b'Bearer '"))
+2024-12-08 16:44:41,363 - DEBUG - response_closed.started
+2024-12-08 16:44:41,363 - DEBUG - response_closed.complete
+2024-12-08 16:44:41,364 - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\http11.py", line 86, in handle_request
+    self._send_request_headers(**kwargs)
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\http11.py", line 144, in _send_request_headers
+    with map_exceptions({h11.LocalProtocolError: LocalProtocolError}):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.LocalProtocolError: Illegal header value b'Bearer '
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 993, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Illegal header value b'Bearer '
+2024-12-08 16:44:41,366 - DEBUG - 1 retry left
+2024-12-08 16:44:41,366 - INFO - Retrying request to /chat/completions in 0.859582 seconds
+2024-12-08 16:44:42,226 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Bracers' and variant 'steel' from the file 'sheettest\\arms_bracers.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-08 16:44:42,226 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-08 16:44:42,227 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-12-08 16:44:42,239 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001C9FB55AAE0>
+2024-12-08 16:44:42,239 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x000001C9FB09BC50> server_hostname='api.openai.com' timeout=5.0
+2024-12-08 16:44:42,256 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x000001C9FB55A810>
+2024-12-08 16:44:42,257 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-08 16:44:42,257 - DEBUG - send_request_headers.failed exception=LocalProtocolError(LocalProtocolError("Illegal header value b'Bearer '"))
+2024-12-08 16:44:42,257 - DEBUG - response_closed.started
+2024-12-08 16:44:42,257 - DEBUG - response_closed.complete
+2024-12-08 16:44:42,258 - DEBUG - Encountered Exception
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 101, in map_httpcore_exceptions
+    yield
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 250, in handle_request
+    resp = self._pool.handle_request(req)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\connection_pool.py", line 256, in handle_request
+    raise exc from None
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\connection_pool.py", line 236, in handle_request
+    response = connection.handle_request(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\connection.py", line 103, in handle_request
+    return self._connection.handle_request(request)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\http11.py", line 136, in handle_request
+    raise exc
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\http11.py", line 86, in handle_request
+    self._send_request_headers(**kwargs)
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_sync\http11.py", line 144, in _send_request_headers
+    with map_exceptions({h11.LocalProtocolError: LocalProtocolError}):
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpcore\_exceptions.py", line 14, in map_exceptions
+    raise to_exc(exc) from exc
+httpcore.LocalProtocolError: Illegal header value b'Bearer '
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 993, in _request
+    response = self._client.send(
+               ^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 914, in send
+    response = self._send_handling_auth(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 942, in _send_handling_auth
+    response = self._send_handling_redirects(
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 979, in _send_handling_redirects
+    response = self._send_single_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_client.py", line 1014, in _send_single_request
+    response = transport.handle_request(request)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 249, in handle_request
+    with map_httpcore_exceptions():
+         ^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Python312\Lib\contextlib.py", line 158, in __exit__
+    self.gen.throw(value)
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_transports\default.py", line 118, in map_httpcore_exceptions
+    raise mapped_exc(message) from exc
+httpx.LocalProtocolError: Illegal header value b'Bearer '
+2024-12-08 16:44:42,279 - DEBUG - Raising connection error
+2024-12-08 16:44:42,279 - ERROR - [31marms_bracers.json: Error - Connection error.
+2024-12-08 16:45:31,864 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Armour' and variant 'steel' from the file 'sheettest\\arms_armour.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-08 16:45:31,919 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-08 16:45:31,920 - DEBUG - connect_tcp.started host='api.openai.com' port=443 local_address=None timeout=5.0 socket_options=None
+2024-12-08 16:45:31,974 - DEBUG - connect_tcp.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000217F2A98EF0>
+2024-12-08 16:45:31,975 - DEBUG - start_tls.started ssl_context=<ssl.SSLContext object at 0x00000217F2B1BC50> server_hostname='api.openai.com' timeout=5.0
+2024-12-08 16:45:31,990 - DEBUG - start_tls.complete return_value=<httpcore._backends.sync.SyncStream object at 0x00000217F29FFA40>
+2024-12-08 16:45:31,990 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-08 16:45:31,991 - DEBUG - send_request_headers.complete
+2024-12-08 16:45:31,991 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-08 16:45:31,991 - DEBUG - send_request_body.complete
+2024-12-08 16:45:31,991 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-08 16:45:32,577 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sun, 08 Dec 2024 15:45:32 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_ee79c5e0a6e7010664dcd6239f59c890'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'Set-Cookie', b'__cf_bm=2U.PlwvKiITWqlDcEGgzB1waDUPameTFsPHEKXs0i.U-1733672732-1.0.1.1-i6H6p2yjmPmfq9xdkZXiNn1rFuZUUztUYDISIB6ZynroyYjFji31DFXnMiax7ndV2Xgm8hbtiRFipZrpm3zoiQ; path=/; expires=Sun, 08-Dec-24 16:15:32 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'X-Content-Type-Options', b'nosniff'), (b'Set-Cookie', b'_cfuvid=OgWQLevJB1qJb2zktiyOPTQZAFizlCmeN3HpTNYCVrk-1733672732192-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8eede20c99409a41-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-08 16:45:32,577 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-08 16:45:32,578 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-08 16:45:32,578 - DEBUG - receive_response_body.complete
+2024-12-08 16:45:32,578 - DEBUG - response_closed.started
+2024-12-08 16:45:32,578 - DEBUG - response_closed.complete
+2024-12-08 16:45:32,578 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers([('date', 'Sun, 08 Dec 2024 15:45:32 GMT'), ('content-type', 'application/json; charset=utf-8'), ('content-length', '337'), ('connection', 'keep-alive'), ('vary', 'Origin'), ('x-request-id', 'req_ee79c5e0a6e7010664dcd6239f59c890'), ('strict-transport-security', 'max-age=31536000; includeSubDomains; preload'), ('cf-cache-status', 'DYNAMIC'), ('set-cookie', '__cf_bm=2U.PlwvKiITWqlDcEGgzB1waDUPameTFsPHEKXs0i.U-1733672732-1.0.1.1-i6H6p2yjmPmfq9xdkZXiNn1rFuZUUztUYDISIB6ZynroyYjFji31DFXnMiax7ndV2Xgm8hbtiRFipZrpm3zoiQ; path=/; expires=Sun, 08-Dec-24 16:15:32 GMT; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('x-content-type-options', 'nosniff'), ('set-cookie', '_cfuvid=OgWQLevJB1qJb2zktiyOPTQZAFizlCmeN3HpTNYCVrk-1733672732192-0.0.1.1-604800000; path=/; domain=.api.openai.com; HttpOnly; Secure; SameSite=None'), ('server', 'cloudflare'), ('cf-ray', '8eede20c99409a41-FRA'), ('alt-svc', 'h3=":443"; ma=86400')])
+2024-12-08 16:45:32,578 - DEBUG - request_id: req_ee79c5e0a6e7010664dcd6239f59c890
+2024-12-08 16:45:32,579 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-08 16:45:32,619 - DEBUG - Retrying due to status code 429
+2024-12-08 16:45:32,619 - DEBUG - 2 retries left
+2024-12-08 16:45:32,620 - INFO - Retrying request to /chat/completions in 0.424461 seconds
+2024-12-08 16:45:33,045 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Armour' and variant 'steel' from the file 'sheettest\\arms_armour.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-08 16:45:33,046 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-08 16:45:33,046 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-08 16:45:33,046 - DEBUG - send_request_headers.complete
+2024-12-08 16:45:33,046 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-08 16:45:33,047 - DEBUG - send_request_body.complete
+2024-12-08 16:45:33,047 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-08 16:45:33,171 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sun, 08 Dec 2024 15:45:32 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_e8f3d97c8c07781f02b3a62d25f81c83'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8eede2133f309a41-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-08 16:45:33,172 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-08 16:45:33,173 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-08 16:45:33,173 - DEBUG - receive_response_body.complete
+2024-12-08 16:45:33,173 - DEBUG - response_closed.started
+2024-12-08 16:45:33,173 - DEBUG - response_closed.complete
+2024-12-08 16:45:33,173 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sun, 08 Dec 2024 15:45:32 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_e8f3d97c8c07781f02b3a62d25f81c83', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8eede2133f309a41-FRA', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-12-08 16:45:33,174 - DEBUG - request_id: req_e8f3d97c8c07781f02b3a62d25f81c83
+2024-12-08 16:45:33,174 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-08 16:45:33,177 - DEBUG - Retrying due to status code 429
+2024-12-08 16:45:33,177 - DEBUG - 1 retry left
+2024-12-08 16:45:33,177 - INFO - Retrying request to /chat/completions in 0.999076 seconds
+2024-12-08 16:45:34,177 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Armour' and variant 'steel' from the file 'sheettest\\arms_armour.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-08 16:45:34,177 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-08 16:45:34,178 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-08 16:45:34,178 - DEBUG - send_request_headers.complete
+2024-12-08 16:45:34,178 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-08 16:45:34,178 - DEBUG - send_request_body.complete
+2024-12-08 16:45:34,179 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-08 16:45:34,302 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sun, 08 Dec 2024 15:45:33 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_d2950ae2e18108b9529e216338a72b84'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8eede21a4dd29a41-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-08 16:45:34,302 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-08 16:45:34,302 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-08 16:45:34,303 - DEBUG - receive_response_body.complete
+2024-12-08 16:45:34,303 - DEBUG - response_closed.started
+2024-12-08 16:45:34,303 - DEBUG - response_closed.complete
+2024-12-08 16:45:34,303 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sun, 08 Dec 2024 15:45:33 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_d2950ae2e18108b9529e216338a72b84', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8eede21a4dd29a41-FRA', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-12-08 16:45:34,303 - DEBUG - request_id: req_d2950ae2e18108b9529e216338a72b84
+2024-12-08 16:45:34,304 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-08 16:45:34,305 - DEBUG - Re-raising status error
+2024-12-08 16:45:34,306 - ERROR - [31marms_armour.json: Error - Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2024-12-08 16:45:34,308 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Bracers' and variant 'steel' from the file 'sheettest\\arms_bracers.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-08 16:45:34,308 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-08 16:45:34,309 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-08 16:45:34,309 - DEBUG - send_request_headers.complete
+2024-12-08 16:45:34,309 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-08 16:45:34,310 - DEBUG - send_request_body.complete
+2024-12-08 16:45:34,310 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-08 16:45:34,432 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sun, 08 Dec 2024 15:45:34 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_fc01a9302920a8129d05d276d0a18b24'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8eede21b1e949a41-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-08 16:45:34,433 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-08 16:45:34,433 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-08 16:45:34,434 - DEBUG - receive_response_body.complete
+2024-12-08 16:45:34,434 - DEBUG - response_closed.started
+2024-12-08 16:45:34,434 - DEBUG - response_closed.complete
+2024-12-08 16:45:34,434 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sun, 08 Dec 2024 15:45:34 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_fc01a9302920a8129d05d276d0a18b24', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8eede21b1e949a41-FRA', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-12-08 16:45:34,434 - DEBUG - request_id: req_fc01a9302920a8129d05d276d0a18b24
+2024-12-08 16:45:34,435 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-08 16:45:34,435 - DEBUG - Retrying due to status code 429
+2024-12-08 16:45:34,435 - DEBUG - 2 retries left
+2024-12-08 16:45:34,435 - INFO - Retrying request to /chat/completions in 0.377659 seconds
+2024-12-08 16:45:34,815 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Bracers' and variant 'steel' from the file 'sheettest\\arms_bracers.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-08 16:45:34,815 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-08 16:45:34,816 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-08 16:45:34,816 - DEBUG - send_request_headers.complete
+2024-12-08 16:45:34,816 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-08 16:45:34,816 - DEBUG - send_request_body.complete
+2024-12-08 16:45:34,817 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-08 16:45:34,941 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sun, 08 Dec 2024 15:45:34 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_583ccef9f88a2c72f18c083bd6a42b19'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8eede21e492f9a41-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-08 16:45:34,941 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-08 16:45:34,942 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-08 16:45:34,942 - DEBUG - receive_response_body.complete
+2024-12-08 16:45:34,942 - DEBUG - response_closed.started
+2024-12-08 16:45:34,942 - DEBUG - response_closed.complete
+2024-12-08 16:45:34,942 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sun, 08 Dec 2024 15:45:34 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_583ccef9f88a2c72f18c083bd6a42b19', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8eede21e492f9a41-FRA', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-12-08 16:45:34,943 - DEBUG - request_id: req_583ccef9f88a2c72f18c083bd6a42b19
+2024-12-08 16:45:34,943 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-08 16:45:34,944 - DEBUG - Retrying due to status code 429
+2024-12-08 16:45:34,944 - DEBUG - 1 retry left
+2024-12-08 16:45:34,945 - INFO - Retrying request to /chat/completions in 0.890413 seconds
+2024-12-08 16:45:35,836 - DEBUG - Request options: {'method': 'post', 'url': '/chat/completions', 'files': None, 'json_data': {'messages': [{'role': 'user', 'content': "Generate the full name, description, and element for an item with the name 'Bracers' and variant 'steel' from the file 'sheettest\\arms_bracers.json'. The description should add some LORE to the item, considering the LORE is dead soldiers (like in Shaman King). The element should follow the name and description and be one of: NORMAL, FEU, EAU, ELECTRIC, PLANTE, GLACE, COMBAT, POISON, ROCHE, LUMIERE, TENEBRE, ACIER."}], 'model': 'gpt-4o-mini', 'max_tokens': 150}}
+2024-12-08 16:45:35,837 - DEBUG - Sending HTTP Request: POST https://api.openai.com/v1/chat/completions
+2024-12-08 16:45:35,838 - DEBUG - send_request_headers.started request=<Request [b'POST']>
+2024-12-08 16:45:35,838 - DEBUG - send_request_headers.complete
+2024-12-08 16:45:35,838 - DEBUG - send_request_body.started request=<Request [b'POST']>
+2024-12-08 16:45:35,839 - DEBUG - send_request_body.complete
+2024-12-08 16:45:35,839 - DEBUG - receive_response_headers.started request=<Request [b'POST']>
+2024-12-08 16:45:35,978 - DEBUG - receive_response_headers.complete return_value=(b'HTTP/1.1', 429, b'Too Many Requests', [(b'Date', b'Sun, 08 Dec 2024 15:45:35 GMT'), (b'Content-Type', b'application/json; charset=utf-8'), (b'Content-Length', b'337'), (b'Connection', b'keep-alive'), (b'vary', b'Origin'), (b'x-request-id', b'req_12b0b5397890d82f802b06e0b9ceaf9f'), (b'strict-transport-security', b'max-age=31536000; includeSubDomains; preload'), (b'CF-Cache-Status', b'DYNAMIC'), (b'X-Content-Type-Options', b'nosniff'), (b'Server', b'cloudflare'), (b'CF-RAY', b'8eede224af899a41-FRA'), (b'alt-svc', b'h3=":443"; ma=86400')])
+2024-12-08 16:45:35,979 - INFO - HTTP Request: POST https://api.openai.com/v1/chat/completions "HTTP/1.1 429 Too Many Requests"
+2024-12-08 16:45:35,979 - DEBUG - receive_response_body.started request=<Request [b'POST']>
+2024-12-08 16:45:35,980 - DEBUG - receive_response_body.complete
+2024-12-08 16:45:35,980 - DEBUG - response_closed.started
+2024-12-08 16:45:35,980 - DEBUG - response_closed.complete
+2024-12-08 16:45:35,980 - DEBUG - HTTP Response: POST https://api.openai.com/v1/chat/completions "429 Too Many Requests" Headers({'date': 'Sun, 08 Dec 2024 15:45:35 GMT', 'content-type': 'application/json; charset=utf-8', 'content-length': '337', 'connection': 'keep-alive', 'vary': 'Origin', 'x-request-id': 'req_12b0b5397890d82f802b06e0b9ceaf9f', 'strict-transport-security': 'max-age=31536000; includeSubDomains; preload', 'cf-cache-status': 'DYNAMIC', 'x-content-type-options': 'nosniff', 'server': 'cloudflare', 'cf-ray': '8eede224af899a41-FRA', 'alt-svc': 'h3=":443"; ma=86400'})
+2024-12-08 16:45:35,981 - DEBUG - request_id: req_12b0b5397890d82f802b06e0b9ceaf9f
+2024-12-08 16:45:35,981 - DEBUG - Encountered httpx.HTTPStatusError
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\openai\_base_client.py", line 1040, in _request
+    response.raise_for_status()
+  File "C:\Users\David\AppData\Roaming\Python\Python312\site-packages\httpx\_models.py", line 829, in raise_for_status
+    raise HTTPStatusError(message, request=request, response=self)
+httpx.HTTPStatusError: Client error '429 Too Many Requests' for url 'https://api.openai.com/v1/chat/completions'
+For more information check: https://developer.mozilla.org/en-US/docs/Web/HTTP/Status/429
+2024-12-08 16:45:35,983 - DEBUG - Re-raising status error
+2024-12-08 16:45:35,984 - ERROR - [31marms_bracers.json: Error - Error code: 429 - {'error': {'message': 'You exceeded your current quota, please check your plan and billing details. For more information on this error, read the docs: https://platform.openai.com/docs/guides/error-codes/api-errors.', 'type': 'insufficient_quota', 'param': None, 'code': 'insufficient_quota'}}
+2024-12-08 16:45:36,014 - DEBUG - close.started
+2024-12-08 16:45:36,015 - DEBUG - close.complete
